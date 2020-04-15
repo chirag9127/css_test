@@ -2,23 +2,8 @@ from collections import deque
 import time
 
 from courier_dispatcher import dispatch
+from order import Order
 from kitchen import main_kitchen
-
-
-"""
-Class for representing order object.
-Converts json to object.
-"""
-
-
-class Order:
-    def __init__(self, order):
-        self.order_id = order['id']
-        self.name = order['name']
-        self.temp = order['temp']
-        self.shelf_life = order['shelfLife']
-        self.decay_rate = order['decayRate']
-        # self.shelf_id = 'hot'
 
 
 """
@@ -32,8 +17,9 @@ class OrderSystem:
     def __init__(self, order_rate=2):
         self.order_rate = order_rate  # rate of sending of orders
         self.orders = deque()
+        self.time_to_wait = 1.0 / float(order_rate)
 
-    def send_to_kitchen(self):
+    def __send_to_kitchen(self):
         """
         contains the rate limiting logic to send orders
         to the kitchen
@@ -41,14 +27,17 @@ class OrderSystem:
         - After each order, you wait for 1 / order rate time
         - Ideally we would keep a sliding window of time stamps
         """
-        counter = 0
         while self.orders:
             curr_order = self.orders.popleft()
-            counter += 1
             main_kitchen.process_order(curr_order)
             dispatch(curr_order)
-            if counter % self.order_rate == 0:
-                time.sleep(1)
+            time.sleep(self.time_to_wait)
 
-    def upload_order(self, order):
-        self.orders.append(Order(order))
+    def upload_orders(self, orders, send_to_kitchen=True):
+        """
+        param send_to_kitchen is for testing
+        """
+        for order in orders:
+            self.orders.append(Order(order))
+        if send_to_kitchen:
+            self.__send_to_kitchen()

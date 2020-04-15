@@ -1,21 +1,20 @@
 from collections import defaultdict
 import threading
 
+from constants import HOT, COLD, FROZEN, OVERFLOW
+
 
 """
 Class for kitchen including the shelves. We are using a lock for all writes
 to the shelf
 """
 class Kitchen:
-    def __init__(self, capacities, capacity=10):
+    def __init__(self, capacities):
         self.lock = threading.Lock()
         self.shelves = defaultdict(list)
-        self.shelves['hot']
-        self.shelves['cold']
-        self.shelves['frozen']
-        self.shelves['overflow']
-        self.capacity = capacity
         self.capacities = capacities
+        for shelf_type in self.capacities:
+            self.shelves[shelf_type]
 
     def process_order(self, order):
         """Processes each order. Called by order system
@@ -23,7 +22,7 @@ class Kitchen:
         rtype: None
         """
         print ("Processing order: {}".format(order.order_id))
-        self.update_shelf(order)
+        self.__update_shelf(order)
 
     def __move_from_overflow(self, order):
         """If order cannot be placed in nomal shelf, this function will try to
@@ -32,10 +31,10 @@ class Kitchen:
         Params: Order
         rtype: Boolean
         """
-        for pos, order_to_move in enumerate(self.shelves['overflow']):
+        for pos, order_to_move in enumerate(self.shelves[OVERFLOW]):
             if len(self.shelves[order.temp]) < self.capacities[order.temp]:
                 self.shelves[order.temp].append(order_to_move)
-                del self.shelves['overflow'][pos]
+                del self.shelves[OVERFLOW][pos]
                 return True
         return False
 
@@ -45,13 +44,13 @@ class Kitchen:
         Params: Order
         rtype: Boolean
         """
-        if len(self.shelves['overflow']) >= self.capacities['overflow']:
+        if len(self.shelves[OVERFLOW]) >= self.capacities[OVERFLOW]:
             if not self.__move_from_overflow(order):
                 return False
         self.shelves['overflow'].append(order)
         return True
 
-    def update_shelf(self, order):
+    def __update_shelf(self, order):
         """
         Update shelf
         Params: Order
@@ -71,4 +70,4 @@ class Kitchen:
             self.lock.release()
 
 
-main_kitchen = Kitchen({'hot': 10, 'cold': 10, 'frozen': 10, 'overflow': 15})
+main_kitchen = Kitchen({HOT: 10, COLD: 10, FROZEN: 10, OVERFLOW: 15})

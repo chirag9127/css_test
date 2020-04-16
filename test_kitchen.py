@@ -39,3 +39,24 @@ def test_process_order():
     assert len(kitchen.shelves['hot']) == 1
     assert len(kitchen.shelves['frozen']) == 0
     assert len(kitchen.shelves['cold']) == 0
+
+
+def test_move_from_overflow():
+    """
+    In this test, we start with a kitchen where there is 1 capacity for
+    hot and overflow. Overflow has 1 hot item and cold has no capacity.
+    If a new cold item comes in, the hot item should move from overflow
+    to hot and the cold item should move to overflow
+    """
+    kitchen = Kitchen({HOT: 1, COLD: 0, FROZEN: 0, OVERFLOW: 1})
+    order1 = Order({'id': 1, 'name': 'Test Name', 'temp': 'hot',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    order3 = Order({'id': 3, 'name': 'test name', 'temp': 'cold',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    kitchen.shelves[OVERFLOW].append(order1)
+    kitchen.process_order(order3)
+    assert len(kitchen.shelves[HOT]) == 1
+    assert len(kitchen.shelves[COLD]) == 0
+    assert len(kitchen.shelves[OVERFLOW]) == 1
+    assert kitchen.shelves[HOT][0].order_id == 1
+    assert kitchen.shelves[OVERFLOW][0].order_id == 3

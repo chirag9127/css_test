@@ -1,0 +1,63 @@
+DEBUG:root:Order added 1 to hot
+DEBUG:root:Current status of shelves: wasted::0, hot::1, cold::0, overflow::0, frozen::0
+DEBUG:root:Current status of shelves: wasted::0, hot::1, cold::0, overflow::1, frozen::0
+DEBUG:root:Current status of shelves: wasted::0, hot::1, cold::0, overflow::2, frozen::0
+DEBUG:root:Current status of shelves: wasted::0, hot::1, cold::0, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 5
+DEBUG:root:Current status of shelves: wasted::1, hot::1, cold::0, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 6
+DEBUG:root:Current status of shelves: wasted::2, hot::1, cold::0, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 7
+DEBUG:root:Current status of shelves: wasted::3, hot::1, cold::0, overflow::3, frozen::0
+DEBUG:root:Order added 3 to hot
+DEBUG:root:Current status of shelves: wasted::0, hot::1, cold::1, overflow::1, frozen::0
+DEBUG:root:Order added 1 to hot
+DEBUG:root:Current status of shelves: cold::0, overflow::0, wasted::0, frozen::0, hot::1
+DEBUG:root:Current status of shelves: cold::0, overflow::1, wasted::0, frozen::0, hot::1
+DEBUG:root:Current status of shelves: cold::0, overflow::2, wasted::0, frozen::0, hot::1
+DEBUG:root:Current status of shelves: cold::0, overflow::3, wasted::0, frozen::0, hot::1
+DEBUG:root:ORDER WASTED!!! 5
+DEBUG:root:Current status of shelves: cold::0, overflow::3, wasted::1, frozen::0, hot::1
+DEBUG:root:ORDER WASTED!!! 6
+DEBUG:root:Current status of shelves: cold::0, overflow::3, wasted::2, frozen::0, hot::1
+DEBUG:root:ORDER WASTED!!! 7
+DEBUG:root:Current status of shelves: cold::0, overflow::3, wasted::3, frozen::0, hot::1
+DEBUG:root:ORDER WASTED!!! 3
+DEBUG:root:Current status of shelves: cold::1, overflow::1, wasted::1, frozen::0, hot::0
+DEBUG:root:Order added 1 to hot
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::0, overflow::0, frozen::0
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::0, overflow::1, frozen::0
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::0, overflow::2, frozen::0
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::0, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 5
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::1, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 6
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::2, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 7
+DEBUG:root:Current status of shelves: hot::1, cold::0, wasted::3, overflow::3, frozen::0
+DEBUG:root:ORDER WASTED!!! 3
+DEBUG:root:Current status of shelves: hot::0, cold::0, wasted::1, overflow::1, frozen::0
+DEBUG:root:Order added 1 to hot
+DEBUG:root:Current status of shelves: wasted::0, overflow::0, frozen::0, hot::1, cold::0
+DEBUG:root:Current status of shelves: wasted::0, overflow::1, frozen::0, hot::1, cold::0
+DEBUG:root:Current status of shelves: wasted::0, overflow::2, frozen::0, hot::1, cold::0
+DEBUG:root:Current status of shelves: wasted::0, overflow::3, frozen::0, hot::1, cold::0
+DEBUG:root:ORDER WASTED!!! 5
+DEBUG:root:Current status of shelves: wasted::1, overflow::3, frozen::0, hot::1, cold::0
+DEBUG:root:ORDER WASTED!!! 6
+DEBUG:root:Current status of shelves: wasted::2, overflow::3, frozen::0, hot::1, cold::0
+DEBUG:root:ORDER WASTED!!! 7
+DEBUG:root:Current status of shelves: wasted::3, overflow::3, frozen::0, hot::1, cold::0
+DEBUG:root:Current status of shelves: wasted::0, overflow::1, frozen::0, hot::1, cold::0
+DEBUG:root:Order added 1 to hot
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::0, wasted::0
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::1, wasted::0
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::2, wasted::0
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::3, wasted::0
+DEBUG:root:ORDER WASTED!!! 5
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::3, wasted::1
+DEBUG:root:ORDER WASTED!!! 6
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::3, wasted::2
+DEBUG:root:ORDER WASTED!!! 7
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::3, wasted::3
+DEBUG:root:Current status of shelves: hot::1, cold::0, frozen::0, overflow::1, wasted::0

@@ -1,9 +1,10 @@
 from collections import deque
 import time
 
-from courier_dispatcher import dispatch
+from constants import HOT, COLD, FROZEN, OVERFLOW
+from courier_dispatcher import CourierDispatcher
 from order import Order
-from kitchen import main_kitchen
+from kitchen import Kitchen
 
 
 """
@@ -14,10 +15,14 @@ dispatcher.
 
 
 class OrderSystem:
-    def __init__(self, order_rate=2):
+    def __init__(self, order_rate=2,
+                 capacities={HOT: 10, COLD: 10, FROZEN: 10, OVERFLOW: 15},
+                 max_workers=20):
         self.order_rate = order_rate  # rate of sending of orders
         self.orders = deque()
         self.time_to_wait = 1.0 / float(order_rate)
+        self.kitchen = Kitchen(capacities)
+        self.courier_dispatcher = CourierDispatcher(max_workers)
 
     def __send_to_kitchen(self):
         """
@@ -29,8 +34,8 @@ class OrderSystem:
         """
         while self.orders:
             curr_order = self.orders.popleft()
-            main_kitchen.process_order(curr_order)
-            dispatch(curr_order)
+            self.kitchen.process_order(curr_order)
+            self.courier_dispatcher.dispatch(curr_order, self.kitchen)
             time.sleep(self.time_to_wait)
 
     def upload_orders(self, orders, send_to_kitchen=True):

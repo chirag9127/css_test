@@ -11,4 +11,3 @@ class Order:
         self.temp = order['temp']
         self.shelf_life = order['shelfLife']
         self.decay_rate = order['decayRate']
-        # self.shelf_id = 'hot'

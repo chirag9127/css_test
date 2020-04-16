@@ -1,3 +1,4 @@
+from datetime import datetime
 import threading
 import time
 
@@ -11,7 +12,7 @@ def test_3_orders():
     The pickups can happen anytime between 2 nd 7.5 seconds. We sleep
     on the main thread for 8 s and then see what's left on the shelves
     """
-    order_system = OrderSystem(max_workers=3)
+    order_system = OrderSystem(max_workers=3, run_cleanup=False)
     order1 = {'id': 1, 'name': 'Ice cream', 'temp': 'hot',
               'shelfLife': 0.5, 'decayRate': 10}
     order2 = {'id': 2, 'name': 'Peanuts', 'temp': 'hot',
@@ -19,10 +20,10 @@ def test_3_orders():
     order3 = {'id': 3, 'name': 'Rice', 'temp': 'hot',
               'shelfLife': 0.5, 'decayRate': 10}
     order_system.upload_orders([order1, order2, order3])
-    assert threading.active_count() == 4
+    assert threading.active_count() == 4  # 3 workers + main thread
     assert len(order_system.kitchen.shelves[HOT]) == 3
     time.sleep(8)
-    assert threading.active_count() == 4
+    assert threading.active_count() == 4  # 3 workers + main thread
     assert len(order_system.kitchen.shelves[HOT]) == 0
 
 
@@ -33,7 +34,7 @@ def test_no_overflow():
     """
     order_system = OrderSystem(
         capacities={HOT: 1, COLD: 0, FROZEN: 0, OVERFLOW: 0},
-        max_workers=3)
+        max_workers=3, run_cleanup=False)
     order1 = {'id': 1, 'name': 'Ice cream', 'temp': 'hot',
               'shelfLife': 0.5, 'decayRate': 10}
     order2 = {'id': 2, 'name': 'Peanuts', 'temp': 'hot',
@@ -41,11 +42,11 @@ def test_no_overflow():
     order3 = {'id': 3, 'name': 'Rice', 'temp': 'hot',
               'shelfLife': 0.5, 'decayRate': 10}
     order_system.upload_orders([order1, order2, order3])
-    assert threading.active_count() == 4
+    assert threading.active_count() == 4  # 3 workers + main thread
     assert len(order_system.kitchen.shelves[HOT]) == 1
     assert len(order_system.kitchen.shelves[WASTED]) == 2
     time.sleep(8)
-    assert threading.active_count() == 4
+    assert threading.active_count() == 4  # 3 workers + main thread
     assert len(order_system.kitchen.shelves[HOT]) == 0
     assert len(order_system.kitchen.shelves[WASTED]) == 2
 
@@ -56,7 +57,7 @@ def test_overflow():
     """
     order_system = OrderSystem(
         capacities={HOT: 1, COLD: 0, FROZEN: 0, OVERFLOW: 2},
-        max_workers=3)
+        max_workers=3, run_cleanup=False)
     order1 = {'id': 1, 'name': 'Ice cream', 'temp': 'hot',
               'shelfLife': 0.5, 'decayRate': 10}
     order2 = {'id': 2, 'name': 'Peanuts', 'temp': 'hot',
@@ -81,12 +82,35 @@ def test_max_workers():
     """
     order_system = OrderSystem(
         capacities={HOT: 1, COLD: 0, FROZEN: 0, OVERFLOW: 2},
-        max_workers=10)
+        max_workers=10, run_cleanup=False)
     order1 = {'id': 1, 'name': 'Ice cream', 'temp': 'hot',
               'shelfLife': 0.5, 'decayRate': 10}
     order_system.upload_orders([order1] * 100)
-    assert threading.active_count() <= 11
+    assert threading.active_count() <= 11  # atmost 10 workers + 1 main thread
     time.sleep(8)
-    assert threading.active_count() <= 11
+    assert threading.active_count() <= 11  # atmost 10 workers + 1 main thread
     time.sleep(8)
-    assert threading.active_count() <= 11
+    assert threading.active_count() <= 11  # atmost 10 workers + 1 main thread
+
+
+def test_e2e_flow_with_cleanup():
+    order_system = OrderSystem(
+        capacities={HOT: 1, COLD: 0, FROZEN: 0, OVERFLOW: 1},
+        max_workers=10, run_cleanup=False)
+    order1 = {'id': 1, 'name': 'Ice cream', 'temp': 'hot',
+              'shelfLife': 0.5, 'decayRate': 10}
+    order2 = {'id': 2, 'name': 'Peanuts', 'temp': 'hot',
+              'shelfLife': 10, 'decayRate': 1}
+    order3 = {'id': 3, 'name': 'Rice', 'temp': 'hot',
+              'shelfLife': 50, 'decayRate': 1}
+    time_start = datetime.now()
+    order_system.upload_orders([order1, order2, order3])
+    time_upload_orders = datetime.now()
+    assert (time_upload_orders - time_start).seconds == 1
+    # print (order_system.kitchen.shelves)
+    assert len(order_system.kitchen.shelves[HOT]) == 1
+    assert len(order_system.kitchen.shelves[WASTED]) == 1  # one order wasted
+    assert len(order_system.kitchen.shelves[OVERFLOW]) == 1
+    time.sleep(8)
+    # print (order_system.kitchen.shelves)
+    assert 1 == 0

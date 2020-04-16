@@ -17,11 +17,11 @@ dispatcher.
 class OrderSystem:
     def __init__(self, order_rate=2,
                  capacities={HOT: 10, COLD: 10, FROZEN: 10, OVERFLOW: 15},
-                 max_workers=20):
+                 max_workers=20, run_cleanup=True):
         self.order_rate = order_rate  # rate of sending of orders
         self.orders = deque()
         self.time_to_wait = 1.0 / float(order_rate)
-        self.kitchen = Kitchen(capacities)
+        self.kitchen = Kitchen(capacities, run_cleanup=run_cleanup)
         self.courier_dispatcher = CourierDispatcher(max_workers)
 
     def __send_to_kitchen(self):

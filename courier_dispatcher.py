@@ -3,8 +3,13 @@ import logging
 import random
 import time
 
-logging.basicConfig(filename='dispatch.log', level=logging.DEBUG)
-logger = logging.getLogger()
+formatter = logging.Formatter(
+    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler = logging.FileHandler('dispatch.log')
+handler.setFormatter(formatter)
+logger = logging.getLogger('dispatch')
+logger.setLevel(logging.DEBUG)
+logger.addHandler(handler)
 
 
 """
@@ -28,4 +33,6 @@ class CourierDispatcher:
         logger.debug("Dispatch time for order {} is {}".format(
             order.order_id, dispatch_time))
         time.sleep(dispatch_time)
+        logger.debug("Picking order {}".format(
+            order.order_id))
         kitchen.pick_order_from_shelf(order)

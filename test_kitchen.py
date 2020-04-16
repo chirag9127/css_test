@@ -1,4 +1,6 @@
-from constants import HOT, COLD, FROZEN, OVERFLOW
+import time
+
+from constants import HOT, COLD, FROZEN, OVERFLOW, WASTED
 from kitchen import Kitchen
 from order_system import Order
 
@@ -60,3 +62,64 @@ def test_move_from_overflow():
     assert len(kitchen.shelves[OVERFLOW]) == 1
     assert kitchen.shelves[HOT][0].order_id == 1
     assert kitchen.shelves[OVERFLOW][0].order_id == 3
+
+
+def test_cleanup_1():
+    """
+    Adding two orders to hot and overflow in the beginning.
+    They would be wasted by the time we add cold. Here we will test if adding
+    to cold deletes the items in hot and over flow.
+    """
+    kitchen = Kitchen({HOT: 1, COLD: 1, FROZEN: 0, OVERFLOW: 1},
+                      run_cleanup=True)
+    order1 = Order({'id': 1, 'name': 'Test Name', 'temp': 'hot',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    order3 = Order({'id': 3, 'name': 'test name', 'temp': 'cold',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    order4 = Order({'id': 4, 'name': 'test name', 'temp': 'cold',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    order1.set_start_time()
+    order3.set_start_time()
+    order1.set_shelf(HOT)
+    order3.set_shelf(OVERFLOW)
+    kitchen.shelves[OVERFLOW].append(order3)
+    kitchen.shelves[HOT].append(order1)
+    time.sleep(1)
+    kitchen.process_order(order4)
+    assert len(kitchen.shelves[HOT]) == 0
+    assert len(kitchen.shelves[COLD]) == 1
+    assert len(kitchen.shelves[OVERFLOW]) == 0
+    assert len(kitchen.shelves[WASTED]) == 2
+
+
+def test_cleanup_2():
+    """
+    More test cases for testing the cleanup feature
+    """
+    kitchen = Kitchen({HOT: 2, COLD: 1, FROZEN: 0, OVERFLOW: 1},
+                      run_cleanup=True)
+    order1 = Order({'id': 1, 'name': 'Test Name', 'temp': 'hot',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    # item with longer shelf life. Not to be deleted
+    order2 = Order({'id': 2, 'name': 'Test Name', 'temp': 'hot',
+                    'shelfLife': 10, 'decayRate': 10})
+    order3 = Order({'id': 3, 'name': 'test name', 'temp': 'cold',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    order4 = Order({'id': 4, 'name': 'test name', 'temp': 'cold',
+                    'shelfLife': 0.5, 'decayRate': 10})
+    order1.set_start_time()
+    order2.set_start_time()
+    order3.set_start_time()
+    order1.set_shelf(HOT)
+    order2.set_shelf(HOT)
+    order3.set_shelf(OVERFLOW)
+    kitchen.shelves[OVERFLOW].append(order3)
+    kitchen.shelves[HOT].append(order1)
+    kitchen.shelves[HOT].append(order2)
+    time.sleep(1)
+    kitchen.process_order(order4)
+    assert len(kitchen.shelves[HOT]) == 1
+    assert len(kitchen.shelves[COLD]) == 1
+    assert len(kitchen.shelves[OVERFLOW]) == 0
+    assert len(kitchen.shelves[WASTED]) == 2
+    assert kitchen.shelves[HOT][0].order_id == 2

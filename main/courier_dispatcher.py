@@ -31,6 +31,11 @@ class CourierDispatcher:
         self.executor.submit(self.__dispatch, order, kitchen)
 
     def __dispatch(self, order, kitchen):
+        """
+        First wait and then pickup order from kitchen
+        param order Order
+        param kitchen Kitchen
+        """
         dispatch_time = random.randrange(2, 6)
         logger.debug("Dispatch time for order {} is {}".format(
             order.order_id, dispatch_time))

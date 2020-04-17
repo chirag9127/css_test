@@ -49,6 +49,11 @@ class Kitchen:
         self.__put_order_on_shelf(order)
 
     def pick_order_from_shelf(self, order):
+        """
+        Function for courier to pick up order from kitchen
+        Params: Order
+        rtype: None
+        """
         self.lock.acquire()
         try:
             if self.__check_order_is_wasted(order):
@@ -71,7 +76,7 @@ class Kitchen:
                                    order.get_order_history_as_string(),
                                    "\n"]))
         except Exception as e:
-            print (e)
+            logger.debug("Logging error {}".format(e))
 
     def __update_shelf_and_order(self, order, shelf):
         self.shelves[shelf][order.order_id] = order
@@ -88,7 +93,7 @@ class Kitchen:
     def __move_from_overflow(self, order):
         """If order cannot be placed in nomal shelf, this function will try to
         clear overflow and move it there
-        Time complexity: O(C + C) = O(C)
+        Time complexity: O(C)
         Params: Order
         rtype: Boolean
         """
@@ -113,6 +118,9 @@ class Kitchen:
         return True
 
     def __str__(self):
+        """
+        Representation of kitchen shelves
+        """
         return ", ".join(
             ["{}::{}".format(
                 shelf_name, len(shelf))
@@ -144,6 +152,11 @@ class Kitchen:
             self.lock.release()
 
     def __check_order_is_wasted(self, order):
+        """
+        Function to check order is wasted
+        Params: Order
+        rtype: Bool
+        """
         if order.get_state() == OrderState.WASTED:
             logger.debug("Could not pickup order {} with value {} "
                          "because it is wasted".format(
@@ -158,6 +171,9 @@ class Kitchen:
         return False
 
     def __pickup_order(self, order):
+        """
+        Function for changing state of order during pickup
+        """
         logger.debug("Picking up order {} from {}".format(
             order.order_id, order.get_state()))
         self.picked_up.append(order)

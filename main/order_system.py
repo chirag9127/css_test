@@ -27,6 +27,7 @@ class OrderSystem:
 
     def upload_orders(self, orders, send_to_kitchen=True):
         """
+        param orders is a bulk upload of raw orders in json format
         param send_to_kitchen is for testing
         """
         for order in orders:
@@ -36,11 +37,12 @@ class OrderSystem:
 
     def __send_to_kitchen(self):
         """
-        contains the rate limiting logic to send orders
+        Contains the rate limiting logic to send orders
         to the kitchen
         How to make this not spiky?
         - After each order, you wait for 1 / order rate time
         - Ideally we would keep a sliding window of time stamps
+        Here we have done the former
         """
         while self.orders:
             curr_order = self.orders.popleft()

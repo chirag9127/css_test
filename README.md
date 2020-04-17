@@ -14,6 +14,7 @@
 5. Added argparser so that the client can tune configs (more details below)
 6. Added logic to create a results folder (more details below)
 7. Created thread pool for dispatchers instead of instantiating new threads for every order
+8. Change data structure of shelves from dict(list) to dict(dict). This makes delete O(1) instead of O(k) where k is size of shelf
 
 ## Conventions followed
 

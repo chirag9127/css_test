@@ -1,6 +1,10 @@
 from datetime import datetime
 from enum import Enum
 
+"""
+Enum for order state
+"""
+
 
 class OrderState(Enum):
     HOT = 1
@@ -28,6 +32,12 @@ class Order:
         self._state_history = []
 
     def compute_value(self):
+        """
+        Function to compute value of order at any given time
+        value = (shelfLife - decayRate * orderAge * shelfLifeModifier)
+                -----------------------------------------------------
+                                  shelfLife
+        """
         if not self._start_time:
             raise UnboundLocalError("Start time is not set")
         if not self._state:
@@ -40,9 +50,16 @@ class Order:
         return numerator / float(self.shelf_life)
 
     def set_start_time(self):
+        """
+        Set start time of order
+        """
         self._start_time = datetime.now()
 
     def set_state(self, state):
+        """
+        Set state of order
+        param state OrderState
+        """
         self._state = state
         self._state_history.append(state)
 

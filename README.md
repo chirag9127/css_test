@@ -55,3 +55,31 @@ We create two log files here: kitchen.log and dispatch.log.
 2020-04-17 08:30:49,233 - dispatch - DEBUG - Dispatch time for order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a is 5
 2020-04-17 08:30:49,720 - dispatch - DEBUG - Picking order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d
 ```
+
+## Usage
+
+```
+usage: client.py [-h] [--max_workers MAX_WORKERS] [--order_rate ORDER_RATE]
+                 [--capacities CAPACITIES] [--results_file RESULTS_FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --max_workers MAX_WORKERS
+                        maximum number of dispatchers
+  --order_rate ORDER_RATE
+                        order rate for the kitchen
+  --capacities CAPACITIES
+                        capacities for each shelf
+  --results_file RESULTS_FILE
+                        file for output
+```
+
+## Results
+
+We are storing the results in results.tsv which is of the format: order_id, creation_time, pickup_time, value, order_state_history
+```
+
+a8cfcb76-7f24-4420-a5ba-d46dd77bdffd	17-Apr-2020 (06:35:40.212806)	17-Apr-2020 (06:35:44.219322)	0.874	FROZEN,PICKED_UP	
+2ec069e3-576f-48eb-869f-74a540ef840c	17-Apr-2020 (06:35:41.222624)	17-Apr-2020 (06:35:44.231169)	0.9963855421686747	COLD,PICKED_UP	
+c18e1242-0856-4203-a98c-7066ead3bd6b	17-Apr-2020 (06:35:42.736982)	17-Apr-2020 (06:35:44.743051)	0.9985873605947956	COLD,PICKED_UP
+```

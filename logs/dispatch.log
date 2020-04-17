@@ -1,0 +1,764 @@
+2020-04-17 08:30:47,213 - dispatch - DEBUG - Dispatch time for order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd is 5
+2020-04-17 08:30:47,719 - dispatch - DEBUG - Dispatch time for order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d is 2
+2020-04-17 08:30:48,223 - dispatch - DEBUG - Dispatch time for order 2ec069e3-576f-48eb-869f-74a540ef840c is 5
+2020-04-17 08:30:48,730 - dispatch - DEBUG - Dispatch time for order 690b85f7-8c7d-4337-bd02-04e04454c826 is 3
+2020-04-17 08:30:49,233 - dispatch - DEBUG - Dispatch time for order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a is 5
+2020-04-17 08:30:49,720 - dispatch - DEBUG - Picking order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d
+2020-04-17 08:30:49,739 - dispatch - DEBUG - Dispatch time for order c18e1242-0856-4203-a98c-7066ead3bd6b is 5
+2020-04-17 08:30:50,245 - dispatch - DEBUG - Dispatch time for order 66a2611c-9a93-4ccd-bb85-98f423247bf9 is 2
+2020-04-17 08:30:50,753 - dispatch - DEBUG - Dispatch time for order 4cc9d503-4e0e-42a3-b200-87c785468df9 is 4
+2020-04-17 08:30:51,258 - dispatch - DEBUG - Dispatch time for order 0a6537d7-9568-400e-9857-7aceb4e7347c is 2
+2020-04-17 08:30:51,735 - dispatch - DEBUG - Picking order 690b85f7-8c7d-4337-bd02-04e04454c826
+2020-04-17 08:30:51,764 - dispatch - DEBUG - Dispatch time for order 74e0893f-8544-4298-b507-9cf5ab847d83 is 4
+2020-04-17 08:30:52,216 - dispatch - DEBUG - Picking order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd
+2020-04-17 08:30:52,249 - dispatch - DEBUG - Picking order 66a2611c-9a93-4ccd-bb85-98f423247bf9
+2020-04-17 08:30:52,272 - dispatch - DEBUG - Dispatch time for order 7a5ea4ed-e378-4354-8ab3-a09cf563f621 is 3
+2020-04-17 08:30:52,780 - dispatch - DEBUG - Dispatch time for order 60fbe431-7f7f-46c5-8ecf-6a26ae898685 is 3
+2020-04-17 08:30:53,228 - dispatch - DEBUG - Picking order 2ec069e3-576f-48eb-869f-74a540ef840c
+2020-04-17 08:30:53,262 - dispatch - DEBUG - Picking order 0a6537d7-9568-400e-9857-7aceb4e7347c
+2020-04-17 08:30:53,283 - dispatch - DEBUG - Dispatch time for order 2e7f4153-92cb-43e2-96f4-d77e2f25422b is 3
+2020-04-17 08:30:53,790 - dispatch - DEBUG - Dispatch time for order d4ead98f-a158-429c-9c0d-28ab0fa830a6 is 4
+2020-04-17 08:30:54,235 - dispatch - DEBUG - Picking order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a
+2020-04-17 08:30:54,297 - dispatch - DEBUG - Dispatch time for order e868e485-c759-411b-b439-ca7086326bf6 is 3
+2020-04-17 08:30:54,740 - dispatch - DEBUG - Picking order c18e1242-0856-4203-a98c-7066ead3bd6b
+2020-04-17 08:30:54,758 - dispatch - DEBUG - Picking order 4cc9d503-4e0e-42a3-b200-87c785468df9
+2020-04-17 08:30:54,801 - dispatch - DEBUG - Dispatch time for order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e is 5
+2020-04-17 08:30:55,276 - dispatch - DEBUG - Picking order 7a5ea4ed-e378-4354-8ab3-a09cf563f621
+2020-04-17 08:30:55,303 - dispatch - DEBUG - Dispatch time for order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 is 4
+2020-04-17 08:30:55,766 - dispatch - DEBUG - Picking order 74e0893f-8544-4298-b507-9cf5ab847d83
+2020-04-17 08:30:55,785 - dispatch - DEBUG - Picking order 60fbe431-7f7f-46c5-8ecf-6a26ae898685
+2020-04-17 08:30:55,810 - dispatch - DEBUG - Dispatch time for order a9f8f42f-7a58-4629-8b66-1acbf362f3b8 is 5
+2020-04-17 08:30:56,288 - dispatch - DEBUG - Picking order 2e7f4153-92cb-43e2-96f4-d77e2f25422b
+2020-04-17 08:30:56,315 - dispatch - DEBUG - Dispatch time for order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae is 3
+2020-04-17 08:30:56,820 - dispatch - DEBUG - Dispatch time for order 916ddba3-9c25-4065-8a90-ecf5c40c8394 is 2
+2020-04-17 08:30:57,302 - dispatch - DEBUG - Picking order e868e485-c759-411b-b439-ca7086326bf6
+2020-04-17 08:30:57,326 - dispatch - DEBUG - Dispatch time for order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f is 5
+2020-04-17 08:30:57,795 - dispatch - DEBUG - Picking order d4ead98f-a158-429c-9c0d-28ab0fa830a6
+2020-04-17 08:30:57,833 - dispatch - DEBUG - Dispatch time for order c700ab30-d7bd-4e45-aafb-4329876c716c is 2
+2020-04-17 08:30:58,340 - dispatch - DEBUG - Dispatch time for order cf0932a9-533c-4603-bb1e-512c6e697b92 is 4
+2020-04-17 08:30:58,823 - dispatch - DEBUG - Picking order 916ddba3-9c25-4065-8a90-ecf5c40c8394
+2020-04-17 08:30:58,846 - dispatch - DEBUG - Dispatch time for order ed05dafe-d928-4f1a-856d-1dab3868acbd is 4
+2020-04-17 08:30:59,308 - dispatch - DEBUG - Picking order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6
+2020-04-17 08:30:59,319 - dispatch - DEBUG - Picking order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae
+2020-04-17 08:30:59,350 - dispatch - DEBUG - Dispatch time for order 53f012e3-da55-4314-b2e6-28e63f0418ad is 2
+2020-04-17 08:30:59,806 - dispatch - DEBUG - Picking order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e
+2020-04-17 08:30:59,839 - dispatch - DEBUG - Picking order c700ab30-d7bd-4e45-aafb-4329876c716c
+2020-04-17 08:30:59,855 - dispatch - DEBUG - Dispatch time for order 5dd79771-4536-4eaa-b64c-63ac606f1357 is 2
+2020-04-17 08:31:00,362 - dispatch - DEBUG - Dispatch time for order f84d8263-7aae-4254-85b7-27865ffd76b7 is 5
+2020-04-17 08:31:00,814 - dispatch - DEBUG - Picking order a9f8f42f-7a58-4629-8b66-1acbf362f3b8
+2020-04-17 08:31:00,868 - dispatch - DEBUG - Dispatch time for order f7074980-3424-43d4-9166-f495077a273e is 2
+2020-04-17 08:31:01,352 - dispatch - DEBUG - Picking order 53f012e3-da55-4314-b2e6-28e63f0418ad
+2020-04-17 08:31:01,373 - dispatch - DEBUG - Dispatch time for order dcafe7ca-f7a7-4262-9b14-ab19729b2055 is 4
+2020-04-17 08:31:01,859 - dispatch - DEBUG - Picking order 5dd79771-4536-4eaa-b64c-63ac606f1357
+2020-04-17 08:31:01,880 - dispatch - DEBUG - Dispatch time for order 614e4f4d-b2f4-4b60-9421-238f61affe20 is 2
+2020-04-17 08:31:02,331 - dispatch - DEBUG - Picking order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f
+2020-04-17 08:31:02,344 - dispatch - DEBUG - Picking order cf0932a9-533c-4603-bb1e-512c6e697b92
+2020-04-17 08:31:02,386 - dispatch - DEBUG - Dispatch time for order d2d2d948-f019-4806-bb7e-bb2172bd75d9 is 4
+2020-04-17 08:31:02,851 - dispatch - DEBUG - Picking order ed05dafe-d928-4f1a-856d-1dab3868acbd
+2020-04-17 08:31:02,873 - dispatch - DEBUG - Picking order f7074980-3424-43d4-9166-f495077a273e
+2020-04-17 08:31:02,888 - dispatch - DEBUG - Dispatch time for order 8275f014-ed83-4554-b0ff-0dbdc24e57ad is 5
+2020-04-17 08:31:03,393 - dispatch - DEBUG - Dispatch time for order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed is 5
+2020-04-17 08:31:03,885 - dispatch - DEBUG - Picking order 614e4f4d-b2f4-4b60-9421-238f61affe20
+2020-04-17 08:31:03,897 - dispatch - DEBUG - Dispatch time for order e537a1b8-1505-49ae-a71e-a3ab80e8b606 is 2
+2020-04-17 08:31:04,403 - dispatch - DEBUG - Dispatch time for order 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d is 5
+2020-04-17 08:31:04,908 - dispatch - DEBUG - Dispatch time for order 1b56ee15-70e7-443e-96cb-0479e9d46381 is 4
+2020-04-17 08:31:05,365 - dispatch - DEBUG - Picking order f84d8263-7aae-4254-85b7-27865ffd76b7
+2020-04-17 08:31:05,377 - dispatch - DEBUG - Picking order dcafe7ca-f7a7-4262-9b14-ab19729b2055
+2020-04-17 08:31:05,415 - dispatch - DEBUG - Dispatch time for order 51c5017b-f812-40ac-8d68-87aab3fbab6a is 2
+2020-04-17 08:31:05,900 - dispatch - DEBUG - Picking order e537a1b8-1505-49ae-a71e-a3ab80e8b606
+2020-04-17 08:31:05,920 - dispatch - DEBUG - Dispatch time for order 9748651e-c3f8-4c4a-9de9-5360467c86a2 is 2
+2020-04-17 08:31:06,391 - dispatch - DEBUG - Picking order d2d2d948-f019-4806-bb7e-bb2172bd75d9
+2020-04-17 08:31:06,425 - dispatch - DEBUG - Dispatch time for order 345cfefe-692e-4866-986e-99a18bedbf24 is 3
+2020-04-17 08:31:06,931 - dispatch - DEBUG - Dispatch time for order 87441694-ff97-4d1b-89e3-c4b0b1fd041e is 3
+2020-04-17 08:31:07,418 - dispatch - DEBUG - Picking order 51c5017b-f812-40ac-8d68-87aab3fbab6a
+2020-04-17 08:31:07,436 - dispatch - DEBUG - Dispatch time for order 3713d8af-e6a0-4c11-966c-f26786dc602c is 5
+2020-04-17 08:31:07,893 - dispatch - DEBUG - Picking order 8275f014-ed83-4554-b0ff-0dbdc24e57ad
+2020-04-17 08:31:07,924 - dispatch - DEBUG - Picking order 9748651e-c3f8-4c4a-9de9-5360467c86a2
+2020-04-17 08:31:07,941 - dispatch - DEBUG - Dispatch time for order 20343dea-8856-4717-9be9-be1b37d4791f is 4
+2020-04-17 08:31:08,393 - dispatch - DEBUG - Picking order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed
+2020-04-17 08:31:08,445 - dispatch - DEBUG - Dispatch time for order 098604b5-a141-4a5f-a2e3-0b653515cc42 is 2
+2020-04-17 08:31:08,911 - dispatch - DEBUG - Picking order 1b56ee15-70e7-443e-96cb-0479e9d46381
+2020-04-17 08:31:08,950 - dispatch - DEBUG - Dispatch time for order a5697bad-48d4-46fd-b3bc-64ef2485907a is 3
+2020-04-17 08:31:09,408 - dispatch - DEBUG - Picking order 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d
+2020-04-17 08:31:09,431 - dispatch - DEBUG - Picking order 345cfefe-692e-4866-986e-99a18bedbf24
+2020-04-17 08:31:09,456 - dispatch - DEBUG - Dispatch time for order e09f9282-8e05-48a7-8e6e-e23937383735 is 5
+2020-04-17 08:31:09,935 - dispatch - DEBUG - Picking order 87441694-ff97-4d1b-89e3-c4b0b1fd041e
+2020-04-17 08:31:09,963 - dispatch - DEBUG - Dispatch time for order 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355 is 2
+2020-04-17 08:31:10,448 - dispatch - DEBUG - Picking order 098604b5-a141-4a5f-a2e3-0b653515cc42
+2020-04-17 08:31:10,470 - dispatch - DEBUG - Dispatch time for order a2b13869-6b7e-4e35-8e11-fa9889d24073 is 2
+2020-04-17 08:31:10,976 - dispatch - DEBUG - Dispatch time for order 0522c2ec-0242-45e7-8542-f3e98c1384b9 is 3
+2020-04-17 08:31:11,482 - dispatch - DEBUG - Dispatch time for order aba0fc48-ec05-422f-aad4-8b8ec4de636d is 2
+2020-04-17 08:31:11,946 - dispatch - DEBUG - Picking order 20343dea-8856-4717-9be9-be1b37d4791f
+2020-04-17 08:31:11,952 - dispatch - DEBUG - Picking order a5697bad-48d4-46fd-b3bc-64ef2485907a
+2020-04-17 08:31:11,967 - dispatch - DEBUG - Picking order 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355
+2020-04-17 08:31:11,988 - dispatch - DEBUG - Dispatch time for order 68515b89-96bf-48b6-a07c-68cf17ca3c25 is 5
+2020-04-17 08:31:12,440 - dispatch - DEBUG - Picking order 3713d8af-e6a0-4c11-966c-f26786dc602c
+2020-04-17 08:31:12,474 - dispatch - DEBUG - Picking order a2b13869-6b7e-4e35-8e11-fa9889d24073
+2020-04-17 08:31:12,493 - dispatch - DEBUG - Dispatch time for order caf107cc-e6d6-421c-9991-8bcfcc15d5c5 is 5
+2020-04-17 08:31:12,995 - dispatch - DEBUG - Dispatch time for order 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4 is 2
+2020-04-17 08:31:13,487 - dispatch - DEBUG - Picking order aba0fc48-ec05-422f-aad4-8b8ec4de636d
+2020-04-17 08:31:13,498 - dispatch - DEBUG - Dispatch time for order 78b92574-49cd-4995-b5d0-635b3ced5a18 is 3
+2020-04-17 08:31:13,980 - dispatch - DEBUG - Picking order 0522c2ec-0242-45e7-8542-f3e98c1384b9
+2020-04-17 08:31:14,003 - dispatch - DEBUG - Dispatch time for order 1fab9088-d99d-47ee-acf5-d0f0851738e4 is 2
+2020-04-17 08:31:14,460 - dispatch - DEBUG - Picking order e09f9282-8e05-48a7-8e6e-e23937383735
+2020-04-17 08:31:14,508 - dispatch - DEBUG - Dispatch time for order d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b is 4
+2020-04-17 08:31:15,000 - dispatch - DEBUG - Picking order 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4
+2020-04-17 08:31:15,013 - dispatch - DEBUG - Dispatch time for order 5f06be90-beac-4a51-a871-f8e324d38c3c is 3
+2020-04-17 08:31:15,519 - dispatch - DEBUG - Dispatch time for order 90367105-ec26-41d8-a4a2-6c474d3f703b is 3
+2020-04-17 08:31:16,006 - dispatch - DEBUG - Picking order 1fab9088-d99d-47ee-acf5-d0f0851738e4
+2020-04-17 08:31:16,025 - dispatch - DEBUG - Dispatch time for order 05ef2197-5e9a-446b-825e-4d169bdf5670 is 2
+2020-04-17 08:31:16,503 - dispatch - DEBUG - Picking order 78b92574-49cd-4995-b5d0-635b3ced5a18
+2020-04-17 08:31:16,531 - dispatch - DEBUG - Dispatch time for order 41330835-9221-483a-924f-08c7f664d656 is 5
+2020-04-17 08:31:16,992 - dispatch - DEBUG - Picking order 68515b89-96bf-48b6-a07c-68cf17ca3c25
+2020-04-17 08:31:17,035 - dispatch - DEBUG - Dispatch time for order 51754609-3f89-487b-9888-bac0a65f86e2 is 2
+2020-04-17 08:31:17,496 - dispatch - DEBUG - Picking order caf107cc-e6d6-421c-9991-8bcfcc15d5c5
+2020-04-17 08:31:17,540 - dispatch - DEBUG - Dispatch time for order 3f0008f5-9429-4a16-ae44-f8f4256797ca is 4
+2020-04-17 08:31:18,016 - dispatch - DEBUG - Picking order 5f06be90-beac-4a51-a871-f8e324d38c3c
+2020-04-17 08:31:18,029 - dispatch - DEBUG - Picking order 05ef2197-5e9a-446b-825e-4d169bdf5670
+2020-04-17 08:31:18,045 - dispatch - DEBUG - Dispatch time for order c052077c-687d-4f24-b2e1-75edeee1186a is 3
+2020-04-17 08:31:18,512 - dispatch - DEBUG - Picking order d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b
+2020-04-17 08:31:18,523 - dispatch - DEBUG - Picking order 90367105-ec26-41d8-a4a2-6c474d3f703b
+2020-04-17 08:31:18,552 - dispatch - DEBUG - Dispatch time for order 1b481a3e-84eb-4532-bd29-47f04e3e7adc is 5
+2020-04-17 08:31:19,040 - dispatch - DEBUG - Picking order 51754609-3f89-487b-9888-bac0a65f86e2
+2020-04-17 08:31:19,057 - dispatch - DEBUG - Dispatch time for order b5d9491a-54b7-4916-a379-fed69d5d180d is 3
+2020-04-17 08:31:19,559 - dispatch - DEBUG - Dispatch time for order 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133 is 3
+2020-04-17 08:31:20,065 - dispatch - DEBUG - Dispatch time for order 4b5793f3-2af5-4ac3-816a-7f9c6f91483c is 4
+2020-04-17 08:31:20,567 - dispatch - DEBUG - Dispatch time for order 160ccc3a-af83-43e0-af0b-6a889aea7339 is 5
+2020-04-17 08:31:21,048 - dispatch - DEBUG - Picking order c052077c-687d-4f24-b2e1-75edeee1186a
+2020-04-17 08:31:21,074 - dispatch - DEBUG - Dispatch time for order 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1 is 2
+2020-04-17 08:31:21,533 - dispatch - DEBUG - Picking order 41330835-9221-483a-924f-08c7f664d656
+2020-04-17 08:31:21,542 - dispatch - DEBUG - Picking order 3f0008f5-9429-4a16-ae44-f8f4256797ca
+2020-04-17 08:31:21,579 - dispatch - DEBUG - Dispatch time for order e6b72c73-fa53-4f2c-a004-0b60ba7b3be9 is 3
+2020-04-17 08:31:22,062 - dispatch - DEBUG - Picking order b5d9491a-54b7-4916-a379-fed69d5d180d
+2020-04-17 08:31:22,085 - dispatch - DEBUG - Dispatch time for order 4546646c-3ca5-4da6-9c60-312a897a6907 is 4
+2020-04-17 08:31:22,564 - dispatch - DEBUG - Picking order 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133
+2020-04-17 08:31:22,592 - dispatch - DEBUG - Dispatch time for order 8ea031b3-6545-4140-9dee-745268d7b877 is 3
+2020-04-17 08:31:23,079 - dispatch - DEBUG - Picking order 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1
+2020-04-17 08:31:23,098 - dispatch - DEBUG - Dispatch time for order 24f3e17b-eba0-409a-8630-463cb05d89c3 is 5
+2020-04-17 08:31:23,557 - dispatch - DEBUG - Picking order 1b481a3e-84eb-4532-bd29-47f04e3e7adc
+2020-04-17 08:31:23,604 - dispatch - DEBUG - Dispatch time for order def3f65e-6ffb-4715-8561-ace9d312ddc5 is 5
+2020-04-17 08:31:24,067 - dispatch - DEBUG - Picking order 4b5793f3-2af5-4ac3-816a-7f9c6f91483c
+2020-04-17 08:31:24,109 - dispatch - DEBUG - Dispatch time for order 2c772706-189c-4ec4-80ad-06ea17f21f11 is 4
+2020-04-17 08:31:24,584 - dispatch - DEBUG - Picking order e6b72c73-fa53-4f2c-a004-0b60ba7b3be9
+2020-04-17 08:31:24,615 - dispatch - DEBUG - Dispatch time for order a0023411-c19d-4723-b6d1-6b8c8ff1b417 is 3
+2020-04-17 08:31:25,120 - dispatch - DEBUG - Dispatch time for order 46a4e47d-ccc1-4c88-a006-83930521899c is 2
+2020-04-17 08:31:25,571 - dispatch - DEBUG - Picking order 160ccc3a-af83-43e0-af0b-6a889aea7339
+2020-04-17 08:31:25,594 - dispatch - DEBUG - Picking order 8ea031b3-6545-4140-9dee-745268d7b877
+2020-04-17 08:31:25,626 - dispatch - DEBUG - Dispatch time for order e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d is 2
+2020-04-17 08:31:26,090 - dispatch - DEBUG - Picking order 4546646c-3ca5-4da6-9c60-312a897a6907
+2020-04-17 08:31:26,130 - dispatch - DEBUG - Dispatch time for order 848dfc63-eab6-48b7-a2db-04d13190ce8c is 5
+2020-04-17 08:31:26,637 - dispatch - DEBUG - Dispatch time for order 42951124-c574-45a0-bddf-25e702c65914 is 5
+2020-04-17 08:31:27,125 - dispatch - DEBUG - Picking order 46a4e47d-ccc1-4c88-a006-83930521899c
+2020-04-17 08:31:27,140 - dispatch - DEBUG - Dispatch time for order df726ab4-a999-46b5-8e31-4a1bd523fcb9 is 5
+2020-04-17 08:31:27,619 - dispatch - DEBUG - Picking order a0023411-c19d-4723-b6d1-6b8c8ff1b417
+2020-04-17 08:31:27,628 - dispatch - DEBUG - Picking order e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d
+2020-04-17 08:31:27,645 - dispatch - DEBUG - Dispatch time for order 5bb755b9-e6a8-4932-9139-bc04fafbc240 is 5
+2020-04-17 08:31:28,103 - dispatch - DEBUG - Picking order 24f3e17b-eba0-409a-8630-463cb05d89c3
+2020-04-17 08:31:28,114 - dispatch - DEBUG - Picking order 2c772706-189c-4ec4-80ad-06ea17f21f11
+2020-04-17 08:31:28,150 - dispatch - DEBUG - Dispatch time for order 58dbdb26-670c-4dac-b72c-21152f5d62e7 is 3
+2020-04-17 08:31:28,609 - dispatch - DEBUG - Picking order def3f65e-6ffb-4715-8561-ace9d312ddc5
+2020-04-17 08:31:28,655 - dispatch - DEBUG - Dispatch time for order 4ed428d6-f247-451a-aebf-c5157b2eb502 is 5
+2020-04-17 08:31:29,161 - dispatch - DEBUG - Dispatch time for order 62e667ee-a86d-4be2-97f6-a6af60183e88 is 5
+2020-04-17 08:31:29,666 - dispatch - DEBUG - Dispatch time for order df4e3e19-55d2-4131-8ab0-3563b44f8291 is 2
+2020-04-17 08:31:30,170 - dispatch - DEBUG - Dispatch time for order 44e6ea89-f11c-414d-aa72-7c10641eff8d is 5
+2020-04-17 08:31:30,676 - dispatch - DEBUG - Dispatch time for order 48465fc7-d534-4b9b-b919-63e5beebd301 is 3
+2020-04-17 08:31:31,135 - dispatch - DEBUG - Picking order 848dfc63-eab6-48b7-a2db-04d13190ce8c
+2020-04-17 08:31:31,152 - dispatch - DEBUG - Picking order 58dbdb26-670c-4dac-b72c-21152f5d62e7
+2020-04-17 08:31:31,183 - dispatch - DEBUG - Dispatch time for order fb850bd3-728f-4118-a097-2bcf3a12c239 is 5
+2020-04-17 08:31:31,639 - dispatch - DEBUG - Picking order 42951124-c574-45a0-bddf-25e702c65914
+2020-04-17 08:31:31,668 - dispatch - DEBUG - Picking order df4e3e19-55d2-4131-8ab0-3563b44f8291
+2020-04-17 08:31:31,688 - dispatch - DEBUG - Dispatch time for order 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017 is 5
+2020-04-17 08:31:32,142 - dispatch - DEBUG - Picking order df726ab4-a999-46b5-8e31-4a1bd523fcb9
+2020-04-17 08:31:32,193 - dispatch - DEBUG - Dispatch time for order 68e83bf6-bdee-4192-8905-40140b421bc6 is 2
+2020-04-17 08:31:32,649 - dispatch - DEBUG - Picking order 5bb755b9-e6a8-4932-9139-bc04fafbc240
+2020-04-17 08:31:32,700 - dispatch - DEBUG - Dispatch time for order 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6 is 2
+2020-04-17 08:31:33,206 - dispatch - DEBUG - Dispatch time for order 1b9a920d-2880-44a3-abba-20903f2690d6 is 3
+2020-04-17 08:31:33,657 - dispatch - DEBUG - Picking order 4ed428d6-f247-451a-aebf-c5157b2eb502
+2020-04-17 08:31:33,680 - dispatch - DEBUG - Picking order 48465fc7-d534-4b9b-b919-63e5beebd301
+2020-04-17 08:31:33,710 - dispatch - DEBUG - Dispatch time for order c5ec5a4b-818e-4478-8956-019259be4168 is 3
+2020-04-17 08:31:34,164 - dispatch - DEBUG - Picking order 62e667ee-a86d-4be2-97f6-a6af60183e88
+2020-04-17 08:31:34,197 - dispatch - DEBUG - Picking order 68e83bf6-bdee-4192-8905-40140b421bc6
+2020-04-17 08:31:34,217 - dispatch - DEBUG - Dispatch time for order 4c25f887-03cc-4dcd-9945-6a8102c5ef22 is 2
+2020-04-17 08:31:34,703 - dispatch - DEBUG - Picking order 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6
+2020-04-17 08:31:34,722 - dispatch - DEBUG - Dispatch time for order 7f2381be-5ab9-4385-a7a2-4a940a22e134 is 2
+2020-04-17 08:31:35,173 - dispatch - DEBUG - Picking order 44e6ea89-f11c-414d-aa72-7c10641eff8d
+2020-04-17 08:31:35,228 - dispatch - DEBUG - Dispatch time for order 75bef98f-89ba-4359-b738-b3184688ca7a is 3
+2020-04-17 08:31:35,731 - dispatch - DEBUG - Dispatch time for order 60db864b-8270-43ef-9d91-985707390765 is 2
+2020-04-17 08:31:36,187 - dispatch - DEBUG - Picking order fb850bd3-728f-4118-a097-2bcf3a12c239
+2020-04-17 08:31:36,208 - dispatch - DEBUG - Picking order 1b9a920d-2880-44a3-abba-20903f2690d6
+2020-04-17 08:31:36,221 - dispatch - DEBUG - Picking order 4c25f887-03cc-4dcd-9945-6a8102c5ef22
+2020-04-17 08:31:36,236 - dispatch - DEBUG - Dispatch time for order 22f532ca-dfc8-448a-9e04-7dcfa01a175e is 5
+2020-04-17 08:31:36,693 - dispatch - DEBUG - Picking order 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017
+2020-04-17 08:31:36,715 - dispatch - DEBUG - Picking order c5ec5a4b-818e-4478-8956-019259be4168
+2020-04-17 08:31:36,726 - dispatch - DEBUG - Picking order 7f2381be-5ab9-4385-a7a2-4a940a22e134
+2020-04-17 08:31:36,742 - dispatch - DEBUG - Dispatch time for order a0d76390-3e71-440e-a742-20c36a67fa9a is 5
+2020-04-17 08:31:37,246 - dispatch - DEBUG - Dispatch time for order 020ad68f-da34-4eca-ae7e-3b67e80a299c is 5
+2020-04-17 08:31:37,733 - dispatch - DEBUG - Picking order 60db864b-8270-43ef-9d91-985707390765
+2020-04-17 08:31:37,752 - dispatch - DEBUG - Dispatch time for order 2aab593e-1d1d-4a65-a582-2999f80c3dee is 3
+2020-04-17 08:31:38,232 - dispatch - DEBUG - Picking order 75bef98f-89ba-4359-b738-b3184688ca7a
+2020-04-17 08:31:38,257 - dispatch - DEBUG - Dispatch time for order 3447acdb-475a-400c-91e0-9724d2043e27 is 2
+2020-04-17 08:31:38,764 - dispatch - DEBUG - Dispatch time for order f6e68da8-9909-431e-bf1b-88367677a03e is 2
+2020-04-17 08:31:39,270 - dispatch - DEBUG - Dispatch time for order bcd22756-b3ac-473b-93fa-a19cf941bc40 is 3
+2020-04-17 08:31:39,772 - dispatch - DEBUG - Dispatch time for order 506a5c01-b06b-4af8-a1f2-913f9ae01078 is 3
+2020-04-17 08:31:40,261 - dispatch - DEBUG - Picking order 3447acdb-475a-400c-91e0-9724d2043e27
+2020-04-17 08:31:40,277 - dispatch - DEBUG - Dispatch time for order 10ea72c1-b538-4eb8-b260-f58775481a0b is 5
+2020-04-17 08:31:40,756 - dispatch - DEBUG - Picking order 2aab593e-1d1d-4a65-a582-2999f80c3dee
+2020-04-17 08:31:40,768 - dispatch - DEBUG - Picking order f6e68da8-9909-431e-bf1b-88367677a03e
+2020-04-17 08:31:40,783 - dispatch - DEBUG - Dispatch time for order 5e9cb832-6a0a-49fa-8799-8d744b499fce is 5
+2020-04-17 08:31:41,238 - dispatch - DEBUG - Picking order 22f532ca-dfc8-448a-9e04-7dcfa01a175e
+2020-04-17 08:31:41,287 - dispatch - DEBUG - Dispatch time for order a7d778ff-9711-4d3c-b370-6052965f64c0 is 3
+2020-04-17 08:31:41,746 - dispatch - DEBUG - Picking order a0d76390-3e71-440e-a742-20c36a67fa9a
+2020-04-17 08:31:41,792 - dispatch - DEBUG - Dispatch time for order 40990373-5eac-4e15-9634-450886fe3374 is 5
+2020-04-17 08:31:42,251 - dispatch - DEBUG - Picking order 020ad68f-da34-4eca-ae7e-3b67e80a299c
+2020-04-17 08:31:42,272 - dispatch - DEBUG - Picking order bcd22756-b3ac-473b-93fa-a19cf941bc40
+2020-04-17 08:31:42,297 - dispatch - DEBUG - Dispatch time for order 3ea0971e-2478-4545-b814-a857fb294a9d is 2
+2020-04-17 08:31:42,776 - dispatch - DEBUG - Picking order 506a5c01-b06b-4af8-a1f2-913f9ae01078
+2020-04-17 08:31:42,802 - dispatch - DEBUG - Dispatch time for order 33bcf189-ba71-48ab-a2d5-75c18d180269 is 3
+2020-04-17 08:31:43,307 - dispatch - DEBUG - Dispatch time for order 22fc8ae6-74f7-467f-8735-774d579a2ae0 is 2
+2020-04-17 08:31:43,810 - dispatch - DEBUG - Dispatch time for order 19de820c-4691-420c-ad67-95ec7f5abc2d is 3
+2020-04-17 08:31:44,292 - dispatch - DEBUG - Picking order a7d778ff-9711-4d3c-b370-6052965f64c0
+2020-04-17 08:31:44,299 - dispatch - DEBUG - Picking order 3ea0971e-2478-4545-b814-a857fb294a9d
+2020-04-17 08:31:44,314 - dispatch - DEBUG - Dispatch time for order 3b62609c-38f2-499e-a9b1-c3604dad425d is 2
+2020-04-17 08:31:44,819 - dispatch - DEBUG - Dispatch time for order df79a7e4-d3f9-450c-b2e3-316fb462db29 is 2
+2020-04-17 08:31:45,279 - dispatch - DEBUG - Picking order 10ea72c1-b538-4eb8-b260-f58775481a0b
+2020-04-17 08:31:45,312 - dispatch - DEBUG - Picking order 22fc8ae6-74f7-467f-8735-774d579a2ae0
+2020-04-17 08:31:45,324 - dispatch - DEBUG - Dispatch time for order d5fbbee2-09a7-459e-9621-33a66cdbf3ab is 4
+2020-04-17 08:31:45,786 - dispatch - DEBUG - Picking order 5e9cb832-6a0a-49fa-8799-8d744b499fce
+2020-04-17 08:31:45,806 - dispatch - DEBUG - Picking order 33bcf189-ba71-48ab-a2d5-75c18d180269
+2020-04-17 08:31:45,826 - dispatch - DEBUG - Dispatch time for order 69ad8b1c-3218-4c41-aa42-5aca43ca4173 is 5
+2020-04-17 08:31:46,318 - dispatch - DEBUG - Picking order 3b62609c-38f2-499e-a9b1-c3604dad425d
+2020-04-17 08:31:46,332 - dispatch - DEBUG - Dispatch time for order 68037649-56cd-4f0f-90fd-6e6ccbf61b37 is 4
+2020-04-17 08:31:46,796 - dispatch - DEBUG - Picking order 40990373-5eac-4e15-9634-450886fe3374
+2020-04-17 08:31:46,813 - dispatch - DEBUG - Picking order 19de820c-4691-420c-ad67-95ec7f5abc2d
+2020-04-17 08:31:46,824 - dispatch - DEBUG - Picking order df79a7e4-d3f9-450c-b2e3-316fb462db29
+2020-04-17 08:31:46,835 - dispatch - DEBUG - Dispatch time for order 5bd1e697-10b2-48cf-83c4-033eea97bfb2 is 5
+2020-04-17 08:31:47,342 - dispatch - DEBUG - Dispatch time for order 228ec414-19ca-41e4-8d6c-bd2b0662bfa3 is 5
+2020-04-17 08:31:47,846 - dispatch - DEBUG - Dispatch time for order b1315bfb-4528-4ae2-b6ed-adb03a25b94a is 4
+2020-04-17 08:31:48,352 - dispatch - DEBUG - Dispatch time for order eafcb22b-0f68-4773-80ba-f163b191578f is 4
+2020-04-17 08:31:48,854 - dispatch - DEBUG - Dispatch time for order b25914fa-c5b0-4aa6-a0f5-fcc76203bba5 is 3
+2020-04-17 08:31:49,329 - dispatch - DEBUG - Picking order d5fbbee2-09a7-459e-9621-33a66cdbf3ab
+2020-04-17 08:31:49,359 - dispatch - DEBUG - Dispatch time for order 03267ca9-47fd-4d16-bba7-a650cc7660b6 is 2
+2020-04-17 08:31:49,865 - dispatch - DEBUG - Dispatch time for order 9012736d-777b-4f5b-a12d-982e302fefa1 is 5
+2020-04-17 08:31:50,334 - dispatch - DEBUG - Picking order 68037649-56cd-4f0f-90fd-6e6ccbf61b37
+2020-04-17 08:31:50,371 - dispatch - DEBUG - Dispatch time for order f21bf58b-e23b-491f-a285-d70cb21cc36f is 3
+2020-04-17 08:31:50,831 - dispatch - DEBUG - Picking order 69ad8b1c-3218-4c41-aa42-5aca43ca4173
+2020-04-17 08:31:50,876 - dispatch - DEBUG - Dispatch time for order 057bc043-5f22-4169-9711-c6e2488b35f7 is 5
+2020-04-17 08:31:51,364 - dispatch - DEBUG - Picking order 03267ca9-47fd-4d16-bba7-a650cc7660b6
+2020-04-17 08:31:51,382 - dispatch - DEBUG - Dispatch time for order 7f682ade-8375-4ef4-aa9b-45440f361268 is 4
+2020-04-17 08:31:51,839 - dispatch - DEBUG - Picking order 5bd1e697-10b2-48cf-83c4-033eea97bfb2
+2020-04-17 08:31:51,848 - dispatch - DEBUG - Picking order b1315bfb-4528-4ae2-b6ed-adb03a25b94a
+2020-04-17 08:31:51,859 - dispatch - DEBUG - Picking order b25914fa-c5b0-4aa6-a0f5-fcc76203bba5
+2020-04-17 08:31:51,887 - dispatch - DEBUG - Dispatch time for order 0d841704-92a0-44e1-aaf8-02a8ee920775 is 4
+2020-04-17 08:31:52,347 - dispatch - DEBUG - Picking order 228ec414-19ca-41e4-8d6c-bd2b0662bfa3
+2020-04-17 08:31:52,355 - dispatch - DEBUG - Picking order eafcb22b-0f68-4773-80ba-f163b191578f
+2020-04-17 08:31:52,393 - dispatch - DEBUG - Dispatch time for order 7f89b973-d4fd-4d6e-a279-afc2db6b3304 is 2
+2020-04-17 08:31:52,898 - dispatch - DEBUG - Dispatch time for order 2a23c77f-3ee3-4a52-8810-93e73df4e887 is 5
+2020-04-17 08:31:53,375 - dispatch - DEBUG - Picking order f21bf58b-e23b-491f-a285-d70cb21cc36f
+2020-04-17 08:31:53,403 - dispatch - DEBUG - Dispatch time for order 4f304b59-6634-4558-a128-a8ce12b1f818 is 5
+2020-04-17 08:31:54,393 - dispatch - DEBUG - Picking order 7f89b973-d4fd-4d6e-a279-afc2db6b3304
+2020-04-17 08:31:54,869 - dispatch - DEBUG - Picking order 9012736d-777b-4f5b-a12d-982e302fefa1
+2020-04-17 08:31:55,387 - dispatch - DEBUG - Picking order 7f682ade-8375-4ef4-aa9b-45440f361268
+2020-04-17 08:31:55,879 - dispatch - DEBUG - Picking order 057bc043-5f22-4169-9711-c6e2488b35f7
+2020-04-17 08:31:55,891 - dispatch - DEBUG - Picking order 0d841704-92a0-44e1-aaf8-02a8ee920775
+2020-04-17 08:31:57,903 - dispatch - DEBUG - Picking order 2a23c77f-3ee3-4a52-8810-93e73df4e887
+2020-04-17 08:31:58,404 - dispatch - DEBUG - Picking order 4f304b59-6634-4558-a128-a8ce12b1f818
+2020-04-17 08:33:45,805 - dispatch - DEBUG - Dispatch time for order 1 is 5
+2020-04-17 08:33:46,309 - dispatch - DEBUG - Dispatch time for order 2 is 4
+2020-04-17 08:33:46,813 - dispatch - DEBUG - Dispatch time for order 3 is 2
+2020-04-17 08:33:48,818 - dispatch - DEBUG - Picking order 3
+2020-04-17 08:33:50,312 - dispatch - DEBUG - Picking order 2
+2020-04-17 08:33:50,807 - dispatch - DEBUG - Picking order 1
+2020-04-17 08:33:55,325 - dispatch - DEBUG - Dispatch time for order 1 is 2
+2020-04-17 08:33:55,831 - dispatch - DEBUG - Dispatch time for order 2 is 4
+2020-04-17 08:33:56,336 - dispatch - DEBUG - Dispatch time for order 3 is 5
+2020-04-17 08:33:57,329 - dispatch - DEBUG - Picking order 1
+2020-04-17 08:33:59,834 - dispatch - DEBUG - Picking order 2
+2020-04-17 08:34:01,340 - dispatch - DEBUG - Picking order 3
+2020-04-17 08:34:04,849 - dispatch - DEBUG - Dispatch time for order 1 is 5
+2020-04-17 08:34:05,353 - dispatch - DEBUG - Dispatch time for order 2 is 3
+2020-04-17 08:34:05,858 - dispatch - DEBUG - Dispatch time for order 3 is 5
+2020-04-17 08:34:08,357 - dispatch - DEBUG - Picking order 2
+2020-04-17 08:34:09,850 - dispatch - DEBUG - Picking order 1
+2020-04-17 08:34:10,860 - dispatch - DEBUG - Picking order 3
+2020-04-17 08:34:14,368 - dispatch - DEBUG - Dispatch time for order 0 is 4
+2020-04-17 08:34:14,873 - dispatch - DEBUG - Dispatch time for order 1 is 5
+2020-04-17 08:34:15,377 - dispatch - DEBUG - Dispatch time for order 2 is 5
+2020-04-17 08:34:15,883 - dispatch - DEBUG - Dispatch time for order 3 is 2
+2020-04-17 08:34:16,385 - dispatch - DEBUG - Dispatch time for order 4 is 4
+2020-04-17 08:34:16,890 - dispatch - DEBUG - Dispatch time for order 5 is 5
+2020-04-17 08:34:17,391 - dispatch - DEBUG - Dispatch time for order 6 is 5
+2020-04-17 08:34:17,886 - dispatch - DEBUG - Picking order 3
+2020-04-17 08:34:17,897 - dispatch - DEBUG - Dispatch time for order 7 is 4
+2020-04-17 08:34:18,369 - dispatch - DEBUG - Picking order 0
+2020-04-17 08:34:18,403 - dispatch - DEBUG - Dispatch time for order 8 is 3
+2020-04-17 08:34:18,908 - dispatch - DEBUG - Dispatch time for order 9 is 3
+2020-04-17 08:34:19,412 - dispatch - DEBUG - Dispatch time for order 10 is 5
+2020-04-17 08:34:19,878 - dispatch - DEBUG - Picking order 1
+2020-04-17 08:34:19,917 - dispatch - DEBUG - Dispatch time for order 11 is 3
+2020-04-17 08:34:20,382 - dispatch - DEBUG - Picking order 2
+2020-04-17 08:34:20,388 - dispatch - DEBUG - Picking order 4
+2020-04-17 08:34:20,422 - dispatch - DEBUG - Dispatch time for order 12 is 2
+2020-04-17 08:34:20,928 - dispatch - DEBUG - Dispatch time for order 13 is 3
+2020-04-17 08:34:21,408 - dispatch - DEBUG - Picking order 8
+2020-04-17 08:34:21,433 - dispatch - DEBUG - Dispatch time for order 14 is 3
+2020-04-17 08:34:21,895 - dispatch - DEBUG - Picking order 5
+2020-04-17 08:34:21,898 - dispatch - DEBUG - Picking order 7
+2020-04-17 08:34:21,911 - dispatch - DEBUG - Picking order 9
+2020-04-17 08:34:21,937 - dispatch - DEBUG - Dispatch time for order 15 is 4
+2020-04-17 08:34:22,395 - dispatch - DEBUG - Picking order 6
+2020-04-17 08:34:22,423 - dispatch - DEBUG - Picking order 12
+2020-04-17 08:34:22,443 - dispatch - DEBUG - Dispatch time for order 16 is 4
+2020-04-17 08:34:22,918 - dispatch - DEBUG - Picking order 11
+2020-04-17 08:34:22,944 - dispatch - DEBUG - Dispatch time for order 17 is 2
+2020-04-17 08:34:23,448 - dispatch - DEBUG - Dispatch time for order 18 is 5
+2020-04-17 08:34:23,932 - dispatch - DEBUG - Picking order 13
+2020-04-17 08:34:23,952 - dispatch - DEBUG - Dispatch time for order 19 is 5
+2020-04-17 08:34:24,415 - dispatch - DEBUG - Picking order 10
+2020-04-17 08:34:24,438 - dispatch - DEBUG - Picking order 14
+2020-04-17 08:34:24,454 - dispatch - DEBUG - Dispatch time for order 20 is 3
+2020-04-17 08:34:24,945 - dispatch - DEBUG - Picking order 17
+2020-04-17 08:34:24,957 - dispatch - DEBUG - Dispatch time for order 21 is 4
+2020-04-17 08:34:25,458 - dispatch - DEBUG - Dispatch time for order 22 is 2
+2020-04-17 08:34:25,941 - dispatch - DEBUG - Picking order 15
+2020-04-17 08:34:25,960 - dispatch - DEBUG - Dispatch time for order 23 is 3
+2020-04-17 08:34:26,447 - dispatch - DEBUG - Picking order 16
+2020-04-17 08:34:26,465 - dispatch - DEBUG - Dispatch time for order 24 is 3
+2020-04-17 08:34:26,971 - dispatch - DEBUG - Dispatch time for order 25 is 2
+2020-04-17 08:34:27,458 - dispatch - DEBUG - Picking order 20
+2020-04-17 08:34:27,461 - dispatch - DEBUG - Picking order 22
+2020-04-17 08:34:27,476 - dispatch - DEBUG - Dispatch time for order 26 is 4
+2020-04-17 08:34:27,981 - dispatch - DEBUG - Dispatch time for order 27 is 5
+2020-04-17 08:34:28,451 - dispatch - DEBUG - Picking order 18
+2020-04-17 08:34:28,486 - dispatch - DEBUG - Dispatch time for order 28 is 2
+2020-04-17 08:34:28,955 - dispatch - DEBUG - Picking order 19
+2020-04-17 08:34:28,961 - dispatch - DEBUG - Picking order 23
+2020-04-17 08:34:28,961 - dispatch - DEBUG - Picking order 21
+2020-04-17 08:34:28,973 - dispatch - DEBUG - Picking order 25
+2020-04-17 08:34:28,991 - dispatch - DEBUG - Dispatch time for order 29 is 5
+2020-04-17 08:34:29,469 - dispatch - DEBUG - Picking order 24
+2020-04-17 08:34:29,496 - dispatch - DEBUG - Dispatch time for order 30 is 5
+2020-04-17 08:34:30,001 - dispatch - DEBUG - Dispatch time for order 31 is 4
+2020-04-17 08:34:30,488 - dispatch - DEBUG - Picking order 28
+2020-04-17 08:34:30,506 - dispatch - DEBUG - Dispatch time for order 32 is 5
+2020-04-17 08:34:31,011 - dispatch - DEBUG - Dispatch time for order 33 is 5
+2020-04-17 08:34:31,480 - dispatch - DEBUG - Picking order 26
+2020-04-17 08:34:31,513 - dispatch - DEBUG - Dispatch time for order 34 is 2
+2020-04-17 08:34:32,019 - dispatch - DEBUG - Dispatch time for order 35 is 2
+2020-04-17 08:34:32,524 - dispatch - DEBUG - Dispatch time for order 36 is 4
+2020-04-17 08:34:32,984 - dispatch - DEBUG - Picking order 27
+2020-04-17 08:34:33,030 - dispatch - DEBUG - Dispatch time for order 37 is 5
+2020-04-17 08:34:33,518 - dispatch - DEBUG - Picking order 34
+2020-04-17 08:34:33,535 - dispatch - DEBUG - Dispatch time for order 38 is 4
+2020-04-17 08:34:33,995 - dispatch - DEBUG - Picking order 29
+2020-04-17 08:34:34,006 - dispatch - DEBUG - Picking order 31
+2020-04-17 08:34:34,024 - dispatch - DEBUG - Picking order 35
+2020-04-17 08:34:34,038 - dispatch - DEBUG - Dispatch time for order 39 is 3
+2020-04-17 08:34:34,499 - dispatch - DEBUG - Picking order 30
+2020-04-17 08:34:34,543 - dispatch - DEBUG - Dispatch time for order 40 is 2
+2020-04-17 08:34:35,048 - dispatch - DEBUG - Dispatch time for order 41 is 2
+2020-04-17 08:34:35,509 - dispatch - DEBUG - Picking order 32
+2020-04-17 08:34:35,551 - dispatch - DEBUG - Dispatch time for order 42 is 4
+2020-04-17 08:34:36,015 - dispatch - DEBUG - Picking order 33
+2020-04-17 08:34:36,055 - dispatch - DEBUG - Dispatch time for order 43 is 4
+2020-04-17 08:34:36,525 - dispatch - DEBUG - Picking order 36
+2020-04-17 08:34:36,549 - dispatch - DEBUG - Picking order 40
+2020-04-17 08:34:36,561 - dispatch - DEBUG - Dispatch time for order 44 is 3
+2020-04-17 08:34:37,042 - dispatch - DEBUG - Picking order 39
+2020-04-17 08:34:37,052 - dispatch - DEBUG - Picking order 41
+2020-04-17 08:34:37,065 - dispatch - DEBUG - Dispatch time for order 45 is 4
+2020-04-17 08:34:37,538 - dispatch - DEBUG - Picking order 38
+2020-04-17 08:34:37,571 - dispatch - DEBUG - Dispatch time for order 46 is 3
+2020-04-17 08:34:38,034 - dispatch - DEBUG - Picking order 37
+2020-04-17 08:34:38,076 - dispatch - DEBUG - Dispatch time for order 47 is 5
+2020-04-17 08:34:38,581 - dispatch - DEBUG - Dispatch time for order 48 is 3
+2020-04-17 08:34:39,086 - dispatch - DEBUG - Dispatch time for order 49 is 4
+2020-04-17 08:34:39,556 - dispatch - DEBUG - Picking order 42
+2020-04-17 08:34:39,561 - dispatch - DEBUG - Picking order 44
+2020-04-17 08:34:39,586 - dispatch - DEBUG - Dispatch time for order 50 is 3
+2020-04-17 08:34:40,056 - dispatch - DEBUG - Picking order 43
+2020-04-17 08:34:40,091 - dispatch - DEBUG - Dispatch time for order 51 is 4
+2020-04-17 08:34:40,577 - dispatch - DEBUG - Picking order 46
+2020-04-17 08:34:40,595 - dispatch - DEBUG - Dispatch time for order 52 is 3
+2020-04-17 08:34:41,070 - dispatch - DEBUG - Picking order 45
+2020-04-17 08:34:41,100 - dispatch - DEBUG - Dispatch time for order 53 is 5
+2020-04-17 08:34:41,586 - dispatch - DEBUG - Picking order 48
+2020-04-17 08:34:41,606 - dispatch - DEBUG - Dispatch time for order 54 is 2
+2020-04-17 08:34:42,111 - dispatch - DEBUG - Dispatch time for order 55 is 4
+2020-04-17 08:34:42,591 - dispatch - DEBUG - Picking order 50
+2020-04-17 08:34:42,615 - dispatch - DEBUG - Dispatch time for order 56 is 2
+2020-04-17 08:34:43,079 - dispatch - DEBUG - Picking order 47
+2020-04-17 08:34:43,088 - dispatch - DEBUG - Picking order 49
+2020-04-17 08:34:43,120 - dispatch - DEBUG - Dispatch time for order 57 is 4
+2020-04-17 08:34:43,599 - dispatch - DEBUG - Picking order 52
+2020-04-17 08:34:43,608 - dispatch - DEBUG - Picking order 54
+2020-04-17 08:34:43,626 - dispatch - DEBUG - Dispatch time for order 58 is 2
+2020-04-17 08:34:44,095 - dispatch - DEBUG - Picking order 51
+2020-04-17 08:34:44,131 - dispatch - DEBUG - Dispatch time for order 59 is 2
+2020-04-17 08:34:44,618 - dispatch - DEBUG - Picking order 56
+2020-04-17 08:34:44,635 - dispatch - DEBUG - Dispatch time for order 60 is 5
+2020-04-17 08:34:45,141 - dispatch - DEBUG - Dispatch time for order 61 is 5
+2020-04-17 08:34:45,627 - dispatch - DEBUG - Picking order 58
+2020-04-17 08:34:45,646 - dispatch - DEBUG - Dispatch time for order 62 is 2
+2020-04-17 08:34:46,106 - dispatch - DEBUG - Picking order 53
+2020-04-17 08:34:46,115 - dispatch - DEBUG - Picking order 55
+2020-04-17 08:34:46,134 - dispatch - DEBUG - Picking order 59
+2020-04-17 08:34:46,151 - dispatch - DEBUG - Dispatch time for order 63 is 3
+2020-04-17 08:34:46,652 - dispatch - DEBUG - Dispatch time for order 64 is 5
+2020-04-17 08:34:47,125 - dispatch - DEBUG - Picking order 57
+2020-04-17 08:34:47,157 - dispatch - DEBUG - Dispatch time for order 65 is 5
+2020-04-17 08:34:47,651 - dispatch - DEBUG - Picking order 62
+2020-04-17 08:34:47,660 - dispatch - DEBUG - Dispatch time for order 66 is 5
+2020-04-17 08:34:48,165 - dispatch - DEBUG - Dispatch time for order 67 is 5
+2020-04-17 08:34:48,670 - dispatch - DEBUG - Dispatch time for order 68 is 5
+2020-04-17 08:34:49,152 - dispatch - DEBUG - Picking order 63
+2020-04-17 08:34:49,175 - dispatch - DEBUG - Dispatch time for order 69 is 2
+2020-04-17 08:34:49,639 - dispatch - DEBUG - Picking order 60
+2020-04-17 08:34:49,681 - dispatch - DEBUG - Dispatch time for order 70 is 3
+2020-04-17 08:34:50,145 - dispatch - DEBUG - Picking order 61
+2020-04-17 08:34:50,186 - dispatch - DEBUG - Dispatch time for order 71 is 5
+2020-04-17 08:34:50,690 - dispatch - DEBUG - Dispatch time for order 72 is 3
+2020-04-17 08:34:51,179 - dispatch - DEBUG - Picking order 69
+2020-04-17 08:34:51,196 - dispatch - DEBUG - Dispatch time for order 73 is 4
+2020-04-17 08:34:51,657 - dispatch - DEBUG - Picking order 64
+2020-04-17 08:34:51,700 - dispatch - DEBUG - Dispatch time for order 74 is 2
+2020-04-17 08:34:52,161 - dispatch - DEBUG - Picking order 65
+2020-04-17 08:34:52,201 - dispatch - DEBUG - Dispatch time for order 75 is 4
+2020-04-17 08:34:52,663 - dispatch - DEBUG - Picking order 66
+2020-04-17 08:34:52,685 - dispatch - DEBUG - Picking order 70
+2020-04-17 08:34:52,707 - dispatch - DEBUG - Dispatch time for order 76 is 4
+2020-04-17 08:34:53,166 - dispatch - DEBUG - Picking order 67
+2020-04-17 08:34:53,213 - dispatch - DEBUG - Dispatch time for order 77 is 5
+2020-04-17 08:34:53,671 - dispatch - DEBUG - Picking order 68
+2020-04-17 08:34:53,695 - dispatch - DEBUG - Picking order 72
+2020-04-17 08:34:53,703 - dispatch - DEBUG - Picking order 74
+2020-04-17 08:34:53,718 - dispatch - DEBUG - Dispatch time for order 78 is 4
+2020-04-17 08:34:54,221 - dispatch - DEBUG - Dispatch time for order 79 is 4
+2020-04-17 08:34:54,725 - dispatch - DEBUG - Dispatch time for order 80 is 2
+2020-04-17 08:34:55,190 - dispatch - DEBUG - Picking order 71
+2020-04-17 08:34:55,196 - dispatch - DEBUG - Picking order 73
+2020-04-17 08:34:55,233 - dispatch - DEBUG - Dispatch time for order 81 is 4
+2020-04-17 08:34:55,738 - dispatch - DEBUG - Dispatch time for order 82 is 4
+2020-04-17 08:34:56,203 - dispatch - DEBUG - Picking order 75
+2020-04-17 08:34:56,239 - dispatch - DEBUG - Dispatch time for order 83 is 3
+2020-04-17 08:34:56,712 - dispatch - DEBUG - Picking order 76
+2020-04-17 08:34:56,729 - dispatch - DEBUG - Picking order 80
+2020-04-17 08:34:56,744 - dispatch - DEBUG - Dispatch time for order 84 is 2
+2020-04-17 08:34:57,246 - dispatch - DEBUG - Dispatch time for order 85 is 2
+2020-04-17 08:34:57,721 - dispatch - DEBUG - Picking order 78
+2020-04-17 08:34:57,749 - dispatch - DEBUG - Dispatch time for order 86 is 3
+2020-04-17 08:34:58,216 - dispatch - DEBUG - Picking order 77
+2020-04-17 08:34:58,226 - dispatch - DEBUG - Picking order 79
+2020-04-17 08:34:58,254 - dispatch - DEBUG - Dispatch time for order 87 is 4
+2020-04-17 08:34:58,746 - dispatch - DEBUG - Picking order 84
+2020-04-17 08:34:58,758 - dispatch - DEBUG - Dispatch time for order 88 is 4
+2020-04-17 08:34:59,238 - dispatch - DEBUG - Picking order 81
+2020-04-17 08:34:59,244 - dispatch - DEBUG - Picking order 83
+2020-04-17 08:34:59,250 - dispatch - DEBUG - Picking order 85
+2020-04-17 08:34:59,262 - dispatch - DEBUG - Dispatch time for order 89 is 5
+2020-04-17 08:34:59,740 - dispatch - DEBUG - Picking order 82
+2020-04-17 08:34:59,768 - dispatch - DEBUG - Dispatch time for order 90 is 3
+2020-04-17 08:35:00,273 - dispatch - DEBUG - Dispatch time for order 91 is 5
+2020-04-17 08:35:00,751 - dispatch - DEBUG - Picking order 86
+2020-04-17 08:35:00,775 - dispatch - DEBUG - Dispatch time for order 92 is 2
+2020-04-17 08:35:01,279 - dispatch - DEBUG - Dispatch time for order 93 is 5
+2020-04-17 08:35:01,783 - dispatch - DEBUG - Dispatch time for order 94 is 2
+2020-04-17 08:35:02,259 - dispatch - DEBUG - Picking order 87
+2020-04-17 08:35:02,288 - dispatch - DEBUG - Dispatch time for order 95 is 5
+2020-04-17 08:35:02,761 - dispatch - DEBUG - Picking order 88
+2020-04-17 08:35:02,770 - dispatch - DEBUG - Picking order 90
+2020-04-17 08:35:02,779 - dispatch - DEBUG - Picking order 92
+2020-04-17 08:35:02,792 - dispatch - DEBUG - Dispatch time for order 96 is 3
+2020-04-17 08:35:03,294 - dispatch - DEBUG - Dispatch time for order 97 is 3
+2020-04-17 08:35:03,788 - dispatch - DEBUG - Picking order 94
+2020-04-17 08:35:03,800 - dispatch - DEBUG - Dispatch time for order 98 is 2
+2020-04-17 08:35:04,265 - dispatch - DEBUG - Picking order 89
+2020-04-17 08:35:04,305 - dispatch - DEBUG - Dispatch time for order 99 is 5
+2020-04-17 08:35:05,274 - dispatch - DEBUG - Picking order 91
+2020-04-17 08:35:05,797 - dispatch - DEBUG - Picking order 96
+2020-04-17 08:35:05,802 - dispatch - DEBUG - Picking order 98
+2020-04-17 08:35:06,283 - dispatch - DEBUG - Picking order 93
+2020-04-17 08:35:06,299 - dispatch - DEBUG - Picking order 97
+2020-04-17 08:35:07,292 - dispatch - DEBUG - Picking order 95
+2020-04-17 08:35:09,307 - dispatch - DEBUG - Picking order 99
+2020-04-17 08:35:20,819 - dispatch - DEBUG - Dispatch time for order 1 is 3
+2020-04-17 08:35:21,325 - dispatch - DEBUG - Dispatch time for order 2 is 5
+2020-04-17 08:35:21,831 - dispatch - DEBUG - Dispatch time for order 3 is 5
+2020-04-17 08:35:22,335 - dispatch - DEBUG - Dispatch time for order 4 is 5
+2020-04-17 08:35:22,840 - dispatch - DEBUG - Dispatch time for order 5 is 3
+2020-04-17 08:35:23,822 - dispatch - DEBUG - Picking order 1
+2020-04-17 08:35:25,846 - dispatch - DEBUG - Picking order 5
+2020-04-17 08:35:26,329 - dispatch - DEBUG - Picking order 2
+2020-04-17 08:35:26,836 - dispatch - DEBUG - Picking order 3
+2020-04-17 08:35:27,338 - dispatch - DEBUG - Picking order 4
+2020-04-17 08:35:39,396 - dispatch - DEBUG - Dispatch time for order 1 is 5
+2020-04-17 08:35:39,903 - dispatch - DEBUG - Dispatch time for order 2 is 3
+2020-04-17 08:35:40,408 - dispatch - DEBUG - Dispatch time for order 3 is 5
+2020-04-17 08:35:40,912 - dispatch - DEBUG - Dispatch time for order 4 is 2
+2020-04-17 08:35:42,907 - dispatch - DEBUG - Picking order 2
+2020-04-17 08:35:42,915 - dispatch - DEBUG - Picking order 4
+2020-04-17 08:35:44,402 - dispatch - DEBUG - Picking order 1
+2020-04-17 08:35:45,411 - dispatch - DEBUG - Picking order 3
+2020-04-17 08:35:56,776 - dispatch - DEBUG - Dispatch time for order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd is 4
+2020-04-17 08:35:57,282 - dispatch - DEBUG - Dispatch time for order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d is 2
+2020-04-17 08:35:57,787 - dispatch - DEBUG - Dispatch time for order 2ec069e3-576f-48eb-869f-74a540ef840c is 3
+2020-04-17 08:35:58,294 - dispatch - DEBUG - Dispatch time for order 690b85f7-8c7d-4337-bd02-04e04454c826 is 2
+2020-04-17 08:35:58,800 - dispatch - DEBUG - Dispatch time for order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a is 4
+2020-04-17 08:35:59,286 - dispatch - DEBUG - Picking order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d
+2020-04-17 08:35:59,304 - dispatch - DEBUG - Dispatch time for order c18e1242-0856-4203-a98c-7066ead3bd6b is 4
+2020-04-17 08:35:59,810 - dispatch - DEBUG - Dispatch time for order 66a2611c-9a93-4ccd-bb85-98f423247bf9 is 5
+2020-04-17 08:36:00,297 - dispatch - DEBUG - Picking order 690b85f7-8c7d-4337-bd02-04e04454c826
+2020-04-17 08:36:00,315 - dispatch - DEBUG - Dispatch time for order 4cc9d503-4e0e-42a3-b200-87c785468df9 is 2
+2020-04-17 08:36:00,781 - dispatch - DEBUG - Picking order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd
+2020-04-17 08:36:00,788 - dispatch - DEBUG - Picking order 2ec069e3-576f-48eb-869f-74a540ef840c
+2020-04-17 08:36:00,831 - dispatch - DEBUG - Dispatch time for order 0a6537d7-9568-400e-9857-7aceb4e7347c is 3
+2020-04-17 08:36:01,338 - dispatch - DEBUG - Dispatch time for order 74e0893f-8544-4298-b507-9cf5ab847d83 is 5
+2020-04-17 08:36:01,846 - dispatch - DEBUG - Dispatch time for order 7a5ea4ed-e378-4354-8ab3-a09cf563f621 is 4
+2020-04-17 08:36:02,320 - dispatch - DEBUG - Picking order 4cc9d503-4e0e-42a3-b200-87c785468df9
+2020-04-17 08:36:02,350 - dispatch - DEBUG - Dispatch time for order 60fbe431-7f7f-46c5-8ecf-6a26ae898685 is 5
+2020-04-17 08:36:02,803 - dispatch - DEBUG - Picking order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a
+2020-04-17 08:36:02,855 - dispatch - DEBUG - Dispatch time for order 2e7f4153-92cb-43e2-96f4-d77e2f25422b is 2
+2020-04-17 08:36:03,308 - dispatch - DEBUG - Picking order c18e1242-0856-4203-a98c-7066ead3bd6b
+2020-04-17 08:36:03,360 - dispatch - DEBUG - Dispatch time for order d4ead98f-a158-429c-9c0d-28ab0fa830a6 is 5
+2020-04-17 08:36:03,835 - dispatch - DEBUG - Picking order 0a6537d7-9568-400e-9857-7aceb4e7347c
+2020-04-17 08:36:03,866 - dispatch - DEBUG - Dispatch time for order e868e485-c759-411b-b439-ca7086326bf6 is 4
+2020-04-17 08:36:04,372 - dispatch - DEBUG - Dispatch time for order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e is 3
+2020-04-17 08:36:04,813 - dispatch - DEBUG - Picking order 66a2611c-9a93-4ccd-bb85-98f423247bf9
+2020-04-17 08:36:04,857 - dispatch - DEBUG - Picking order 2e7f4153-92cb-43e2-96f4-d77e2f25422b
+2020-04-17 08:36:04,876 - dispatch - DEBUG - Dispatch time for order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 is 2
+2020-04-17 08:36:05,383 - dispatch - DEBUG - Dispatch time for order a9f8f42f-7a58-4629-8b66-1acbf362f3b8 is 3
+2020-04-17 08:36:05,849 - dispatch - DEBUG - Picking order 7a5ea4ed-e378-4354-8ab3-a09cf563f621
+2020-04-17 08:36:05,901 - dispatch - DEBUG - Dispatch time for order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae is 4
+2020-04-17 08:36:06,343 - dispatch - DEBUG - Picking order 74e0893f-8544-4298-b507-9cf5ab847d83
+2020-04-17 08:36:06,407 - dispatch - DEBUG - Dispatch time for order 916ddba3-9c25-4065-8a90-ecf5c40c8394 is 5
+2020-04-17 08:36:06,880 - dispatch - DEBUG - Picking order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6
+2020-04-17 08:36:06,913 - dispatch - DEBUG - Dispatch time for order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f is 2
+2020-04-17 08:36:07,356 - dispatch - DEBUG - Picking order 60fbe431-7f7f-46c5-8ecf-6a26ae898685
+2020-04-17 08:36:07,376 - dispatch - DEBUG - Picking order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e
+2020-04-17 08:36:07,416 - dispatch - DEBUG - Dispatch time for order c700ab30-d7bd-4e45-aafb-4329876c716c is 4
+2020-04-17 08:36:07,869 - dispatch - DEBUG - Picking order e868e485-c759-411b-b439-ca7086326bf6
+2020-04-17 08:36:07,921 - dispatch - DEBUG - Dispatch time for order cf0932a9-533c-4603-bb1e-512c6e697b92 is 4
+2020-04-17 08:36:08,365 - dispatch - DEBUG - Picking order d4ead98f-a158-429c-9c0d-28ab0fa830a6
+2020-04-17 08:36:08,386 - dispatch - DEBUG - Picking order a9f8f42f-7a58-4629-8b66-1acbf362f3b8
+2020-04-17 08:36:08,427 - dispatch - DEBUG - Dispatch time for order ed05dafe-d928-4f1a-856d-1dab3868acbd is 5
+2020-04-17 08:36:08,914 - dispatch - DEBUG - Picking order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f
+2020-04-17 08:36:08,933 - dispatch - DEBUG - Dispatch time for order 53f012e3-da55-4314-b2e6-28e63f0418ad is 4
+2020-04-17 08:36:09,439 - dispatch - DEBUG - Dispatch time for order 5dd79771-4536-4eaa-b64c-63ac606f1357 is 5
+2020-04-17 08:36:09,906 - dispatch - DEBUG - Picking order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae
+2020-04-17 08:36:09,945 - dispatch - DEBUG - Dispatch time for order f84d8263-7aae-4254-85b7-27865ffd76b7 is 4
+2020-04-17 08:36:10,451 - dispatch - DEBUG - Dispatch time for order f7074980-3424-43d4-9166-f495077a273e is 4
+2020-04-17 08:36:10,953 - dispatch - DEBUG - Dispatch time for order dcafe7ca-f7a7-4262-9b14-ab19729b2055 is 2
+2020-04-17 08:36:11,411 - dispatch - DEBUG - Picking order 916ddba3-9c25-4065-8a90-ecf5c40c8394
+2020-04-17 08:36:11,420 - dispatch - DEBUG - Picking order c700ab30-d7bd-4e45-aafb-4329876c716c
+2020-04-17 08:36:11,456 - dispatch - DEBUG - Dispatch time for order 614e4f4d-b2f4-4b60-9421-238f61affe20 is 4
+2020-04-17 08:36:11,926 - dispatch - DEBUG - Picking order cf0932a9-533c-4603-bb1e-512c6e697b92
+2020-04-17 08:36:11,963 - dispatch - DEBUG - Dispatch time for order d2d2d948-f019-4806-bb7e-bb2172bd75d9 is 4
+2020-04-17 08:36:12,470 - dispatch - DEBUG - Dispatch time for order 8275f014-ed83-4554-b0ff-0dbdc24e57ad is 4
+2020-04-17 08:36:12,937 - dispatch - DEBUG - Picking order 53f012e3-da55-4314-b2e6-28e63f0418ad
+2020-04-17 08:36:12,956 - dispatch - DEBUG - Picking order dcafe7ca-f7a7-4262-9b14-ab19729b2055
+2020-04-17 08:36:12,975 - dispatch - DEBUG - Dispatch time for order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed is 4
+2020-04-17 08:36:13,430 - dispatch - DEBUG - Picking order ed05dafe-d928-4f1a-856d-1dab3868acbd
+2020-04-17 08:36:13,480 - dispatch - DEBUG - Dispatch time for order e537a1b8-1505-49ae-a71e-a3ab80e8b606 is 5
+2020-04-17 08:36:13,948 - dispatch - DEBUG - Picking order f84d8263-7aae-4254-85b7-27865ffd76b7
+2020-04-17 08:36:13,988 - dispatch - DEBUG - Dispatch time for order 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d is 5
+2020-04-17 08:36:14,441 - dispatch - DEBUG - Picking order 5dd79771-4536-4eaa-b64c-63ac606f1357
+2020-04-17 08:36:14,454 - dispatch - DEBUG - Picking order f7074980-3424-43d4-9166-f495077a273e
+2020-04-17 08:36:14,494 - dispatch - DEBUG - Dispatch time for order 1b56ee15-70e7-443e-96cb-0479e9d46381 is 3
+2020-04-17 08:36:14,999 - dispatch - DEBUG - Dispatch time for order 51c5017b-f812-40ac-8d68-87aab3fbab6a is 4
+2020-04-17 08:36:15,461 - dispatch - DEBUG - Picking order 614e4f4d-b2f4-4b60-9421-238f61affe20
+2020-04-17 08:36:15,505 - dispatch - DEBUG - Dispatch time for order 9748651e-c3f8-4c4a-9de9-5360467c86a2 is 3
+2020-04-17 08:36:15,968 - dispatch - DEBUG - Picking order d2d2d948-f019-4806-bb7e-bb2172bd75d9
+2020-04-17 08:36:16,010 - dispatch - DEBUG - Dispatch time for order 345cfefe-692e-4866-986e-99a18bedbf24 is 4
+2020-04-17 08:36:16,472 - dispatch - DEBUG - Picking order 8275f014-ed83-4554-b0ff-0dbdc24e57ad
+2020-04-17 08:36:16,514 - dispatch - DEBUG - Dispatch time for order 87441694-ff97-4d1b-89e3-c4b0b1fd041e is 5
+2020-04-17 08:36:16,981 - dispatch - DEBUG - Picking order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed
+2020-04-17 08:36:17,022 - dispatch - DEBUG - Dispatch time for order 3713d8af-e6a0-4c11-966c-f26786dc602c is 2
+2020-04-17 08:36:17,499 - dispatch - DEBUG - Picking order 1b56ee15-70e7-443e-96cb-0479e9d46381
+2020-04-17 08:36:17,527 - dispatch - DEBUG - Dispatch time for order 20343dea-8856-4717-9be9-be1b37d4791f is 4
+2020-04-17 08:36:18,034 - dispatch - DEBUG - Dispatch time for order 098604b5-a141-4a5f-a2e3-0b653515cc42 is 5
+2020-04-17 08:36:18,484 - dispatch - DEBUG - Picking order e537a1b8-1505-49ae-a71e-a3ab80e8b606
+2020-04-17 08:36:18,507 - dispatch - DEBUG - Picking order 9748651e-c3f8-4c4a-9de9-5360467c86a2
+2020-04-17 08:36:18,539 - dispatch - DEBUG - Dispatch time for order a5697bad-48d4-46fd-b3bc-64ef2485907a is 5
+2020-04-17 08:36:18,994 - dispatch - DEBUG - Picking order 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d
+2020-04-17 08:36:19,003 - dispatch - DEBUG - Picking order 51c5017b-f812-40ac-8d68-87aab3fbab6a
+2020-04-17 08:36:19,025 - dispatch - DEBUG - Picking order 3713d8af-e6a0-4c11-966c-f26786dc602c
+2020-04-17 08:36:19,045 - dispatch - DEBUG - Dispatch time for order e09f9282-8e05-48a7-8e6e-e23937383735 is 5
+2020-04-17 08:36:19,551 - dispatch - DEBUG - Dispatch time for order 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355 is 4
+2020-04-17 08:36:20,015 - dispatch - DEBUG - Picking order 345cfefe-692e-4866-986e-99a18bedbf24
+2020-04-17 08:36:20,056 - dispatch - DEBUG - Dispatch time for order a2b13869-6b7e-4e35-8e11-fa9889d24073 is 4
+2020-04-17 08:36:20,562 - dispatch - DEBUG - Dispatch time for order 0522c2ec-0242-45e7-8542-f3e98c1384b9 is 3
+2020-04-17 08:36:21,068 - dispatch - DEBUG - Dispatch time for order aba0fc48-ec05-422f-aad4-8b8ec4de636d is 3
+2020-04-17 08:36:21,517 - dispatch - DEBUG - Picking order 87441694-ff97-4d1b-89e3-c4b0b1fd041e
+2020-04-17 08:36:21,530 - dispatch - DEBUG - Picking order 20343dea-8856-4717-9be9-be1b37d4791f
+2020-04-17 08:36:21,576 - dispatch - DEBUG - Dispatch time for order 68515b89-96bf-48b6-a07c-68cf17ca3c25 is 5
+2020-04-17 08:36:22,081 - dispatch - DEBUG - Dispatch time for order caf107cc-e6d6-421c-9991-8bcfcc15d5c5 is 5
+2020-04-17 08:36:22,587 - dispatch - DEBUG - Dispatch time for order 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4 is 2
+2020-04-17 08:36:23,038 - dispatch - DEBUG - Picking order 098604b5-a141-4a5f-a2e3-0b653515cc42
+2020-04-17 08:36:23,095 - dispatch - DEBUG - Dispatch time for order 78b92574-49cd-4995-b5d0-635b3ced5a18 is 4
+2020-04-17 08:36:23,543 - dispatch - DEBUG - Picking order a5697bad-48d4-46fd-b3bc-64ef2485907a
+2020-04-17 08:36:23,555 - dispatch - DEBUG - Picking order 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355
+2020-04-17 08:36:23,566 - dispatch - DEBUG - Picking order 0522c2ec-0242-45e7-8542-f3e98c1384b9
+2020-04-17 08:36:23,602 - dispatch - DEBUG - Dispatch time for order 1fab9088-d99d-47ee-acf5-d0f0851738e4 is 2
+2020-04-17 08:36:24,050 - dispatch - DEBUG - Picking order e09f9282-8e05-48a7-8e6e-e23937383735
+2020-04-17 08:36:24,059 - dispatch - DEBUG - Picking order a2b13869-6b7e-4e35-8e11-fa9889d24073
+2020-04-17 08:36:24,073 - dispatch - DEBUG - Picking order aba0fc48-ec05-422f-aad4-8b8ec4de636d
+2020-04-17 08:36:24,107 - dispatch - DEBUG - Dispatch time for order d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b is 3
+2020-04-17 08:36:24,589 - dispatch - DEBUG - Picking order 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4
+2020-04-17 08:36:24,613 - dispatch - DEBUG - Dispatch time for order 5f06be90-beac-4a51-a871-f8e324d38c3c is 4
+2020-04-17 08:36:25,119 - dispatch - DEBUG - Dispatch time for order 90367105-ec26-41d8-a4a2-6c474d3f703b is 2
+2020-04-17 08:36:25,606 - dispatch - DEBUG - Picking order 1fab9088-d99d-47ee-acf5-d0f0851738e4
+2020-04-17 08:36:25,624 - dispatch - DEBUG - Dispatch time for order 05ef2197-5e9a-446b-825e-4d169bdf5670 is 4
+2020-04-17 08:36:26,130 - dispatch - DEBUG - Dispatch time for order 41330835-9221-483a-924f-08c7f664d656 is 2
+2020-04-17 08:36:26,581 - dispatch - DEBUG - Picking order 68515b89-96bf-48b6-a07c-68cf17ca3c25
+2020-04-17 08:36:26,635 - dispatch - DEBUG - Dispatch time for order 51754609-3f89-487b-9888-bac0a65f86e2 is 3
+2020-04-17 08:36:27,084 - dispatch - DEBUG - Picking order caf107cc-e6d6-421c-9991-8bcfcc15d5c5
+2020-04-17 08:36:27,098 - dispatch - DEBUG - Picking order 78b92574-49cd-4995-b5d0-635b3ced5a18
+2020-04-17 08:36:27,112 - dispatch - DEBUG - Picking order d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b
+2020-04-17 08:36:27,124 - dispatch - DEBUG - Picking order 90367105-ec26-41d8-a4a2-6c474d3f703b
+2020-04-17 08:36:27,141 - dispatch - DEBUG - Dispatch time for order 3f0008f5-9429-4a16-ae44-f8f4256797ca is 5
+2020-04-17 08:36:27,645 - dispatch - DEBUG - Dispatch time for order c052077c-687d-4f24-b2e1-75edeee1186a is 3
+2020-04-17 08:36:28,133 - dispatch - DEBUG - Picking order 41330835-9221-483a-924f-08c7f664d656
+2020-04-17 08:36:28,149 - dispatch - DEBUG - Dispatch time for order 1b481a3e-84eb-4532-bd29-47f04e3e7adc is 4
+2020-04-17 08:36:28,618 - dispatch - DEBUG - Picking order 5f06be90-beac-4a51-a871-f8e324d38c3c
+2020-04-17 08:36:28,655 - dispatch - DEBUG - Dispatch time for order b5d9491a-54b7-4916-a379-fed69d5d180d is 4
+2020-04-17 08:36:29,161 - dispatch - DEBUG - Dispatch time for order 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133 is 4
+2020-04-17 08:36:29,629 - dispatch - DEBUG - Picking order 05ef2197-5e9a-446b-825e-4d169bdf5670
+2020-04-17 08:36:29,640 - dispatch - DEBUG - Picking order 51754609-3f89-487b-9888-bac0a65f86e2
+2020-04-17 08:36:29,667 - dispatch - DEBUG - Dispatch time for order 4b5793f3-2af5-4ac3-816a-7f9c6f91483c is 3
+2020-04-17 08:36:30,174 - dispatch - DEBUG - Dispatch time for order 160ccc3a-af83-43e0-af0b-6a889aea7339 is 4
+2020-04-17 08:36:30,650 - dispatch - DEBUG - Picking order c052077c-687d-4f24-b2e1-75edeee1186a
+2020-04-17 08:36:30,679 - dispatch - DEBUG - Dispatch time for order 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1 is 2
+2020-04-17 08:36:31,187 - dispatch - DEBUG - Dispatch time for order e6b72c73-fa53-4f2c-a004-0b60ba7b3be9 is 3
+2020-04-17 08:36:31,693 - dispatch - DEBUG - Dispatch time for order 4546646c-3ca5-4da6-9c60-312a897a6907 is 5
+2020-04-17 08:36:32,146 - dispatch - DEBUG - Picking order 3f0008f5-9429-4a16-ae44-f8f4256797ca
+2020-04-17 08:36:32,153 - dispatch - DEBUG - Picking order 1b481a3e-84eb-4532-bd29-47f04e3e7adc
+2020-04-17 08:36:32,196 - dispatch - DEBUG - Dispatch time for order 8ea031b3-6545-4140-9dee-745268d7b877 is 5
+2020-04-17 08:36:32,660 - dispatch - DEBUG - Picking order b5d9491a-54b7-4916-a379-fed69d5d180d
+2020-04-17 08:36:32,671 - dispatch - DEBUG - Picking order 4b5793f3-2af5-4ac3-816a-7f9c6f91483c
+2020-04-17 08:36:32,682 - dispatch - DEBUG - Picking order 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1
+2020-04-17 08:36:32,702 - dispatch - DEBUG - Dispatch time for order 24f3e17b-eba0-409a-8630-463cb05d89c3 is 3
+2020-04-17 08:36:33,163 - dispatch - DEBUG - Picking order 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133
+2020-04-17 08:36:33,207 - dispatch - DEBUG - Dispatch time for order def3f65e-6ffb-4715-8561-ace9d312ddc5 is 5
+2020-04-17 08:36:33,714 - dispatch - DEBUG - Dispatch time for order 2c772706-189c-4ec4-80ad-06ea17f21f11 is 3
+2020-04-17 08:36:34,178 - dispatch - DEBUG - Picking order 160ccc3a-af83-43e0-af0b-6a889aea7339
+2020-04-17 08:36:34,191 - dispatch - DEBUG - Picking order e6b72c73-fa53-4f2c-a004-0b60ba7b3be9
+2020-04-17 08:36:34,219 - dispatch - DEBUG - Dispatch time for order a0023411-c19d-4723-b6d1-6b8c8ff1b417 is 4
+2020-04-17 08:36:34,726 - dispatch - DEBUG - Dispatch time for order 46a4e47d-ccc1-4c88-a006-83930521899c is 3
+2020-04-17 08:36:35,231 - dispatch - DEBUG - Dispatch time for order e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d is 3
+2020-04-17 08:36:35,706 - dispatch - DEBUG - Picking order 24f3e17b-eba0-409a-8630-463cb05d89c3
+2020-04-17 08:36:35,742 - dispatch - DEBUG - Dispatch time for order 848dfc63-eab6-48b7-a2db-04d13190ce8c is 4
+2020-04-17 08:36:36,249 - dispatch - DEBUG - Dispatch time for order 42951124-c574-45a0-bddf-25e702c65914 is 5
+2020-04-17 08:36:36,698 - dispatch - DEBUG - Picking order 4546646c-3ca5-4da6-9c60-312a897a6907
+2020-04-17 08:36:36,716 - dispatch - DEBUG - Picking order 2c772706-189c-4ec4-80ad-06ea17f21f11
+2020-04-17 08:36:36,751 - dispatch - DEBUG - Dispatch time for order df726ab4-a999-46b5-8e31-4a1bd523fcb9 is 2
+2020-04-17 08:36:37,199 - dispatch - DEBUG - Picking order 8ea031b3-6545-4140-9dee-745268d7b877
+2020-04-17 08:36:37,253 - dispatch - DEBUG - Dispatch time for order 5bb755b9-e6a8-4932-9139-bc04fafbc240 is 3
+2020-04-17 08:36:37,730 - dispatch - DEBUG - Picking order 46a4e47d-ccc1-4c88-a006-83930521899c
+2020-04-17 08:36:37,757 - dispatch - DEBUG - Dispatch time for order 58dbdb26-670c-4dac-b72c-21152f5d62e7 is 5
+2020-04-17 08:36:38,211 - dispatch - DEBUG - Picking order def3f65e-6ffb-4715-8561-ace9d312ddc5
+2020-04-17 08:36:38,222 - dispatch - DEBUG - Picking order a0023411-c19d-4723-b6d1-6b8c8ff1b417
+2020-04-17 08:36:38,236 - dispatch - DEBUG - Picking order e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d
+2020-04-17 08:36:38,263 - dispatch - DEBUG - Dispatch time for order 4ed428d6-f247-451a-aebf-c5157b2eb502 is 5
+2020-04-17 08:36:38,754 - dispatch - DEBUG - Picking order df726ab4-a999-46b5-8e31-4a1bd523fcb9
+2020-04-17 08:36:38,767 - dispatch - DEBUG - Dispatch time for order 62e667ee-a86d-4be2-97f6-a6af60183e88 is 4
+2020-04-17 08:36:39,271 - dispatch - DEBUG - Dispatch time for order df4e3e19-55d2-4131-8ab0-3563b44f8291 is 3
+2020-04-17 08:36:39,745 - dispatch - DEBUG - Picking order 848dfc63-eab6-48b7-a2db-04d13190ce8c
+2020-04-17 08:36:39,776 - dispatch - DEBUG - Dispatch time for order 44e6ea89-f11c-414d-aa72-7c10641eff8d is 4
+2020-04-17 08:36:40,253 - dispatch - DEBUG - Picking order 5bb755b9-e6a8-4932-9139-bc04fafbc240
+2020-04-17 08:36:40,282 - dispatch - DEBUG - Dispatch time for order 48465fc7-d534-4b9b-b919-63e5beebd301 is 4
+2020-04-17 08:36:40,784 - dispatch - DEBUG - Dispatch time for order fb850bd3-728f-4118-a097-2bcf3a12c239 is 5
+2020-04-17 08:36:41,253 - dispatch - DEBUG - Picking order 42951124-c574-45a0-bddf-25e702c65914
+2020-04-17 08:36:41,290 - dispatch - DEBUG - Dispatch time for order 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017 is 4
+2020-04-17 08:36:41,792 - dispatch - DEBUG - Dispatch time for order 68e83bf6-bdee-4192-8905-40140b421bc6 is 4
+2020-04-17 08:36:42,276 - dispatch - DEBUG - Picking order df4e3e19-55d2-4131-8ab0-3563b44f8291
+2020-04-17 08:36:42,296 - dispatch - DEBUG - Dispatch time for order 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6 is 3
+2020-04-17 08:36:42,761 - dispatch - DEBUG - Picking order 58dbdb26-670c-4dac-b72c-21152f5d62e7
+2020-04-17 08:36:42,772 - dispatch - DEBUG - Picking order 62e667ee-a86d-4be2-97f6-a6af60183e88
+2020-04-17 08:36:42,800 - dispatch - DEBUG - Dispatch time for order 1b9a920d-2880-44a3-abba-20903f2690d6 is 4
+2020-04-17 08:36:43,266 - dispatch - DEBUG - Picking order 4ed428d6-f247-451a-aebf-c5157b2eb502
+2020-04-17 08:36:43,303 - dispatch - DEBUG - Dispatch time for order c5ec5a4b-818e-4478-8956-019259be4168 is 4
+2020-04-17 08:36:43,779 - dispatch - DEBUG - Picking order 44e6ea89-f11c-414d-aa72-7c10641eff8d
+2020-04-17 08:36:43,809 - dispatch - DEBUG - Dispatch time for order 4c25f887-03cc-4dcd-9945-6a8102c5ef22 is 2
+2020-04-17 08:36:44,285 - dispatch - DEBUG - Picking order 48465fc7-d534-4b9b-b919-63e5beebd301
+2020-04-17 08:36:44,311 - dispatch - DEBUG - Dispatch time for order 7f2381be-5ab9-4385-a7a2-4a940a22e134 is 3
+2020-04-17 08:36:44,817 - dispatch - DEBUG - Dispatch time for order 75bef98f-89ba-4359-b738-b3184688ca7a is 2
+2020-04-17 08:36:45,294 - dispatch - DEBUG - Picking order 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017
+2020-04-17 08:36:45,302 - dispatch - DEBUG - Picking order 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6
+2020-04-17 08:36:45,325 - dispatch - DEBUG - Dispatch time for order 60db864b-8270-43ef-9d91-985707390765 is 3
+2020-04-17 08:36:45,788 - dispatch - DEBUG - Picking order fb850bd3-728f-4118-a097-2bcf3a12c239
+2020-04-17 08:36:45,794 - dispatch - DEBUG - Picking order 68e83bf6-bdee-4192-8905-40140b421bc6
+2020-04-17 08:36:45,813 - dispatch - DEBUG - Picking order 4c25f887-03cc-4dcd-9945-6a8102c5ef22
+2020-04-17 08:36:45,831 - dispatch - DEBUG - Dispatch time for order 22f532ca-dfc8-448a-9e04-7dcfa01a175e is 5
+2020-04-17 08:36:46,339 - dispatch - DEBUG - Dispatch time for order a0d76390-3e71-440e-a742-20c36a67fa9a is 3
+2020-04-17 08:36:46,804 - dispatch - DEBUG - Picking order 1b9a920d-2880-44a3-abba-20903f2690d6
+2020-04-17 08:36:46,822 - dispatch - DEBUG - Picking order 75bef98f-89ba-4359-b738-b3184688ca7a
+2020-04-17 08:36:46,841 - dispatch - DEBUG - Dispatch time for order 020ad68f-da34-4eca-ae7e-3b67e80a299c is 3
+2020-04-17 08:36:47,308 - dispatch - DEBUG - Picking order c5ec5a4b-818e-4478-8956-019259be4168
+2020-04-17 08:36:47,316 - dispatch - DEBUG - Picking order 7f2381be-5ab9-4385-a7a2-4a940a22e134
+2020-04-17 08:36:47,347 - dispatch - DEBUG - Dispatch time for order 2aab593e-1d1d-4a65-a582-2999f80c3dee is 2
+2020-04-17 08:36:47,856 - dispatch - DEBUG - Dispatch time for order 3447acdb-475a-400c-91e0-9724d2043e27 is 2
+2020-04-17 08:36:48,326 - dispatch - DEBUG - Picking order 60db864b-8270-43ef-9d91-985707390765
+2020-04-17 08:36:48,361 - dispatch - DEBUG - Dispatch time for order f6e68da8-9909-431e-bf1b-88367677a03e is 2
+2020-04-17 08:36:48,866 - dispatch - DEBUG - Dispatch time for order bcd22756-b3ac-473b-93fa-a19cf941bc40 is 4
+2020-04-17 08:36:49,343 - dispatch - DEBUG - Picking order a0d76390-3e71-440e-a742-20c36a67fa9a
+2020-04-17 08:36:49,352 - dispatch - DEBUG - Picking order 2aab593e-1d1d-4a65-a582-2999f80c3dee
+2020-04-17 08:36:49,373 - dispatch - DEBUG - Dispatch time for order 506a5c01-b06b-4af8-a1f2-913f9ae01078 is 2
+2020-04-17 08:36:49,846 - dispatch - DEBUG - Picking order 020ad68f-da34-4eca-ae7e-3b67e80a299c
+2020-04-17 08:36:49,860 - dispatch - DEBUG - Picking order 3447acdb-475a-400c-91e0-9724d2043e27
+2020-04-17 08:36:49,878 - dispatch - DEBUG - Dispatch time for order 10ea72c1-b538-4eb8-b260-f58775481a0b is 3
+2020-04-17 08:36:50,365 - dispatch - DEBUG - Picking order f6e68da8-9909-431e-bf1b-88367677a03e
+2020-04-17 08:36:50,384 - dispatch - DEBUG - Dispatch time for order 5e9cb832-6a0a-49fa-8799-8d744b499fce is 4
+2020-04-17 08:36:50,833 - dispatch - DEBUG - Picking order 22f532ca-dfc8-448a-9e04-7dcfa01a175e
+2020-04-17 08:36:50,889 - dispatch - DEBUG - Dispatch time for order a7d778ff-9711-4d3c-b370-6052965f64c0 is 4
+2020-04-17 08:36:51,377 - dispatch - DEBUG - Picking order 506a5c01-b06b-4af8-a1f2-913f9ae01078
+2020-04-17 08:36:51,394 - dispatch - DEBUG - Dispatch time for order 40990373-5eac-4e15-9634-450886fe3374 is 5
+2020-04-17 08:36:51,898 - dispatch - DEBUG - Dispatch time for order 3ea0971e-2478-4545-b814-a857fb294a9d is 2
+2020-04-17 08:36:52,401 - dispatch - DEBUG - Dispatch time for order 33bcf189-ba71-48ab-a2d5-75c18d180269 is 4
+2020-04-17 08:36:52,868 - dispatch - DEBUG - Picking order bcd22756-b3ac-473b-93fa-a19cf941bc40
+2020-04-17 08:36:52,883 - dispatch - DEBUG - Picking order 10ea72c1-b538-4eb8-b260-f58775481a0b
+2020-04-17 08:36:52,907 - dispatch - DEBUG - Dispatch time for order 22fc8ae6-74f7-467f-8735-774d579a2ae0 is 3
+2020-04-17 08:36:53,413 - dispatch - DEBUG - Dispatch time for order 19de820c-4691-420c-ad67-95ec7f5abc2d is 2
+2020-04-17 08:36:53,903 - dispatch - DEBUG - Picking order 3ea0971e-2478-4545-b814-a857fb294a9d
+2020-04-17 08:36:53,919 - dispatch - DEBUG - Dispatch time for order 3b62609c-38f2-499e-a9b1-c3604dad425d is 3
+2020-04-17 08:36:54,387 - dispatch - DEBUG - Picking order 5e9cb832-6a0a-49fa-8799-8d744b499fce
+2020-04-17 08:36:54,425 - dispatch - DEBUG - Dispatch time for order df79a7e4-d3f9-450c-b2e3-316fb462db29 is 5
+2020-04-17 08:36:54,893 - dispatch - DEBUG - Picking order a7d778ff-9711-4d3c-b370-6052965f64c0
+2020-04-17 08:36:54,930 - dispatch - DEBUG - Dispatch time for order d5fbbee2-09a7-459e-9621-33a66cdbf3ab is 4
+2020-04-17 08:36:55,417 - dispatch - DEBUG - Picking order 19de820c-4691-420c-ad67-95ec7f5abc2d
+2020-04-17 08:36:55,433 - dispatch - DEBUG - Dispatch time for order 69ad8b1c-3218-4c41-aa42-5aca43ca4173 is 5
+2020-04-17 08:36:55,913 - dispatch - DEBUG - Picking order 22fc8ae6-74f7-467f-8735-774d579a2ae0
+2020-04-17 08:36:55,939 - dispatch - DEBUG - Dispatch time for order 68037649-56cd-4f0f-90fd-6e6ccbf61b37 is 4
+2020-04-17 08:36:56,395 - dispatch - DEBUG - Picking order 40990373-5eac-4e15-9634-450886fe3374
+2020-04-17 08:36:56,405 - dispatch - DEBUG - Picking order 33bcf189-ba71-48ab-a2d5-75c18d180269
+2020-04-17 08:36:56,446 - dispatch - DEBUG - Dispatch time for order 5bd1e697-10b2-48cf-83c4-033eea97bfb2 is 5
+2020-04-17 08:36:56,923 - dispatch - DEBUG - Picking order 3b62609c-38f2-499e-a9b1-c3604dad425d
+2020-04-17 08:36:56,949 - dispatch - DEBUG - Dispatch time for order 228ec414-19ca-41e4-8d6c-bd2b0662bfa3 is 5
+2020-04-17 08:36:57,455 - dispatch - DEBUG - Dispatch time for order b1315bfb-4528-4ae2-b6ed-adb03a25b94a is 5
+2020-04-17 08:36:57,960 - dispatch - DEBUG - Dispatch time for order eafcb22b-0f68-4773-80ba-f163b191578f is 3
+2020-04-17 08:36:58,463 - dispatch - DEBUG - Dispatch time for order b25914fa-c5b0-4aa6-a0f5-fcc76203bba5 is 4
+2020-04-17 08:36:58,936 - dispatch - DEBUG - Picking order d5fbbee2-09a7-459e-9621-33a66cdbf3ab
+2020-04-17 08:36:58,968 - dispatch - DEBUG - Dispatch time for order 03267ca9-47fd-4d16-bba7-a650cc7660b6 is 4
+2020-04-17 08:36:59,428 - dispatch - DEBUG - Picking order df79a7e4-d3f9-450c-b2e3-316fb462db29
+2020-04-17 08:36:59,473 - dispatch - DEBUG - Dispatch time for order 9012736d-777b-4f5b-a12d-982e302fefa1 is 5
+2020-04-17 08:36:59,944 - dispatch - DEBUG - Picking order 68037649-56cd-4f0f-90fd-6e6ccbf61b37
+2020-04-17 08:36:59,981 - dispatch - DEBUG - Dispatch time for order f21bf58b-e23b-491f-a285-d70cb21cc36f is 4
+2020-04-17 08:37:00,438 - dispatch - DEBUG - Picking order 69ad8b1c-3218-4c41-aa42-5aca43ca4173
+2020-04-17 08:37:00,483 - dispatch - DEBUG - Dispatch time for order 057bc043-5f22-4169-9711-c6e2488b35f7 is 4
+2020-04-17 08:37:00,963 - dispatch - DEBUG - Picking order eafcb22b-0f68-4773-80ba-f163b191578f
+2020-04-17 08:37:00,989 - dispatch - DEBUG - Dispatch time for order 7f682ade-8375-4ef4-aa9b-45440f361268 is 4
+2020-04-17 08:37:01,450 - dispatch - DEBUG - Picking order 5bd1e697-10b2-48cf-83c4-033eea97bfb2
+2020-04-17 08:37:01,493 - dispatch - DEBUG - Dispatch time for order 0d841704-92a0-44e1-aaf8-02a8ee920775 is 5
+2020-04-17 08:37:01,953 - dispatch - DEBUG - Picking order 228ec414-19ca-41e4-8d6c-bd2b0662bfa3
+2020-04-17 08:37:01,999 - dispatch - DEBUG - Dispatch time for order 7f89b973-d4fd-4d6e-a279-afc2db6b3304 is 5
+2020-04-17 08:37:02,458 - dispatch - DEBUG - Picking order b1315bfb-4528-4ae2-b6ed-adb03a25b94a
+2020-04-17 08:37:02,466 - dispatch - DEBUG - Picking order b25914fa-c5b0-4aa6-a0f5-fcc76203bba5
+2020-04-17 08:37:02,504 - dispatch - DEBUG - Dispatch time for order 2a23c77f-3ee3-4a52-8810-93e73df4e887 is 4
+2020-04-17 08:37:02,968 - dispatch - DEBUG - Picking order 03267ca9-47fd-4d16-bba7-a650cc7660b6
+2020-04-17 08:37:03,010 - dispatch - DEBUG - Dispatch time for order 4f304b59-6634-4558-a128-a8ce12b1f818 is 2
+2020-04-17 08:37:03,984 - dispatch - DEBUG - Picking order f21bf58b-e23b-491f-a285-d70cb21cc36f
+2020-04-17 08:37:04,478 - dispatch - DEBUG - Picking order 9012736d-777b-4f5b-a12d-982e302fefa1
+2020-04-17 08:37:04,488 - dispatch - DEBUG - Picking order 057bc043-5f22-4169-9711-c6e2488b35f7
+2020-04-17 08:37:04,993 - dispatch - DEBUG - Picking order 7f682ade-8375-4ef4-aa9b-45440f361268
+2020-04-17 08:37:05,015 - dispatch - DEBUG - Picking order 4f304b59-6634-4558-a128-a8ce12b1f818
+2020-04-17 08:37:06,496 - dispatch - DEBUG - Picking order 0d841704-92a0-44e1-aaf8-02a8ee920775
+2020-04-17 08:37:06,509 - dispatch - DEBUG - Picking order 2a23c77f-3ee3-4a52-8810-93e73df4e887
+2020-04-17 08:37:07,001 - dispatch - DEBUG - Picking order 7f89b973-d4fd-4d6e-a279-afc2db6b3304

@@ -1,6 +1,14 @@
 from datetime import datetime
+from enum import Enum
 
-from constants import OVERFLOW
+
+class OrderState(Enum):
+    HOT = 1
+    COLD = 2
+    FROZEN = 3
+    OVERFLOW = 4
+    WASTED = 5
+    PICKED_UP = 6
 
 """
 Class for representing order object.
@@ -16,15 +24,16 @@ class Order:
         self.shelf_life = order['shelfLife']
         self.decay_rate = order['decayRate']
         self._start_time = None
-        self._shelf = None
+        self._state = None
+        self._state_history = []
 
     def compute_value(self):
         if not self._start_time:
             raise UnboundLocalError("Start time is not set")
-        if not self._shelf:
-            raise UnboundLocalError("Shelf is not set")
+        if not self._state:
+            raise UnboundLocalError("State is not set")
         order_age = (datetime.now() - self._start_time).seconds
-        shelf_decay_modifier = 2 if self._shelf == OVERFLOW else 1
+        shelf_decay_modifier = 2 if self._state == OrderState.OVERFLOW else 1
         numerator = float(
             self.shelf_life -
             self.decay_rate * order_age * shelf_decay_modifier)
@@ -33,15 +42,19 @@ class Order:
     def set_start_time(self):
         self._start_time = datetime.now()
 
-    def set_shelf(self, shelf):
-        self._shelf = shelf
+    def set_state(self, state):
+        self._state = state
+        self._state_history.append(state)
 
     def get_start_time(self):
         if not self._start_time:
             raise UnboundLocalError("Start time is not set")
         return self._start_time
 
-    def get_shelf(self):
-        if not self._shelf:
-            raise UnboundLocalError("Shelf is not set")
-        return self._shelf
+    def get_state(self):
+        if not self._state:
+            raise UnboundLocalError("State is not set")
+        return self._state
+
+    def get_order_history_as_string(self):
+        return ",".join([val.name for val in self._state_history])

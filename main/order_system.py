@@ -1,10 +1,10 @@
 from collections import deque
 import time
 
-from constants import HOT, COLD, FROZEN, OVERFLOW
-from courier_dispatcher import CourierDispatcher
-from order import Order
-from kitchen import Kitchen
+from .constants import HOT, COLD, FROZEN, OVERFLOW
+from .courier_dispatcher import CourierDispatcher
+from .order import Order
+from .kitchen import Kitchen
 
 
 """
@@ -17,12 +17,22 @@ dispatcher.
 class OrderSystem:
     def __init__(self, order_rate=2,
                  capacities={HOT: 10, COLD: 10, FROZEN: 10, OVERFLOW: 15},
-                 max_workers=20, run_cleanup=True):
+                 max_workers=20, run_cleanup=True, results_file='results.tsv'):
         self.order_rate = order_rate  # rate of sending of orders
         self.orders = deque()
         self.time_to_wait = 1.0 / float(order_rate)
-        self.kitchen = Kitchen(capacities, run_cleanup=run_cleanup)
+        self.kitchen = Kitchen(capacities, run_cleanup=run_cleanup,
+                               results_file=results_file)
         self.courier_dispatcher = CourierDispatcher(max_workers)
+
+    def upload_orders(self, orders, send_to_kitchen=True):
+        """
+        param send_to_kitchen is for testing
+        """
+        for order in orders:
+            self.orders.append(Order(order))
+        if send_to_kitchen:
+            self.__send_to_kitchen()
 
     def __send_to_kitchen(self):
         """
@@ -37,12 +47,3 @@ class OrderSystem:
             self.kitchen.process_order(curr_order)
             self.courier_dispatcher.dispatch(curr_order, self.kitchen)
             time.sleep(self.time_to_wait)
-
-    def upload_orders(self, orders, send_to_kitchen=True):
-        """
-        param send_to_kitchen is for testing
-        """
-        for order in orders:
-            self.orders.append(Order(order))
-        if send_to_kitchen:
-            self.__send_to_kitchen()

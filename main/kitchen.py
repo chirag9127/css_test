@@ -1,13 +1,17 @@
 from collections import defaultdict
+from datetime import datetime
 import logging
+import os
 import sys
 import threading
 
-from constants import OVERFLOW, WASTED
+from .constants import OVERFLOW, SHELF_TO_STATE, STATE_TO_SHELF
+from .order import OrderState
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 formatter = logging.Formatter(
     '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler = logging.FileHandler('kitchen.log')
+handler = logging.FileHandler(dir_path + '/../logs/kitchen.log')
 handler.setFormatter(formatter)
 handler1 = logging.StreamHandler(sys.stdout)
 handler1.setFormatter(formatter)
@@ -24,14 +28,17 @@ to the shelf
 
 
 class Kitchen:
-    def __init__(self, capacities, run_cleanup=False):
+    def __init__(self, capacities, run_cleanup=False,
+                 results_file='results.tsv'):
         self.lock = threading.Lock()
-        self.shelves = defaultdict(list)
+        self.shelves = defaultdict(dict)
         self.capacities = capacities
         for shelf_type in self.capacities:
             self.shelves[shelf_type]
-        self.shelves[WASTED]  # this is primarily for book keeping
+        self.wasted = []  # this is primarily for book keeping
+        self.picked_up = []
         self.run_cleanup = run_cleanup
+        self.results_file = results_file
 
     def process_order(self, order):
         """Processes each order. Called by order system
@@ -41,9 +48,42 @@ class Kitchen:
         order.set_start_time()
         self.__put_order_on_shelf(order)
 
+    def pick_order_from_shelf(self, order):
+        self.lock.acquire()
+        try:
+            if self.__check_order_is_wasted(order):
+                return
+
+            self.__pickup_order(order)
+        finally:
+            self.__update_results(order)
+            self.lock.release()
+
+    def __update_results(self, order):
+        try:
+            with open(self.results_file, 'a+') as f:
+                f.write("\t".join([order.order_id,
+                                   order.get_start_time().strftime(
+                                       "%d-%b-%Y (%H:%M:%S.%f)"),
+                                   datetime.now().strftime(
+                                       "%d-%b-%Y (%H:%M:%S.%f)"),
+                                   str(order.compute_value()),
+                                   order.get_order_history_as_string(),
+                                   "\n"]))
+        except Exception as e:
+            print (e)
+
     def __update_shelf_and_order(self, order, shelf):
-        self.shelves[shelf].append(order)
-        order.set_shelf(shelf)
+        self.shelves[shelf][order.order_id] = order
+        order.set_state(SHELF_TO_STATE[shelf])
+        logger.debug("putting order {} on shelf {} with value {}".format(
+            order.order_id, shelf, order.compute_value()))
+
+    def __move_to_wasted(self, order):
+        self.wasted.append(order)
+        order.set_state(OrderState.WASTED)
+        logger.debug("Order {} is wasted with value {}".format(
+            order.order_id, order.compute_value()))
 
     def __move_from_overflow(self, order):
         """If order cannot be placed in nomal shelf, this function will try to
@@ -52,11 +92,11 @@ class Kitchen:
         Params: Order
         rtype: Boolean
         """
-        for pos, order_to_move in enumerate(self.shelves[OVERFLOW]):
+        for o_id, order_to_move in self.shelves[OVERFLOW].items():
             if len(self.shelves[order_to_move.temp]) \
                     < self.capacities[order_to_move.temp]:
                 self.__update_shelf_and_order(order_to_move, order_to_move.temp)
-                del self.shelves[OVERFLOW][pos]
+                del self.shelves[OVERFLOW][o_id]
                 return True
         return False
 
@@ -92,8 +132,8 @@ class Kitchen:
             if len(self.shelves[order.temp]) >= self.capacities[order.temp]:
                 can_add_to_overflow = self.__add_to_overflow(order)
                 if not can_add_to_overflow:
-                    self.__update_shelf_and_order(order, WASTED)
-                    logger.debug("ORDER WASTED!!! {}".format(
+                    self.__move_to_wasted(order)
+                    logger.debug("Order wasted {}".format(
                         order.order_id))
             else:
                 self.__update_shelf_and_order(order, order.temp)
@@ -103,31 +143,26 @@ class Kitchen:
         finally:
             self.lock.release()
 
-    def pick_order_from_shelf(self, order):
-        self.lock.acquire()
-        try:
-            shelves = self.shelves
-            if order.get_shelf() == WASTED:
-                logger.debug("Could not pickup order {} with value {}" \
-                             "because it is wasted".format(
-                                 order.order_id, order.compute_value()))
-                return
-            if order.compute_value() < 0:
-                self.__update_shelf_and_order(order, WASTED)
-                for pos, order_to_delete in enumerate(self.shelves[order.get_shelf()]):
-                    if order_to_delete.order_id == order.order_id:
-                        del self.shelves[order.get_shelf][pos]
-
-            for pos, order_to_pick in enumerate(shelves[order.get_shelf()]):
-                if order.order_id == order_to_pick.order_id:
-                    logger.debug("Picking up order {} from {}".format(
-                        order.order_id, order.get_shelf()))
-                    del shelves[order.get_shelf()][pos]
-                    return
+    def __check_order_is_wasted(self, order):
+        if order.get_state() == OrderState.WASTED:
+            logger.debug("Could not pickup order {} with value {} "
+                         "because it is wasted".format(
+                             order.order_id, order.compute_value()))
+            return True
+        if order.compute_value() < 0:
             logger.debug("Could not pickup order {} with value {}".format(
                 order.order_id, order.compute_value()))
-        finally:
-            self.lock.release()
+            del self.shelves[STATE_TO_SHELF[order.get_state()]][order.order_id]
+            self.__move_to_wasted(order)
+            return True
+        return False
+
+    def __pickup_order(self, order):
+        logger.debug("Picking up order {} from {}".format(
+            order.order_id, order.get_state()))
+        self.picked_up.append(order)
+        del self.shelves[STATE_TO_SHELF[order.get_state()]][order.order_id]
+        order.set_state(OrderState.PICKED_UP)
 
     def __cleanup(self):
         """
@@ -148,14 +183,21 @@ class Kitchen:
         orders like in a garbage collector. This will need a lot of tuning to
         get right for a given usecase.
         We are going to be implementing option 1 since that will minimize
-        wastage.
+        wastage. We also do 2 since its a cheap check.
         """
+        items_to_delete = []
+        logger.debug("Starting cleanup")
         for shelf, orders in self.shelves.items():
-            if shelf == WASTED:
-                continue
-            for pos, order in enumerate(orders):
+            for o_id, order in orders.items():
                 if order.compute_value() < 0:
-                    logger.debug("deleting order {} with value {}".format(
-                        order.order_id, order.compute_value()))
-                    self.__update_shelf_and_order(order, WASTED)
-                    del orders[pos]
+                    items_to_delete.append((shelf, o_id))
+                    logger.debug("Marking order {} with "
+                                 "value {} for cleanup".format(
+                                     order.order_id, order.compute_value()))
+        logger.debug("Items to be deleted {}".format(items_to_delete))
+        for item in items_to_delete:
+            logger.debug("Cleaning order {} from shelf {}".format(
+                item[1], item[0]))
+            self.__move_to_wasted(self.shelves[item[0]][item[1]])
+            del self.shelves[item[0]][item[1]]
+        logger.debug("Finishing cleanup")

@@ -1,11 +1,13 @@
 from concurrent.futures import ThreadPoolExecutor
 import logging
+import os
 import random
 import time
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 formatter = logging.Formatter(
     '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler = logging.FileHandler('dispatch.log')
+handler = logging.FileHandler(dir_path + '/../logs/dispatch.log')
 handler.setFormatter(formatter)
 logger = logging.getLogger('dispatch')
 logger.setLevel(logging.DEBUG)

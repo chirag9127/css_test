@@ -73,6 +73,8 @@ optional arguments:
                         capacities for each shelf
   --results_file RESULTS_FILE
                         file for output
+Sample usage:
+python client.py --order_rate 0.5 max_workers 10 '{"hot": 5, "cold": 8, "frozen": 3, "overflow": 2}'
 ```
 
 ## Results

@@ -2416,3 +2416,1838 @@
 2020-04-17 08:37:06,496 - kitchen - DEBUG - Picking up order 0d841704-92a0-44e1-aaf8-02a8ee920775 from OrderState.HOT
 2020-04-17 08:37:06,509 - kitchen - DEBUG - Picking up order 2a23c77f-3ee3-4a52-8810-93e73df4e887 from OrderState.COLD
 2020-04-17 08:37:07,002 - kitchen - DEBUG - Picking up order 7f89b973-d4fd-4d6e-a279-afc2db6b3304 from OrderState.HOT
+2020-04-17 11:42:36,276 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:42:36,276 - kitchen - DEBUG - Order added 1 to hot and has value 1.0
+2020-04-17 11:42:36,276 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:42:36,781 - kitchen - DEBUG - putting order 2 on shelf hot with value 1.0
+2020-04-17 11:42:36,781 - kitchen - DEBUG - Order added 2 to hot and has value 1.0
+2020-04-17 11:42:36,782 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::0
+2020-04-17 11:42:37,286 - kitchen - DEBUG - putting order 3 on shelf hot with value 1.0
+2020-04-17 11:42:37,286 - kitchen - DEBUG - Order added 3 to hot and has value 1.0
+2020-04-17 11:42:37,286 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::3, overflow::0
+2020-04-17 11:42:38,282 - kitchen - DEBUG - Could not pickup order 1 with value -39.0
+2020-04-17 11:42:38,282 - kitchen - DEBUG - Order 1 is wasted with value -39.0
+2020-04-17 11:42:38,283 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:42:41,289 - kitchen - DEBUG - Could not pickup order 3 with value -79.0
+2020-04-17 11:42:41,290 - kitchen - DEBUG - Order 3 is wasted with value -79.0
+2020-04-17 11:42:41,298 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:42:41,786 - kitchen - DEBUG - Could not pickup order 2 with value -99.0
+2020-04-17 11:42:41,786 - kitchen - DEBUG - Order 2 is wasted with value -99.0
+2020-04-17 11:42:41,787 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:42:45,797 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:42:45,797 - kitchen - DEBUG - Order added 1 to hot and has value 1.0
+2020-04-17 11:42:45,798 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:42:46,299 - kitchen - DEBUG - Order 2 is wasted with value 1.0
+2020-04-17 11:42:46,300 - kitchen - DEBUG - Order wasted 2
+2020-04-17 11:42:46,300 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:42:46,804 - kitchen - DEBUG - Order 3 is wasted with value 1.0
+2020-04-17 11:42:46,804 - kitchen - DEBUG - Order wasted 3
+2020-04-17 11:42:46,804 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:42:48,799 - kitchen - DEBUG - Picking up order 1 from OrderState.HOT
+2020-04-17 11:42:48,802 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:42:51,306 - kitchen - DEBUG - Could not pickup order 2 with value -99.0 because it is wasted
+2020-04-17 11:42:51,306 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:42:51,811 - kitchen - DEBUG - Could not pickup order 3 with value -99.0 because it is wasted
+2020-04-17 11:42:51,814 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:42:55,318 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:42:55,319 - kitchen - DEBUG - Order added 1 to hot and has value 1.0
+2020-04-17 11:42:55,319 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:42:55,824 - kitchen - DEBUG - putting order 2 on shelf overflow with value 1.0
+2020-04-17 11:42:55,824 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::1
+2020-04-17 11:42:56,325 - kitchen - DEBUG - putting order 3 on shelf overflow with value 1.0
+2020-04-17 11:42:56,326 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:00,320 - kitchen - DEBUG - Picking up order 1 from OrderState.HOT
+2020-04-17 11:43:00,321 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:00,330 - kitchen - DEBUG - Picking up order 3 from OrderState.OVERFLOW
+2020-04-17 11:43:00,334 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:00,830 - kitchen - DEBUG - Picking up order 2 from OrderState.OVERFLOW
+2020-04-17 11:43:00,831 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:04,832 - kitchen - DEBUG - putting order 0 on shelf hot with value 1.0
+2020-04-17 11:43:04,833 - kitchen - DEBUG - Order added 0 to hot and has value 1.0
+2020-04-17 11:43:04,833 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:43:05,336 - kitchen - DEBUG - putting order 1 on shelf overflow with value 1.0
+2020-04-17 11:43:05,337 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::1
+2020-04-17 11:43:05,839 - kitchen - DEBUG - putting order 2 on shelf overflow with value 1.0
+2020-04-17 11:43:05,840 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:06,344 - kitchen - DEBUG - Order 3 is wasted with value 1.0
+2020-04-17 11:43:06,345 - kitchen - DEBUG - Order wasted 3
+2020-04-17 11:43:06,345 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:06,849 - kitchen - DEBUG - Order 4 is wasted with value 1.0
+2020-04-17 11:43:06,849 - kitchen - DEBUG - Order wasted 4
+2020-04-17 11:43:06,849 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:07,350 - kitchen - DEBUG - Order 5 is wasted with value 1.0
+2020-04-17 11:43:07,351 - kitchen - DEBUG - Order wasted 5
+2020-04-17 11:43:07,351 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:07,856 - kitchen - DEBUG - Order 6 is wasted with value 1.0
+2020-04-17 11:43:07,857 - kitchen - DEBUG - Order wasted 6
+2020-04-17 11:43:07,857 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:08,358 - kitchen - DEBUG - Order 7 is wasted with value 1.0
+2020-04-17 11:43:08,359 - kitchen - DEBUG - Order wasted 7
+2020-04-17 11:43:08,359 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:08,862 - kitchen - DEBUG - Order 8 is wasted with value 1.0
+2020-04-17 11:43:08,862 - kitchen - DEBUG - Order wasted 8
+2020-04-17 11:43:08,862 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:09,340 - kitchen - DEBUG - Could not pickup order 1 with value -159.0
+2020-04-17 11:43:09,340 - kitchen - DEBUG - Order 1 is wasted with value -79.0
+2020-04-17 11:43:09,343 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:09,349 - kitchen - DEBUG - Could not pickup order 3 with value -59.0 because it is wasted
+2020-04-17 11:43:09,349 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:09,368 - kitchen - DEBUG - putting order 9 on shelf overflow with value 1.0
+2020-04-17 11:43:09,369 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:09,837 - kitchen - DEBUG - Could not pickup order 0 with value -99.0
+2020-04-17 11:43:09,837 - kitchen - DEBUG - Order 0 is wasted with value -99.0
+2020-04-17 11:43:09,840 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:09,845 - kitchen - DEBUG - Could not pickup order 2 with value -159.0
+2020-04-17 11:43:09,845 - kitchen - DEBUG - Order 2 is wasted with value -79.0
+2020-04-17 11:43:09,845 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:09,874 - kitchen - DEBUG - putting order 10 on shelf hot with value 1.0
+2020-04-17 11:43:09,874 - kitchen - DEBUG - Order added 10 to hot and has value 1.0
+2020-04-17 11:43:09,874 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::1
+2020-04-17 11:43:10,356 - kitchen - DEBUG - Could not pickup order 5 with value -59.0 because it is wasted
+2020-04-17 11:43:10,360 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:10,362 - kitchen - DEBUG - Could not pickup order 7 with value -39.0 because it is wasted
+2020-04-17 11:43:10,362 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:10,379 - kitchen - DEBUG - putting order 11 on shelf overflow with value 1.0
+2020-04-17 11:43:10,379 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:10,855 - kitchen - DEBUG - Could not pickup order 4 with value -79.0 because it is wasted
+2020-04-17 11:43:10,858 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:10,884 - kitchen - DEBUG - Order 12 is wasted with value 1.0
+2020-04-17 11:43:10,884 - kitchen - DEBUG - Order wasted 12
+2020-04-17 11:43:10,885 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:11,388 - kitchen - DEBUG - Order 13 is wasted with value 1.0
+2020-04-17 11:43:11,389 - kitchen - DEBUG - Order wasted 13
+2020-04-17 11:43:11,389 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:11,861 - kitchen - DEBUG - Could not pickup order 6 with value -79.0 because it is wasted
+2020-04-17 11:43:11,862 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:11,894 - kitchen - DEBUG - Order 14 is wasted with value 1.0
+2020-04-17 11:43:11,894 - kitchen - DEBUG - Order wasted 14
+2020-04-17 11:43:11,895 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:12,371 - kitchen - DEBUG - Could not pickup order 9 with value -119.0
+2020-04-17 11:43:12,371 - kitchen - DEBUG - Order 9 is wasted with value -59.0
+2020-04-17 11:43:12,374 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:12,397 - kitchen - DEBUG - putting order 15 on shelf overflow with value 1.0
+2020-04-17 11:43:12,397 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:12,864 - kitchen - DEBUG - Could not pickup order 8 with value -79.0 because it is wasted
+2020-04-17 11:43:12,865 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:12,886 - kitchen - DEBUG - Could not pickup order 12 with value -39.0 because it is wasted
+2020-04-17 11:43:12,890 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:12,900 - kitchen - DEBUG - Order 16 is wasted with value 1.0
+2020-04-17 11:43:12,900 - kitchen - DEBUG - Order wasted 16
+2020-04-17 11:43:12,900 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:13,392 - kitchen - DEBUG - Could not pickup order 13 with value -39.0 because it is wasted
+2020-04-17 11:43:13,393 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:13,402 - kitchen - DEBUG - Order 17 is wasted with value 1.0
+2020-04-17 11:43:13,403 - kitchen - DEBUG - Order wasted 17
+2020-04-17 11:43:13,403 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:13,879 - kitchen - DEBUG - Could not pickup order 10 with value -79.0
+2020-04-17 11:43:13,879 - kitchen - DEBUG - Order 10 is wasted with value -79.0
+2020-04-17 11:43:13,882 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:13,904 - kitchen - DEBUG - putting order 18 on shelf hot with value 1.0
+2020-04-17 11:43:13,904 - kitchen - DEBUG - Order added 18 to hot and has value 1.0
+2020-04-17 11:43:13,904 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:14,407 - kitchen - DEBUG - Order 19 is wasted with value 1.0
+2020-04-17 11:43:14,408 - kitchen - DEBUG - Order wasted 19
+2020-04-17 11:43:14,408 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:14,914 - kitchen - DEBUG - Order 20 is wasted with value 1.0
+2020-04-17 11:43:14,914 - kitchen - DEBUG - Order wasted 20
+2020-04-17 11:43:14,914 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:15,385 - kitchen - DEBUG - Could not pickup order 11 with value -199.0
+2020-04-17 11:43:15,385 - kitchen - DEBUG - Order 11 is wasted with value -99.0
+2020-04-17 11:43:15,386 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:15,418 - kitchen - DEBUG - putting order 21 on shelf overflow with value 1.0
+2020-04-17 11:43:15,418 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:15,900 - kitchen - DEBUG - Could not pickup order 14 with value -79.0 because it is wasted
+2020-04-17 11:43:15,903 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:15,923 - kitchen - DEBUG - Order 22 is wasted with value 1.0
+2020-04-17 11:43:15,923 - kitchen - DEBUG - Order wasted 22
+2020-04-17 11:43:15,923 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:16,400 - kitchen - DEBUG - Could not pickup order 15 with value -159.0
+2020-04-17 11:43:16,400 - kitchen - DEBUG - Order 15 is wasted with value -79.0
+2020-04-17 11:43:16,400 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:16,427 - kitchen - DEBUG - putting order 23 on shelf overflow with value 1.0
+2020-04-17 11:43:16,428 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:16,933 - kitchen - DEBUG - Order 24 is wasted with value 1.0
+2020-04-17 11:43:16,934 - kitchen - DEBUG - Order wasted 24
+2020-04-17 11:43:16,934 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:17,414 - kitchen - DEBUG - Could not pickup order 19 with value -59.0 because it is wasted
+2020-04-17 11:43:17,417 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:17,422 - kitchen - DEBUG - Could not pickup order 21 with value -79.0
+2020-04-17 11:43:17,422 - kitchen - DEBUG - Order 21 is wasted with value -39.0
+2020-04-17 11:43:17,422 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:17,437 - kitchen - DEBUG - putting order 25 on shelf overflow with value 1.0
+2020-04-17 11:43:17,438 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:17,905 - kitchen - DEBUG - Could not pickup order 16 with value -99.0 because it is wasted
+2020-04-17 11:43:17,909 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:17,939 - kitchen - DEBUG - Order 26 is wasted with value 1.0
+2020-04-17 11:43:17,940 - kitchen - DEBUG - Order wasted 26
+2020-04-17 11:43:17,940 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:18,407 - kitchen - DEBUG - Could not pickup order 17 with value -99.0 because it is wasted
+2020-04-17 11:43:18,408 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:18,443 - kitchen - DEBUG - Order 27 is wasted with value 1.0
+2020-04-17 11:43:18,443 - kitchen - DEBUG - Order wasted 27
+2020-04-17 11:43:18,443 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:18,907 - kitchen - DEBUG - Could not pickup order 18 with value -99.0
+2020-04-17 11:43:18,908 - kitchen - DEBUG - Order 18 is wasted with value -99.0
+2020-04-17 11:43:18,911 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:18,920 - kitchen - DEBUG - Could not pickup order 20 with value -79.0 because it is wasted
+2020-04-17 11:43:18,921 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:18,924 - kitchen - DEBUG - Could not pickup order 22 with value -59.0 because it is wasted
+2020-04-17 11:43:18,927 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:18,947 - kitchen - DEBUG - putting order 28 on shelf hot with value 1.0
+2020-04-17 11:43:18,948 - kitchen - DEBUG - Order added 28 to hot and has value 1.0
+2020-04-17 11:43:18,948 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:19,429 - kitchen - DEBUG - Could not pickup order 23 with value -119.0
+2020-04-17 11:43:19,429 - kitchen - DEBUG - Order 23 is wasted with value -59.0
+2020-04-17 11:43:19,430 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:19,453 - kitchen - DEBUG - putting order 29 on shelf overflow with value 1.0
+2020-04-17 11:43:19,454 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:19,939 - kitchen - DEBUG - Could not pickup order 24 with value -59.0 because it is wasted
+2020-04-17 11:43:19,941 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:19,941 - kitchen - DEBUG - Could not pickup order 26 with value -39.0 because it is wasted
+2020-04-17 11:43:19,941 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:19,957 - kitchen - DEBUG - Order 30 is wasted with value 1.0
+2020-04-17 11:43:19,958 - kitchen - DEBUG - Order wasted 30
+2020-04-17 11:43:19,958 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:20,446 - kitchen - DEBUG - Could not pickup order 27 with value -39.0 because it is wasted
+2020-04-17 11:43:20,449 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:20,463 - kitchen - DEBUG - Order 31 is wasted with value 1.0
+2020-04-17 11:43:20,464 - kitchen - DEBUG - Order wasted 31
+2020-04-17 11:43:20,464 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:20,967 - kitchen - DEBUG - Order 32 is wasted with value 1.0
+2020-04-17 11:43:20,967 - kitchen - DEBUG - Order wasted 32
+2020-04-17 11:43:20,967 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:21,471 - kitchen - DEBUG - Order 33 is wasted with value 1.0
+2020-04-17 11:43:21,471 - kitchen - DEBUG - Order wasted 33
+2020-04-17 11:43:21,471 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:21,977 - kitchen - DEBUG - Order 34 is wasted with value 1.0
+2020-04-17 11:43:21,977 - kitchen - DEBUG - Order wasted 34
+2020-04-17 11:43:21,977 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:22,442 - kitchen - DEBUG - Could not pickup order 25 with value -199.0
+2020-04-17 11:43:22,443 - kitchen - DEBUG - Order 25 is wasted with value -99.0
+2020-04-17 11:43:22,443 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:22,480 - kitchen - DEBUG - putting order 35 on shelf overflow with value 1.0
+2020-04-17 11:43:22,480 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:22,985 - kitchen - DEBUG - Order 36 is wasted with value 1.0
+2020-04-17 11:43:22,985 - kitchen - DEBUG - Order wasted 36
+2020-04-17 11:43:22,985 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:23,487 - kitchen - DEBUG - Order 37 is wasted with value 1.0
+2020-04-17 11:43:23,488 - kitchen - DEBUG - Order wasted 37
+2020-04-17 11:43:23,488 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:23,951 - kitchen - DEBUG - Could not pickup order 28 with value -99.0
+2020-04-17 11:43:23,952 - kitchen - DEBUG - Order 28 is wasted with value -99.0
+2020-04-17 11:43:23,955 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:23,993 - kitchen - DEBUG - putting order 38 on shelf hot with value 1.0
+2020-04-17 11:43:23,994 - kitchen - DEBUG - Order added 38 to hot and has value 1.0
+2020-04-17 11:43:23,994 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:24,456 - kitchen - DEBUG - Could not pickup order 29 with value -199.0
+2020-04-17 11:43:24,457 - kitchen - DEBUG - Order 29 is wasted with value -99.0
+2020-04-17 11:43:24,457 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:24,485 - kitchen - DEBUG - Could not pickup order 35 with value -79.0
+2020-04-17 11:43:24,486 - kitchen - DEBUG - Order 35 is wasted with value -39.0
+2020-04-17 11:43:24,489 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:24,497 - kitchen - DEBUG - putting order 39 on shelf overflow with value 1.0
+2020-04-17 11:43:24,497 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::1
+2020-04-17 11:43:24,962 - kitchen - DEBUG - Could not pickup order 30 with value -99.0 because it is wasted
+2020-04-17 11:43:24,962 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:24,971 - kitchen - DEBUG - Could not pickup order 32 with value -79.0 because it is wasted
+2020-04-17 11:43:24,974 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:24,991 - kitchen - DEBUG - Could not pickup order 36 with value -39.0 because it is wasted
+2020-04-17 11:43:24,991 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:25,000 - kitchen - DEBUG - putting order 40 on shelf overflow with value 1.0
+2020-04-17 11:43:25,000 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:25,467 - kitchen - DEBUG - Could not pickup order 31 with value -99.0 because it is wasted
+2020-04-17 11:43:25,470 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:25,473 - kitchen - DEBUG - Could not pickup order 33 with value -79.0 because it is wasted
+2020-04-17 11:43:25,473 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:25,502 - kitchen - DEBUG - Order 41 is wasted with value 1.0
+2020-04-17 11:43:25,502 - kitchen - DEBUG - Order wasted 41
+2020-04-17 11:43:25,502 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:26,006 - kitchen - DEBUG - Order 42 is wasted with value 1.0
+2020-04-17 11:43:26,006 - kitchen - DEBUG - Order wasted 42
+2020-04-17 11:43:26,006 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:26,512 - kitchen - DEBUG - Order 43 is wasted with value 1.0
+2020-04-17 11:43:26,512 - kitchen - DEBUG - Order wasted 43
+2020-04-17 11:43:26,512 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:26,983 - kitchen - DEBUG - Could not pickup order 34 with value -99.0 because it is wasted
+2020-04-17 11:43:26,986 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:26,999 - kitchen - DEBUG - Could not pickup order 38 with value -59.0
+2020-04-17 11:43:26,999 - kitchen - DEBUG - Order 38 is wasted with value -59.0
+2020-04-17 11:43:26,999 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:27,016 - kitchen - DEBUG - putting order 44 on shelf hot with value 1.0
+2020-04-17 11:43:27,016 - kitchen - DEBUG - Order added 44 to hot and has value 1.0
+2020-04-17 11:43:27,016 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:27,521 - kitchen - DEBUG - Order 45 is wasted with value 1.0
+2020-04-17 11:43:27,522 - kitchen - DEBUG - Order wasted 45
+2020-04-17 11:43:27,522 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:28,026 - kitchen - DEBUG - Order 46 is wasted with value 1.0
+2020-04-17 11:43:28,027 - kitchen - DEBUG - Order wasted 46
+2020-04-17 11:43:28,027 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:28,491 - kitchen - DEBUG - Could not pickup order 37 with value -99.0 because it is wasted
+2020-04-17 11:43:28,494 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:28,508 - kitchen - DEBUG - Could not pickup order 41 with value -59.0 because it is wasted
+2020-04-17 11:43:28,509 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:28,531 - kitchen - DEBUG - Order 47 is wasted with value 1.0
+2020-04-17 11:43:28,532 - kitchen - DEBUG - Order wasted 47
+2020-04-17 11:43:28,532 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:29,037 - kitchen - DEBUG - Order 48 is wasted with value 1.0
+2020-04-17 11:43:29,037 - kitchen - DEBUG - Order wasted 48
+2020-04-17 11:43:29,037 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:29,501 - kitchen - DEBUG - Could not pickup order 39 with value -199.0
+2020-04-17 11:43:29,501 - kitchen - DEBUG - Order 39 is wasted with value -99.0
+2020-04-17 11:43:29,505 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:29,541 - kitchen - DEBUG - putting order 49 on shelf overflow with value 1.0
+2020-04-17 11:43:29,541 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:30,002 - kitchen - DEBUG - Could not pickup order 40 with value -199.0
+2020-04-17 11:43:30,002 - kitchen - DEBUG - Order 40 is wasted with value -99.0
+2020-04-17 11:43:30,002 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:30,011 - kitchen - DEBUG - Could not pickup order 42 with value -79.0 because it is wasted
+2020-04-17 11:43:30,014 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:30,047 - kitchen - DEBUG - putting order 50 on shelf overflow with value 1.0
+2020-04-17 11:43:30,047 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:30,517 - kitchen - DEBUG - Could not pickup order 43 with value -79.0 because it is wasted
+2020-04-17 11:43:30,517 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:30,537 - kitchen - DEBUG - Could not pickup order 47 with value -39.0 because it is wasted
+2020-04-17 11:43:30,541 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:30,551 - kitchen - DEBUG - Order 51 is wasted with value 1.0
+2020-04-17 11:43:30,551 - kitchen - DEBUG - Order wasted 51
+2020-04-17 11:43:30,552 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:31,057 - kitchen - DEBUG - Order 52 is wasted with value 1.0
+2020-04-17 11:43:31,057 - kitchen - DEBUG - Order wasted 52
+2020-04-17 11:43:31,057 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:31,523 - kitchen - DEBUG - Could not pickup order 45 with value -79.0 because it is wasted
+2020-04-17 11:43:31,524 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:31,545 - kitchen - DEBUG - Could not pickup order 49 with value -79.0
+2020-04-17 11:43:31,545 - kitchen - DEBUG - Order 49 is wasted with value -39.0
+2020-04-17 11:43:31,548 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:31,562 - kitchen - DEBUG - putting order 53 on shelf overflow with value 1.0
+2020-04-17 11:43:31,563 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:32,021 - kitchen - DEBUG - Could not pickup order 44 with value -99.0
+2020-04-17 11:43:32,021 - kitchen - DEBUG - Order 44 is wasted with value -99.0
+2020-04-17 11:43:32,022 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:32,032 - kitchen - DEBUG - Could not pickup order 46 with value -79.0 because it is wasted
+2020-04-17 11:43:32,037 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:32,043 - kitchen - DEBUG - Could not pickup order 48 with value -59.0 because it is wasted
+2020-04-17 11:43:32,044 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:32,063 - kitchen - DEBUG - putting order 54 on shelf hot with value 1.0
+2020-04-17 11:43:32,063 - kitchen - DEBUG - Order added 54 to hot and has value 1.0
+2020-04-17 11:43:32,063 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:32,554 - kitchen - DEBUG - Could not pickup order 51 with value -39.0 because it is wasted
+2020-04-17 11:43:32,558 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:32,566 - kitchen - DEBUG - Order 55 is wasted with value 1.0
+2020-04-17 11:43:32,566 - kitchen - DEBUG - Order wasted 55
+2020-04-17 11:43:32,566 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:33,059 - kitchen - DEBUG - Could not pickup order 52 with value -39.0 because it is wasted
+2020-04-17 11:43:33,060 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:33,071 - kitchen - DEBUG - Order 56 is wasted with value 1.0
+2020-04-17 11:43:33,071 - kitchen - DEBUG - Order wasted 56
+2020-04-17 11:43:33,071 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:33,577 - kitchen - DEBUG - Order 57 is wasted with value 1.0
+2020-04-17 11:43:33,577 - kitchen - DEBUG - Order wasted 57
+2020-04-17 11:43:33,577 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:34,052 - kitchen - DEBUG - Could not pickup order 50 with value -159.0
+2020-04-17 11:43:34,053 - kitchen - DEBUG - Order 50 is wasted with value -79.0
+2020-04-17 11:43:34,056 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:34,080 - kitchen - DEBUG - putting order 58 on shelf overflow with value 1.0
+2020-04-17 11:43:34,081 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:34,586 - kitchen - DEBUG - Order 59 is wasted with value 1.0
+2020-04-17 11:43:34,587 - kitchen - DEBUG - Order wasted 59
+2020-04-17 11:43:34,587 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:35,068 - kitchen - DEBUG - Could not pickup order 54 with value -59.0
+2020-04-17 11:43:35,068 - kitchen - DEBUG - Order 54 is wasted with value -59.0
+2020-04-17 11:43:35,069 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:35,087 - kitchen - DEBUG - putting order 60 on shelf hot with value 1.0
+2020-04-17 11:43:35,088 - kitchen - DEBUG - Order added 60 to hot and has value 1.0
+2020-04-17 11:43:35,088 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:35,571 - kitchen - DEBUG - Could not pickup order 55 with value -59.0 because it is wasted
+2020-04-17 11:43:35,575 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:35,591 - kitchen - DEBUG - Order 61 is wasted with value 1.0
+2020-04-17 11:43:35,591 - kitchen - DEBUG - Order wasted 61
+2020-04-17 11:43:35,591 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:36,095 - kitchen - DEBUG - Order 62 is wasted with value 1.0
+2020-04-17 11:43:36,096 - kitchen - DEBUG - Order wasted 62
+2020-04-17 11:43:36,096 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:36,569 - kitchen - DEBUG - Could not pickup order 53 with value -199.0
+2020-04-17 11:43:36,569 - kitchen - DEBUG - Order 53 is wasted with value -99.0
+2020-04-17 11:43:36,569 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:36,588 - kitchen - DEBUG - Could not pickup order 59 with value -39.0 because it is wasted
+2020-04-17 11:43:36,591 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:36,598 - kitchen - DEBUG - putting order 63 on shelf overflow with value 1.0
+2020-04-17 11:43:36,598 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:37,100 - kitchen - DEBUG - Order 64 is wasted with value 1.0
+2020-04-17 11:43:37,101 - kitchen - DEBUG - Order wasted 64
+2020-04-17 11:43:37,101 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:37,584 - kitchen - DEBUG - Could not pickup order 57 with value -79.0 because it is wasted
+2020-04-17 11:43:37,584 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:37,604 - kitchen - DEBUG - Order 65 is wasted with value 1.0
+2020-04-17 11:43:37,605 - kitchen - DEBUG - Order wasted 65
+2020-04-17 11:43:37,605 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:38,076 - kitchen - DEBUG - Could not pickup order 56 with value -99.0 because it is wasted
+2020-04-17 11:43:38,079 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:38,086 - kitchen - DEBUG - Could not pickup order 58 with value -159.0
+2020-04-17 11:43:38,086 - kitchen - DEBUG - Order 58 is wasted with value -79.0
+2020-04-17 11:43:38,087 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:38,099 - kitchen - DEBUG - Could not pickup order 62 with value -39.0 because it is wasted
+2020-04-17 11:43:38,102 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:38,107 - kitchen - DEBUG - putting order 66 on shelf overflow with value 1.0
+2020-04-17 11:43:38,107 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:38,597 - kitchen - DEBUG - Could not pickup order 61 with value -59.0 because it is wasted
+2020-04-17 11:43:38,598 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:38,613 - kitchen - DEBUG - Order 67 is wasted with value 1.0
+2020-04-17 11:43:38,613 - kitchen - DEBUG - Order wasted 67
+2020-04-17 11:43:38,613 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:39,115 - kitchen - DEBUG - Order 68 is wasted with value 1.0
+2020-04-17 11:43:39,115 - kitchen - DEBUG - Order wasted 68
+2020-04-17 11:43:39,115 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:39,619 - kitchen - DEBUG - Order 69 is wasted with value 1.0
+2020-04-17 11:43:39,619 - kitchen - DEBUG - Order wasted 69
+2020-04-17 11:43:39,620 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:40,089 - kitchen - DEBUG - Could not pickup order 60 with value -99.0
+2020-04-17 11:43:40,090 - kitchen - DEBUG - Order 60 is wasted with value -99.0
+2020-04-17 11:43:40,093 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:40,125 - kitchen - DEBUG - putting order 70 on shelf hot with value 1.0
+2020-04-17 11:43:40,125 - kitchen - DEBUG - Order added 70 to hot and has value 1.0
+2020-04-17 11:43:40,126 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:40,600 - kitchen - DEBUG - Could not pickup order 63 with value -159.0
+2020-04-17 11:43:40,600 - kitchen - DEBUG - Order 63 is wasted with value -79.0
+2020-04-17 11:43:40,601 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:40,629 - kitchen - DEBUG - putting order 71 on shelf overflow with value 1.0
+2020-04-17 11:43:40,629 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:41,105 - kitchen - DEBUG - Could not pickup order 64 with value -79.0 because it is wasted
+2020-04-17 11:43:41,109 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:41,110 - kitchen - DEBUG - Could not pickup order 66 with value -119.0
+2020-04-17 11:43:41,110 - kitchen - DEBUG - Order 66 is wasted with value -59.0
+2020-04-17 11:43:41,110 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:41,132 - kitchen - DEBUG - putting order 72 on shelf overflow with value 1.0
+2020-04-17 11:43:41,133 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:41,614 - kitchen - DEBUG - Could not pickup order 67 with value -59.0 because it is wasted
+2020-04-17 11:43:41,616 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:41,637 - kitchen - DEBUG - Order 73 is wasted with value 1.0
+2020-04-17 11:43:41,637 - kitchen - DEBUG - Order wasted 73
+2020-04-17 11:43:41,637 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:42,138 - kitchen - DEBUG - Order 74 is wasted with value 1.0
+2020-04-17 11:43:42,138 - kitchen - DEBUG - Order wasted 74
+2020-04-17 11:43:42,138 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:42,611 - kitchen - DEBUG - Could not pickup order 65 with value -99.0 because it is wasted
+2020-04-17 11:43:42,611 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:42,625 - kitchen - DEBUG - Could not pickup order 69 with value -59.0 because it is wasted
+2020-04-17 11:43:42,629 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:42,644 - kitchen - DEBUG - Order 75 is wasted with value 1.0
+2020-04-17 11:43:42,644 - kitchen - DEBUG - Order wasted 75
+2020-04-17 11:43:42,644 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:43,149 - kitchen - DEBUG - Order 76 is wasted with value 1.0
+2020-04-17 11:43:43,150 - kitchen - DEBUG - Order wasted 76
+2020-04-17 11:43:43,150 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:43,654 - kitchen - DEBUG - Order 77 is wasted with value 1.0
+2020-04-17 11:43:43,654 - kitchen - DEBUG - Order wasted 77
+2020-04-17 11:43:43,654 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:44,118 - kitchen - DEBUG - Could not pickup order 68 with value -99.0 because it is wasted
+2020-04-17 11:43:44,119 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:44,142 - kitchen - DEBUG - Could not pickup order 74 with value -39.0 because it is wasted
+2020-04-17 11:43:44,145 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:44,159 - kitchen - DEBUG - Order 78 is wasted with value 1.0
+2020-04-17 11:43:44,159 - kitchen - DEBUG - Order wasted 78
+2020-04-17 11:43:44,159 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:44,664 - kitchen - DEBUG - Order 79 is wasted with value 1.0
+2020-04-17 11:43:44,664 - kitchen - DEBUG - Order wasted 79
+2020-04-17 11:43:44,664 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:45,129 - kitchen - DEBUG - Could not pickup order 70 with value -99.0
+2020-04-17 11:43:45,129 - kitchen - DEBUG - Order 70 is wasted with value -99.0
+2020-04-17 11:43:45,129 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:45,169 - kitchen - DEBUG - putting order 80 on shelf hot with value 1.0
+2020-04-17 11:43:45,169 - kitchen - DEBUG - Order added 80 to hot and has value 1.0
+2020-04-17 11:43:45,169 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:45,634 - kitchen - DEBUG - Could not pickup order 71 with value -199.0
+2020-04-17 11:43:45,634 - kitchen - DEBUG - Order 71 is wasted with value -99.0
+2020-04-17 11:43:45,637 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:45,674 - kitchen - DEBUG - putting order 81 on shelf overflow with value 1.0
+2020-04-17 11:43:45,675 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:46,138 - kitchen - DEBUG - Could not pickup order 72 with value -199.0
+2020-04-17 11:43:46,138 - kitchen - DEBUG - Order 72 is wasted with value -99.0
+2020-04-17 11:43:46,138 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:46,165 - kitchen - DEBUG - Could not pickup order 78 with value -39.0 because it is wasted
+2020-04-17 11:43:46,168 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:46,180 - kitchen - DEBUG - putting order 82 on shelf overflow with value 1.0
+2020-04-17 11:43:46,180 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:46,643 - kitchen - DEBUG - Could not pickup order 73 with value -99.0 because it is wasted
+2020-04-17 11:43:46,644 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:46,684 - kitchen - DEBUG - Order 83 is wasted with value 1.0
+2020-04-17 11:43:46,685 - kitchen - DEBUG - Order wasted 83
+2020-04-17 11:43:46,685 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:47,172 - kitchen - DEBUG - Could not pickup order 80 with value -39.0
+2020-04-17 11:43:47,172 - kitchen - DEBUG - Order 80 is wasted with value -39.0
+2020-04-17 11:43:47,175 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:47,189 - kitchen - DEBUG - putting order 84 on shelf hot with value 1.0
+2020-04-17 11:43:47,189 - kitchen - DEBUG - Order added 84 to hot and has value 1.0
+2020-04-17 11:43:47,189 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:47,648 - kitchen - DEBUG - Could not pickup order 75 with value -99.0 because it is wasted
+2020-04-17 11:43:47,648 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:47,693 - kitchen - DEBUG - Order 85 is wasted with value 1.0
+2020-04-17 11:43:47,694 - kitchen - DEBUG - Order wasted 85
+2020-04-17 11:43:47,694 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:48,156 - kitchen - DEBUG - Could not pickup order 76 with value -99.0 because it is wasted
+2020-04-17 11:43:48,159 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:48,199 - kitchen - DEBUG - Order 86 is wasted with value 1.0
+2020-04-17 11:43:48,200 - kitchen - DEBUG - Order wasted 86
+2020-04-17 11:43:48,200 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:48,656 - kitchen - DEBUG - Could not pickup order 77 with value -99.0 because it is wasted
+2020-04-17 11:43:48,656 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:48,704 - kitchen - DEBUG - Order 87 is wasted with value 1.0
+2020-04-17 11:43:48,705 - kitchen - DEBUG - Order wasted 87
+2020-04-17 11:43:48,705 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:49,210 - kitchen - DEBUG - Order 88 is wasted with value 1.0
+2020-04-17 11:43:49,210 - kitchen - DEBUG - Order wasted 88
+2020-04-17 11:43:49,210 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:49,668 - kitchen - DEBUG - Could not pickup order 79 with value -99.0 because it is wasted
+2020-04-17 11:43:49,671 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:49,688 - kitchen - DEBUG - Could not pickup order 83 with value -59.0 because it is wasted
+2020-04-17 11:43:49,689 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:49,714 - kitchen - DEBUG - Order 89 is wasted with value 1.0
+2020-04-17 11:43:49,715 - kitchen - DEBUG - Order wasted 89
+2020-04-17 11:43:49,715 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:50,191 - kitchen - DEBUG - Could not pickup order 84 with value -59.0
+2020-04-17 11:43:50,191 - kitchen - DEBUG - Order 84 is wasted with value -59.0
+2020-04-17 11:43:50,194 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:50,220 - kitchen - DEBUG - putting order 90 on shelf hot with value 1.0
+2020-04-17 11:43:50,220 - kitchen - DEBUG - Order added 90 to hot and has value 1.0
+2020-04-17 11:43:50,220 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:50,678 - kitchen - DEBUG - Could not pickup order 81 with value -199.0
+2020-04-17 11:43:50,679 - kitchen - DEBUG - Order 81 is wasted with value -99.0
+2020-04-17 11:43:50,679 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:50,698 - kitchen - DEBUG - Could not pickup order 85 with value -59.0 because it is wasted
+2020-04-17 11:43:50,702 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:50,724 - kitchen - DEBUG - putting order 91 on shelf overflow with value 1.0
+2020-04-17 11:43:50,724 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:51,183 - kitchen - DEBUG - Could not pickup order 82 with value -199.0
+2020-04-17 11:43:51,183 - kitchen - DEBUG - Order 82 is wasted with value -99.0
+2020-04-17 11:43:51,184 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:51,216 - kitchen - DEBUG - Could not pickup order 88 with value -39.0 because it is wasted
+2020-04-17 11:43:51,219 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:51,230 - kitchen - DEBUG - putting order 92 on shelf overflow with value 1.0
+2020-04-17 11:43:51,230 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:51,706 - kitchen - DEBUG - Could not pickup order 87 with value -59.0 because it is wasted
+2020-04-17 11:43:51,707 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:51,735 - kitchen - DEBUG - Order 93 is wasted with value 1.0
+2020-04-17 11:43:51,735 - kitchen - DEBUG - Order wasted 93
+2020-04-17 11:43:51,736 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:52,240 - kitchen - DEBUG - Order 94 is wasted with value 1.0
+2020-04-17 11:43:52,240 - kitchen - DEBUG - Order wasted 94
+2020-04-17 11:43:52,240 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:52,727 - kitchen - DEBUG - Could not pickup order 91 with value -79.0
+2020-04-17 11:43:52,727 - kitchen - DEBUG - Order 91 is wasted with value -39.0
+2020-04-17 11:43:52,730 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:52,745 - kitchen - DEBUG - putting order 95 on shelf overflow with value 1.0
+2020-04-17 11:43:52,746 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:53,203 - kitchen - DEBUG - Could not pickup order 86 with value -99.0 because it is wasted
+2020-04-17 11:43:53,204 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:53,249 - kitchen - DEBUG - Order 96 is wasted with value 1.0
+2020-04-17 11:43:53,250 - kitchen - DEBUG - Order wasted 96
+2020-04-17 11:43:53,250 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:53,721 - kitchen - DEBUG - Could not pickup order 89 with value -79.0 because it is wasted
+2020-04-17 11:43:53,724 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:53,755 - kitchen - DEBUG - Order 97 is wasted with value 1.0
+2020-04-17 11:43:53,755 - kitchen - DEBUG - Order wasted 97
+2020-04-17 11:43:53,755 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:54,225 - kitchen - DEBUG - Could not pickup order 90 with value -79.0
+2020-04-17 11:43:54,226 - kitchen - DEBUG - Order 90 is wasted with value -79.0
+2020-04-17 11:43:54,226 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:54,243 - kitchen - DEBUG - Could not pickup order 94 with value -39.0 because it is wasted
+2020-04-17 11:43:54,246 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:54,260 - kitchen - DEBUG - putting order 98 on shelf hot with value 1.0
+2020-04-17 11:43:54,260 - kitchen - DEBUG - Order added 98 to hot and has value 1.0
+2020-04-17 11:43:54,261 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:54,742 - kitchen - DEBUG - Could not pickup order 93 with value -59.0 because it is wasted
+2020-04-17 11:43:54,742 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:54,747 - kitchen - DEBUG - Could not pickup order 95 with value -79.0
+2020-04-17 11:43:54,748 - kitchen - DEBUG - Order 95 is wasted with value -39.0
+2020-04-17 11:43:54,751 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:54,765 - kitchen - DEBUG - putting order 99 on shelf overflow with value 1.0
+2020-04-17 11:43:54,765 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:43:56,234 - kitchen - DEBUG - Could not pickup order 92 with value -199.0
+2020-04-17 11:43:56,234 - kitchen - DEBUG - Order 92 is wasted with value -99.0
+2020-04-17 11:43:56,235 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:56,263 - kitchen - DEBUG - Could not pickup order 98 with value -39.0
+2020-04-17 11:43:56,264 - kitchen - DEBUG - Order 98 is wasted with value -39.0
+2020-04-17 11:43:56,266 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:56,757 - kitchen - DEBUG - Could not pickup order 97 with value -59.0 because it is wasted
+2020-04-17 11:43:56,757 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:57,256 - kitchen - DEBUG - Could not pickup order 96 with value -79.0 because it is wasted
+2020-04-17 11:43:57,259 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:43:57,766 - kitchen - DEBUG - Could not pickup order 99 with value -119.0
+2020-04-17 11:43:57,767 - kitchen - DEBUG - Order 99 is wasted with value -59.0
+2020-04-17 11:43:57,767 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:44:11,279 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:11,279 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:11,279 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:11,279 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:44:11,279 - kitchen - DEBUG - Order added 1 to hot and has value 1.0
+2020-04-17 11:44:11,280 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:44:11,780 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:11,781 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:11,781 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:11,781 - kitchen - DEBUG - putting order 2 on shelf hot with value 1.0
+2020-04-17 11:44:11,781 - kitchen - DEBUG - Order added 2 to hot and has value 1.0
+2020-04-17 11:44:11,781 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::0
+2020-04-17 11:44:12,285 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:12,285 - kitchen - DEBUG - Marking order 1 with value -99999.0 for cleanup
+2020-04-17 11:44:12,285 - kitchen - DEBUG - Items to be deleted [('hot', 1)]
+2020-04-17 11:44:12,286 - kitchen - DEBUG - Cleaning order 1 from shelf hot
+2020-04-17 11:44:12,286 - kitchen - DEBUG - Order 1 is wasted with value -99999.0
+2020-04-17 11:44:12,286 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:12,286 - kitchen - DEBUG - putting order 3 on shelf hot with value 1.0
+2020-04-17 11:44:12,286 - kitchen - DEBUG - Order added 3 to hot and has value 1.0
+2020-04-17 11:44:12,286 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::0
+2020-04-17 11:44:12,791 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:12,792 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:12,792 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:12,792 - kitchen - DEBUG - putting order 4 on shelf overflow with value 1.0
+2020-04-17 11:44:12,792 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::1
+2020-04-17 11:44:13,295 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:13,295 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:13,296 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:13,296 - kitchen - DEBUG - putting order 5 on shelf overflow with value 1.0
+2020-04-17 11:44:13,296 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::2
+2020-04-17 11:44:14,289 - kitchen - DEBUG - Picking up order 3 from OrderState.HOT
+2020-04-17 11:44:14,292 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:44:14,785 - kitchen - DEBUG - Picking up order 2 from OrderState.HOT
+2020-04-17 11:44:14,785 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:44:16,285 - kitchen - DEBUG - Could not pickup order 1 with value -499999.0 because it is wasted
+2020-04-17 11:44:16,288 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:44:17,795 - kitchen - DEBUG - Picking up order 4 from OrderState.OVERFLOW
+2020-04-17 11:44:17,795 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:44:18,300 - kitchen - DEBUG - Picking up order 5 from OrderState.OVERFLOW
+2020-04-17 11:44:18,303 - kitchen - DEBUG - Logging error sequence item 0: expected str instance, int found
+2020-04-17 11:44:23,807 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:44:23,807 - kitchen - DEBUG - Order added 1 to hot and has value 1.0
+2020-04-17 11:44:23,807 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:44:23,807 - kitchen - DEBUG - putting order 2 on shelf overflow with value 1.0
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::1
+2020-04-17 11:44:23,808 - kitchen - DEBUG - putting order 3 on shelf overflow with value 1.0
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::2
+2020-04-17 11:44:23,808 - kitchen - DEBUG - putting order 4 on shelf overflow with value 1.0
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::3
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Order 5 is wasted with value 1.0
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Order wasted 5
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::3
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Order 6 is wasted with value 1.0
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Order wasted 6
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::3
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Order 7 is wasted with value 1.0
+2020-04-17 11:44:23,808 - kitchen - DEBUG - Order wasted 7
+2020-04-17 11:44:23,809 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::3
+2020-04-17 11:44:23,810 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:44:23,810 - kitchen - DEBUG - putting order 3 on shelf overflow with value 1.0
+2020-04-17 11:44:23,810 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::1
+2020-04-17 11:44:24,815 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:24,815 - kitchen - DEBUG - Marking order 1 with value -19.0 for cleanup
+2020-04-17 11:44:24,815 - kitchen - DEBUG - Marking order 3 with value -19.0 for cleanup
+2020-04-17 11:44:24,815 - kitchen - DEBUG - Items to be deleted [('hot', '1'), ('overflow', '3')]
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Cleaning order 1 from shelf hot
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Order 1 is wasted with value -19.0
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Cleaning order 3 from shelf overflow
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Order 3 is wasted with value -19.0
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:24,816 - kitchen - DEBUG - putting order 4 on shelf cold with value 1.0
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Order added 4 to cold and has value 1.0
+2020-04-17 11:44:24,816 - kitchen - DEBUG - Current status of shelves: cold::1, frozen::0, hot::0, overflow::0
+2020-04-17 11:44:25,822 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:25,823 - kitchen - DEBUG - Marking order 1 with value -19.0 for cleanup
+2020-04-17 11:44:25,823 - kitchen - DEBUG - Marking order 3 with value -39.0 for cleanup
+2020-04-17 11:44:25,823 - kitchen - DEBUG - Items to be deleted [('hot', '1'), ('overflow', '3')]
+2020-04-17 11:44:25,823 - kitchen - DEBUG - Cleaning order 1 from shelf hot
+2020-04-17 11:44:25,823 - kitchen - DEBUG - Order 1 is wasted with value -19.0
+2020-04-17 11:44:25,824 - kitchen - DEBUG - Cleaning order 3 from shelf overflow
+2020-04-17 11:44:25,824 - kitchen - DEBUG - Order 3 is wasted with value -19.0
+2020-04-17 11:44:25,824 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:25,824 - kitchen - DEBUG - putting order 4 on shelf cold with value 1.0
+2020-04-17 11:44:25,824 - kitchen - DEBUG - Order added 4 to cold and has value 1.0
+2020-04-17 11:44:25,824 - kitchen - DEBUG - Current status of shelves: cold::1, frozen::0, hot::1, overflow::0
+2020-04-17 11:44:29,846 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:29,847 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:29,847 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:29,847 - kitchen - DEBUG - putting order 1 on shelf hot with value 1.0
+2020-04-17 11:44:29,847 - kitchen - DEBUG - Order added 1 to hot and has value 1.0
+2020-04-17 11:44:29,847 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::1, overflow::0
+2020-04-17 11:44:30,350 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:30,351 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:30,351 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:30,351 - kitchen - DEBUG - putting order 2 on shelf hot with value 1.0
+2020-04-17 11:44:30,351 - kitchen - DEBUG - Order added 2 to hot and has value 1.0
+2020-04-17 11:44:30,351 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::0
+2020-04-17 11:44:30,856 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:30,856 - kitchen - DEBUG - Marking order 1 with value -19.0 for cleanup
+2020-04-17 11:44:30,857 - kitchen - DEBUG - Items to be deleted [('hot', '1')]
+2020-04-17 11:44:30,857 - kitchen - DEBUG - Cleaning order 1 from shelf hot
+2020-04-17 11:44:30,857 - kitchen - DEBUG - Order 1 is wasted with value -19.0
+2020-04-17 11:44:30,857 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:30,857 - kitchen - DEBUG - putting order 3 on shelf hot with value 1.0
+2020-04-17 11:44:30,857 - kitchen - DEBUG - Order added 3 to hot and has value 1.0
+2020-04-17 11:44:30,857 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::0
+2020-04-17 11:44:31,359 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:31,359 - kitchen - DEBUG - Marking order 2 with value -19.0 for cleanup
+2020-04-17 11:44:31,360 - kitchen - DEBUG - Items to be deleted [('hot', '2')]
+2020-04-17 11:44:31,360 - kitchen - DEBUG - Cleaning order 2 from shelf hot
+2020-04-17 11:44:31,360 - kitchen - DEBUG - Order 2 is wasted with value -19.0
+2020-04-17 11:44:31,360 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:31,360 - kitchen - DEBUG - putting order 4 on shelf hot with value 1.0
+2020-04-17 11:44:31,360 - kitchen - DEBUG - Order added 4 to hot and has value 1.0
+2020-04-17 11:44:31,360 - kitchen - DEBUG - Current status of shelves: cold::0, frozen::0, hot::2, overflow::0
+2020-04-17 11:44:31,849 - kitchen - DEBUG - Could not pickup order 1 with value -39.0 because it is wasted
+2020-04-17 11:44:33,352 - kitchen - DEBUG - Could not pickup order 2 with value -59.0 because it is wasted
+2020-04-17 11:44:33,862 - kitchen - DEBUG - Could not pickup order 3 with value -59.0
+2020-04-17 11:44:33,863 - kitchen - DEBUG - Order 3 is wasted with value -59.0
+2020-04-17 11:44:34,365 - kitchen - DEBUG - Could not pickup order 4 with value -59.0
+2020-04-17 11:44:34,366 - kitchen - DEBUG - Order 4 is wasted with value -59.0
+2020-04-17 11:44:45,677 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:45,677 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:45,677 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:45,678 - kitchen - DEBUG - putting order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd on shelf frozen with value 1.0
+2020-04-17 11:44:45,678 - kitchen - DEBUG - Order added a8cfcb76-7f24-4420-a5ba-d46dd77bdffd to frozen and has value 1.0
+2020-04-17 11:44:45,678 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::1, overflow::0
+2020-04-17 11:44:46,184 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:46,184 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:46,185 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:46,185 - kitchen - DEBUG - putting order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d on shelf frozen with value 1.0
+2020-04-17 11:44:46,185 - kitchen - DEBUG - Order added 58e9b5fe-3fde-4a27-8e98-682e58a4a65d to frozen and has value 1.0
+2020-04-17 11:44:46,186 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::2, overflow::0
+2020-04-17 11:44:46,688 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:46,689 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:46,689 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:46,689 - kitchen - DEBUG - putting order 2ec069e3-576f-48eb-869f-74a540ef840c on shelf cold with value 1.0
+2020-04-17 11:44:46,690 - kitchen - DEBUG - Order added 2ec069e3-576f-48eb-869f-74a540ef840c to cold and has value 1.0
+2020-04-17 11:44:46,690 - kitchen - DEBUG - Current status of shelves: hot::0, cold::1, frozen::2, overflow::0
+2020-04-17 11:44:47,191 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:47,192 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:47,192 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:47,192 - kitchen - DEBUG - putting order 690b85f7-8c7d-4337-bd02-04e04454c826 on shelf cold with value 1.0
+2020-04-17 11:44:47,192 - kitchen - DEBUG - Order added 690b85f7-8c7d-4337-bd02-04e04454c826 to cold and has value 1.0
+2020-04-17 11:44:47,192 - kitchen - DEBUG - Current status of shelves: hot::0, cold::2, frozen::2, overflow::0
+2020-04-17 11:44:47,696 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:47,696 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:47,696 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:47,697 - kitchen - DEBUG - putting order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a on shelf frozen with value 1.0
+2020-04-17 11:44:47,697 - kitchen - DEBUG - Order added 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a to frozen and has value 1.0
+2020-04-17 11:44:47,697 - kitchen - DEBUG - Current status of shelves: hot::0, cold::2, frozen::3, overflow::0
+2020-04-17 11:44:48,201 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:48,201 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:48,201 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:48,202 - kitchen - DEBUG - putting order c18e1242-0856-4203-a98c-7066ead3bd6b on shelf cold with value 1.0
+2020-04-17 11:44:48,202 - kitchen - DEBUG - Order added c18e1242-0856-4203-a98c-7066ead3bd6b to cold and has value 1.0
+2020-04-17 11:44:48,202 - kitchen - DEBUG - Current status of shelves: hot::0, cold::3, frozen::3, overflow::0
+2020-04-17 11:44:48,683 - kitchen - DEBUG - Picking up order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd from OrderState.FROZEN
+2020-04-17 11:44:48,715 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:48,715 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:48,715 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:48,716 - kitchen - DEBUG - putting order 66a2611c-9a93-4ccd-bb85-98f423247bf9 on shelf cold with value 1.0
+2020-04-17 11:44:48,716 - kitchen - DEBUG - Order added 66a2611c-9a93-4ccd-bb85-98f423247bf9 to cold and has value 1.0
+2020-04-17 11:44:48,716 - kitchen - DEBUG - Current status of shelves: hot::0, cold::4, frozen::2, overflow::0
+2020-04-17 11:44:49,220 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:49,221 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:49,221 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:49,221 - kitchen - DEBUG - putting order 4cc9d503-4e0e-42a3-b200-87c785468df9 on shelf cold with value 1.0
+2020-04-17 11:44:49,221 - kitchen - DEBUG - Order added 4cc9d503-4e0e-42a3-b200-87c785468df9 to cold and has value 1.0
+2020-04-17 11:44:49,222 - kitchen - DEBUG - Current status of shelves: hot::0, cold::5, frozen::2, overflow::0
+2020-04-17 11:44:49,726 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:49,726 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:49,727 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:49,727 - kitchen - DEBUG - putting order 0a6537d7-9568-400e-9857-7aceb4e7347c on shelf frozen with value 1.0
+2020-04-17 11:44:49,727 - kitchen - DEBUG - Order added 0a6537d7-9568-400e-9857-7aceb4e7347c to frozen and has value 1.0
+2020-04-17 11:44:49,728 - kitchen - DEBUG - Current status of shelves: hot::0, cold::5, frozen::3, overflow::0
+2020-04-17 11:44:50,232 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:50,233 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:50,233 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:50,233 - kitchen - DEBUG - putting order 74e0893f-8544-4298-b507-9cf5ab847d83 on shelf hot with value 1.0
+2020-04-17 11:44:50,234 - kitchen - DEBUG - Order added 74e0893f-8544-4298-b507-9cf5ab847d83 to hot and has value 1.0
+2020-04-17 11:44:50,234 - kitchen - DEBUG - Current status of shelves: hot::1, cold::5, frozen::3, overflow::0
+2020-04-17 11:44:50,695 - kitchen - DEBUG - Picking up order 2ec069e3-576f-48eb-869f-74a540ef840c from OrderState.COLD
+2020-04-17 11:44:50,738 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:50,739 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:50,739 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:50,739 - kitchen - DEBUG - putting order 7a5ea4ed-e378-4354-8ab3-a09cf563f621 on shelf frozen with value 1.0
+2020-04-17 11:44:50,739 - kitchen - DEBUG - Order added 7a5ea4ed-e378-4354-8ab3-a09cf563f621 to frozen and has value 1.0
+2020-04-17 11:44:50,740 - kitchen - DEBUG - Current status of shelves: hot::1, cold::4, frozen::4, overflow::0
+2020-04-17 11:44:51,190 - kitchen - DEBUG - Picking up order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d from OrderState.FROZEN
+2020-04-17 11:44:51,198 - kitchen - DEBUG - Picking up order 690b85f7-8c7d-4337-bd02-04e04454c826 from OrderState.COLD
+2020-04-17 11:44:51,244 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:51,244 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:51,244 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:51,244 - kitchen - DEBUG - putting order 60fbe431-7f7f-46c5-8ecf-6a26ae898685 on shelf hot with value 1.0
+2020-04-17 11:44:51,244 - kitchen - DEBUG - Order added 60fbe431-7f7f-46c5-8ecf-6a26ae898685 to hot and has value 1.0
+2020-04-17 11:44:51,245 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::3, overflow::0
+2020-04-17 11:44:51,702 - kitchen - DEBUG - Picking up order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a from OrderState.FROZEN
+2020-04-17 11:44:51,748 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:51,748 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:51,748 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:51,748 - kitchen - DEBUG - putting order 2e7f4153-92cb-43e2-96f4-d77e2f25422b on shelf cold with value 1.0
+2020-04-17 11:44:51,748 - kitchen - DEBUG - Order added 2e7f4153-92cb-43e2-96f4-d77e2f25422b to cold and has value 1.0
+2020-04-17 11:44:51,749 - kitchen - DEBUG - Current status of shelves: hot::2, cold::4, frozen::2, overflow::0
+2020-04-17 11:44:52,253 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:52,254 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:52,254 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:52,254 - kitchen - DEBUG - putting order d4ead98f-a158-429c-9c0d-28ab0fa830a6 on shelf hot with value 1.0
+2020-04-17 11:44:52,254 - kitchen - DEBUG - Order added d4ead98f-a158-429c-9c0d-28ab0fa830a6 to hot and has value 1.0
+2020-04-17 11:44:52,255 - kitchen - DEBUG - Current status of shelves: hot::3, cold::4, frozen::2, overflow::0
+2020-04-17 11:44:52,718 - kitchen - DEBUG - Picking up order 66a2611c-9a93-4ccd-bb85-98f423247bf9 from OrderState.COLD
+2020-04-17 11:44:52,758 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:52,759 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:52,759 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:52,759 - kitchen - DEBUG - putting order e868e485-c759-411b-b439-ca7086326bf6 on shelf hot with value 1.0
+2020-04-17 11:44:52,760 - kitchen - DEBUG - Order added e868e485-c759-411b-b439-ca7086326bf6 to hot and has value 1.0
+2020-04-17 11:44:52,760 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:53,213 - kitchen - DEBUG - Picking up order c18e1242-0856-4203-a98c-7066ead3bd6b from OrderState.COLD
+2020-04-17 11:44:53,226 - kitchen - DEBUG - Picking up order 4cc9d503-4e0e-42a3-b200-87c785468df9 from OrderState.COLD
+2020-04-17 11:44:53,265 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:53,266 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:53,266 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:53,266 - kitchen - DEBUG - putting order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e on shelf hot with value 1.0
+2020-04-17 11:44:53,266 - kitchen - DEBUG - Order added 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e to hot and has value 1.0
+2020-04-17 11:44:53,266 - kitchen - DEBUG - Current status of shelves: hot::5, cold::1, frozen::2, overflow::0
+2020-04-17 11:44:53,731 - kitchen - DEBUG - Picking up order 0a6537d7-9568-400e-9857-7aceb4e7347c from OrderState.FROZEN
+2020-04-17 11:44:53,771 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:53,772 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:53,772 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:53,772 - kitchen - DEBUG - putting order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 on shelf cold with value 1.0
+2020-04-17 11:44:53,772 - kitchen - DEBUG - Order added 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 to cold and has value 1.0
+2020-04-17 11:44:53,772 - kitchen - DEBUG - Current status of shelves: hot::5, cold::2, frozen::1, overflow::0
+2020-04-17 11:44:54,249 - kitchen - DEBUG - Picking up order 60fbe431-7f7f-46c5-8ecf-6a26ae898685 from OrderState.HOT
+2020-04-17 11:44:54,277 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:54,277 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:54,278 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:54,278 - kitchen - DEBUG - putting order a9f8f42f-7a58-4629-8b66-1acbf362f3b8 on shelf cold with value 1.0
+2020-04-17 11:44:54,278 - kitchen - DEBUG - Order added a9f8f42f-7a58-4629-8b66-1acbf362f3b8 to cold and has value 1.0
+2020-04-17 11:44:54,278 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::1, overflow::0
+2020-04-17 11:44:54,744 - kitchen - DEBUG - Picking up order 7a5ea4ed-e378-4354-8ab3-a09cf563f621 from OrderState.FROZEN
+2020-04-17 11:44:54,751 - kitchen - DEBUG - Picking up order 2e7f4153-92cb-43e2-96f4-d77e2f25422b from OrderState.COLD
+2020-04-17 11:44:54,781 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:54,781 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:54,782 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:54,782 - kitchen - DEBUG - putting order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae on shelf cold with value 1.0
+2020-04-17 11:44:54,782 - kitchen - DEBUG - Order added 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae to cold and has value 1.0
+2020-04-17 11:44:54,782 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::0, overflow::0
+2020-04-17 11:44:55,240 - kitchen - DEBUG - Picking up order 74e0893f-8544-4298-b507-9cf5ab847d83 from OrderState.HOT
+2020-04-17 11:44:55,260 - kitchen - DEBUG - Picking up order d4ead98f-a158-429c-9c0d-28ab0fa830a6 from OrderState.HOT
+2020-04-17 11:44:55,288 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:55,288 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:55,288 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:55,288 - kitchen - DEBUG - putting order 916ddba3-9c25-4065-8a90-ecf5c40c8394 on shelf frozen with value 1.0
+2020-04-17 11:44:55,289 - kitchen - DEBUG - Order added 916ddba3-9c25-4065-8a90-ecf5c40c8394 to frozen and has value 1.0
+2020-04-17 11:44:55,289 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::1, overflow::0
+2020-04-17 11:44:55,766 - kitchen - DEBUG - Picking up order e868e485-c759-411b-b439-ca7086326bf6 from OrderState.HOT
+2020-04-17 11:44:55,795 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:55,795 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:55,796 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:55,796 - kitchen - DEBUG - putting order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f on shelf frozen with value 1.0
+2020-04-17 11:44:55,796 - kitchen - DEBUG - Order added 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f to frozen and has value 1.0
+2020-04-17 11:44:55,796 - kitchen - DEBUG - Current status of shelves: hot::1, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:56,300 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:56,300 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:56,301 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:56,301 - kitchen - DEBUG - putting order c700ab30-d7bd-4e45-aafb-4329876c716c on shelf hot with value 1.0
+2020-04-17 11:44:56,301 - kitchen - DEBUG - Order added c700ab30-d7bd-4e45-aafb-4329876c716c to hot and has value 1.0
+2020-04-17 11:44:56,301 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:56,806 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:56,807 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:56,807 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:56,808 - kitchen - DEBUG - putting order cf0932a9-533c-4603-bb1e-512c6e697b92 on shelf hot with value 1.0
+2020-04-17 11:44:56,808 - kitchen - DEBUG - Order added cf0932a9-533c-4603-bb1e-512c6e697b92 to hot and has value 1.0
+2020-04-17 11:44:56,808 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:57,270 - kitchen - DEBUG - Picking up order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e from OrderState.HOT
+2020-04-17 11:44:57,310 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:57,310 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:57,310 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:57,310 - kitchen - DEBUG - putting order ed05dafe-d928-4f1a-856d-1dab3868acbd on shelf hot with value 1.0
+2020-04-17 11:44:57,311 - kitchen - DEBUG - Order added ed05dafe-d928-4f1a-856d-1dab3868acbd to hot and has value 1.0
+2020-04-17 11:44:57,311 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:57,786 - kitchen - DEBUG - Picking up order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae from OrderState.COLD
+2020-04-17 11:44:57,814 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:57,815 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:57,815 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:57,815 - kitchen - DEBUG - putting order 53f012e3-da55-4314-b2e6-28e63f0418ad on shelf cold with value 1.0
+2020-04-17 11:44:57,816 - kitchen - DEBUG - Order added 53f012e3-da55-4314-b2e6-28e63f0418ad to cold and has value 1.0
+2020-04-17 11:44:57,816 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:58,282 - kitchen - DEBUG - Picking up order a9f8f42f-7a58-4629-8b66-1acbf362f3b8 from OrderState.COLD
+2020-04-17 11:44:58,304 - kitchen - DEBUG - Picking up order c700ab30-d7bd-4e45-aafb-4329876c716c from OrderState.HOT
+2020-04-17 11:44:58,320 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:58,320 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:58,320 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:58,321 - kitchen - DEBUG - putting order 5dd79771-4536-4eaa-b64c-63ac606f1357 on shelf hot with value 1.0
+2020-04-17 11:44:58,321 - kitchen - DEBUG - Order added 5dd79771-4536-4eaa-b64c-63ac606f1357 to hot and has value 1.0
+2020-04-17 11:44:58,321 - kitchen - DEBUG - Current status of shelves: hot::3, cold::2, frozen::2, overflow::0
+2020-04-17 11:44:58,777 - kitchen - DEBUG - Picking up order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 from OrderState.COLD
+2020-04-17 11:44:58,827 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:58,828 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:58,828 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:58,828 - kitchen - DEBUG - putting order f84d8263-7aae-4254-85b7-27865ffd76b7 on shelf cold with value 1.0
+2020-04-17 11:44:58,828 - kitchen - DEBUG - Order added f84d8263-7aae-4254-85b7-27865ffd76b7 to cold and has value 1.0
+2020-04-17 11:44:58,828 - kitchen - DEBUG - Current status of shelves: hot::3, cold::2, frozen::2, overflow::0
+2020-04-17 11:44:59,329 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:59,330 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:59,331 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:59,331 - kitchen - DEBUG - putting order f7074980-3424-43d4-9166-f495077a273e on shelf cold with value 1.0
+2020-04-17 11:44:59,332 - kitchen - DEBUG - Order added f7074980-3424-43d4-9166-f495077a273e to cold and has value 1.0
+2020-04-17 11:44:59,332 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:44:59,803 - kitchen - DEBUG - Picking up order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f from OrderState.FROZEN
+2020-04-17 11:44:59,838 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:44:59,838 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:44:59,838 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:44:59,838 - kitchen - DEBUG - putting order dcafe7ca-f7a7-4262-9b14-ab19729b2055 on shelf hot with value 1.0
+2020-04-17 11:44:59,839 - kitchen - DEBUG - Order added dcafe7ca-f7a7-4262-9b14-ab19729b2055 to hot and has value 1.0
+2020-04-17 11:44:59,839 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:00,294 - kitchen - DEBUG - Picking up order 916ddba3-9c25-4065-8a90-ecf5c40c8394 from OrderState.FROZEN
+2020-04-17 11:45:00,315 - kitchen - DEBUG - Picking up order ed05dafe-d928-4f1a-856d-1dab3868acbd from OrderState.HOT
+2020-04-17 11:45:00,344 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:00,344 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:00,344 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:00,344 - kitchen - DEBUG - putting order 614e4f4d-b2f4-4b60-9421-238f61affe20 on shelf frozen with value 1.0
+2020-04-17 11:45:00,344 - kitchen - DEBUG - Order added 614e4f4d-b2f4-4b60-9421-238f61affe20 to frozen and has value 1.0
+2020-04-17 11:45:00,345 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:00,845 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:00,846 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:00,847 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:00,847 - kitchen - DEBUG - putting order d2d2d948-f019-4806-bb7e-bb2172bd75d9 on shelf hot with value 1.0
+2020-04-17 11:45:00,847 - kitchen - DEBUG - Order added d2d2d948-f019-4806-bb7e-bb2172bd75d9 to hot and has value 1.0
+2020-04-17 11:45:00,847 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:01,350 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:01,351 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:01,351 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:01,351 - kitchen - DEBUG - putting order 8275f014-ed83-4554-b0ff-0dbdc24e57ad on shelf hot with value 1.0
+2020-04-17 11:45:01,351 - kitchen - DEBUG - Order added 8275f014-ed83-4554-b0ff-0dbdc24e57ad to hot and has value 1.0
+2020-04-17 11:45:01,352 - kitchen - DEBUG - Current status of shelves: hot::5, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:01,812 - kitchen - DEBUG - Picking up order cf0932a9-533c-4603-bb1e-512c6e697b92 from OrderState.HOT
+2020-04-17 11:45:01,820 - kitchen - DEBUG - Picking up order 53f012e3-da55-4314-b2e6-28e63f0418ad from OrderState.COLD
+2020-04-17 11:45:01,830 - kitchen - DEBUG - Picking up order f84d8263-7aae-4254-85b7-27865ffd76b7 from OrderState.COLD
+2020-04-17 11:45:01,842 - kitchen - DEBUG - Picking up order dcafe7ca-f7a7-4262-9b14-ab19729b2055 from OrderState.HOT
+2020-04-17 11:45:01,856 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:01,856 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:01,856 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:01,857 - kitchen - DEBUG - putting order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed on shelf frozen with value 1.0
+2020-04-17 11:45:01,857 - kitchen - DEBUG - Order added 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed to frozen and has value 1.0
+2020-04-17 11:45:01,857 - kitchen - DEBUG - Current status of shelves: hot::3, cold::1, frozen::2, overflow::0
+2020-04-17 11:45:02,326 - kitchen - DEBUG - Picking up order 5dd79771-4536-4eaa-b64c-63ac606f1357 from OrderState.HOT
+2020-04-17 11:45:02,338 - kitchen - DEBUG - Picking up order f7074980-3424-43d4-9166-f495077a273e from OrderState.COLD
+2020-04-17 11:45:02,362 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:02,362 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:02,363 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:02,363 - kitchen - DEBUG - putting order e537a1b8-1505-49ae-a71e-a3ab80e8b606 on shelf hot with value 1.0
+2020-04-17 11:45:02,364 - kitchen - DEBUG - Order added e537a1b8-1505-49ae-a71e-a3ab80e8b606 to hot and has value 1.0
+2020-04-17 11:45:02,364 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:02,864 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:02,865 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:02,865 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:02,866 - kitchen - DEBUG - putting order 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d on shelf frozen with value 1.0
+2020-04-17 11:45:02,866 - kitchen - DEBUG - Order added 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d to frozen and has value 1.0
+2020-04-17 11:45:02,866 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:03,371 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:03,371 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:03,372 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:03,372 - kitchen - DEBUG - putting order 1b56ee15-70e7-443e-96cb-0479e9d46381 on shelf frozen with value 1.0
+2020-04-17 11:45:03,373 - kitchen - DEBUG - Order added 1b56ee15-70e7-443e-96cb-0479e9d46381 to frozen and has value 1.0
+2020-04-17 11:45:03,373 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:03,860 - kitchen - DEBUG - Picking up order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed from OrderState.FROZEN
+2020-04-17 11:45:03,874 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:03,874 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:03,875 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:03,875 - kitchen - DEBUG - putting order 51c5017b-f812-40ac-8d68-87aab3fbab6a on shelf frozen with value 1.0
+2020-04-17 11:45:03,875 - kitchen - DEBUG - Order added 51c5017b-f812-40ac-8d68-87aab3fbab6a to frozen and has value 1.0
+2020-04-17 11:45:03,875 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:04,346 - kitchen - DEBUG - Picking up order 614e4f4d-b2f4-4b60-9421-238f61affe20 from OrderState.FROZEN
+2020-04-17 11:45:04,370 - kitchen - DEBUG - Picking up order e537a1b8-1505-49ae-a71e-a3ab80e8b606 from OrderState.HOT
+2020-04-17 11:45:04,379 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:04,380 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:04,380 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:04,380 - kitchen - DEBUG - putting order 9748651e-c3f8-4c4a-9de9-5360467c86a2 on shelf hot with value 1.0
+2020-04-17 11:45:04,381 - kitchen - DEBUG - Order added 9748651e-c3f8-4c4a-9de9-5360467c86a2 to hot and has value 1.0
+2020-04-17 11:45:04,381 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:04,885 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:04,885 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:04,886 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:04,886 - kitchen - DEBUG - putting order 345cfefe-692e-4866-986e-99a18bedbf24 on shelf hot with value 1.0
+2020-04-17 11:45:04,887 - kitchen - DEBUG - Order added 345cfefe-692e-4866-986e-99a18bedbf24 to hot and has value 1.0
+2020-04-17 11:45:04,888 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:05,392 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:05,393 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:05,393 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:05,393 - kitchen - DEBUG - putting order 87441694-ff97-4d1b-89e3-c4b0b1fd041e on shelf frozen with value 1.0
+2020-04-17 11:45:05,393 - kitchen - DEBUG - Order added 87441694-ff97-4d1b-89e3-c4b0b1fd041e to frozen and has value 1.0
+2020-04-17 11:45:05,393 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:05,851 - kitchen - DEBUG - Picking up order d2d2d948-f019-4806-bb7e-bb2172bd75d9 from OrderState.HOT
+2020-04-17 11:45:05,867 - kitchen - DEBUG - Picking up order 3aaccfce-3dbe-4967-a2fb-b6c06b4de61d from OrderState.FROZEN
+2020-04-17 11:45:05,895 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:05,895 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:05,895 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:05,895 - kitchen - DEBUG - putting order 3713d8af-e6a0-4c11-966c-f26786dc602c on shelf frozen with value 1.0
+2020-04-17 11:45:05,896 - kitchen - DEBUG - Order added 3713d8af-e6a0-4c11-966c-f26786dc602c to frozen and has value 1.0
+2020-04-17 11:45:05,896 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:06,353 - kitchen - DEBUG - Picking up order 8275f014-ed83-4554-b0ff-0dbdc24e57ad from OrderState.HOT
+2020-04-17 11:45:06,400 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:06,405 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:06,406 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:06,406 - kitchen - DEBUG - putting order 20343dea-8856-4717-9be9-be1b37d4791f on shelf hot with value 1.0
+2020-04-17 11:45:06,406 - kitchen - DEBUG - Order added 20343dea-8856-4717-9be9-be1b37d4791f to hot and has value 1.0
+2020-04-17 11:45:06,406 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:06,889 - kitchen - DEBUG - Picking up order 345cfefe-692e-4866-986e-99a18bedbf24 from OrderState.HOT
+2020-04-17 11:45:06,908 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:06,909 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:06,909 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:06,909 - kitchen - DEBUG - putting order 098604b5-a141-4a5f-a2e3-0b653515cc42 on shelf hot with value 1.0
+2020-04-17 11:45:06,909 - kitchen - DEBUG - Order added 098604b5-a141-4a5f-a2e3-0b653515cc42 to hot and has value 1.0
+2020-04-17 11:45:06,909 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:07,383 - kitchen - DEBUG - Picking up order 9748651e-c3f8-4c4a-9de9-5360467c86a2 from OrderState.HOT
+2020-04-17 11:45:07,413 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:07,413 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:07,414 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:07,414 - kitchen - DEBUG - putting order a5697bad-48d4-46fd-b3bc-64ef2485907a on shelf frozen with value 1.0
+2020-04-17 11:45:07,414 - kitchen - DEBUG - Order added a5697bad-48d4-46fd-b3bc-64ef2485907a to frozen and has value 1.0
+2020-04-17 11:45:07,415 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::5, overflow::0
+2020-04-17 11:45:07,876 - kitchen - DEBUG - Picking up order 51c5017b-f812-40ac-8d68-87aab3fbab6a from OrderState.FROZEN
+2020-04-17 11:45:07,899 - kitchen - DEBUG - Picking up order 3713d8af-e6a0-4c11-966c-f26786dc602c from OrderState.FROZEN
+2020-04-17 11:45:07,915 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:07,916 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:07,916 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:07,916 - kitchen - DEBUG - putting order e09f9282-8e05-48a7-8e6e-e23937383735 on shelf hot with value 1.0
+2020-04-17 11:45:07,916 - kitchen - DEBUG - Order added e09f9282-8e05-48a7-8e6e-e23937383735 to hot and has value 1.0
+2020-04-17 11:45:07,916 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:08,379 - kitchen - DEBUG - Picking up order 1b56ee15-70e7-443e-96cb-0479e9d46381 from OrderState.FROZEN
+2020-04-17 11:45:08,421 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:08,422 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:08,423 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:08,424 - kitchen - DEBUG - putting order 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355 on shelf hot with value 1.0
+2020-04-17 11:45:08,424 - kitchen - DEBUG - Order added 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355 to hot and has value 1.0
+2020-04-17 11:45:08,424 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:08,915 - kitchen - DEBUG - Picking up order 098604b5-a141-4a5f-a2e3-0b653515cc42 from OrderState.HOT
+2020-04-17 11:45:08,929 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:08,929 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:08,930 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:08,930 - kitchen - DEBUG - putting order a2b13869-6b7e-4e35-8e11-fa9889d24073 on shelf frozen with value 1.0
+2020-04-17 11:45:08,930 - kitchen - DEBUG - Order added a2b13869-6b7e-4e35-8e11-fa9889d24073 to frozen and has value 1.0
+2020-04-17 11:45:08,930 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:09,419 - kitchen - DEBUG - Picking up order a5697bad-48d4-46fd-b3bc-64ef2485907a from OrderState.FROZEN
+2020-04-17 11:45:09,433 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:09,433 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:09,434 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:09,434 - kitchen - DEBUG - putting order 0522c2ec-0242-45e7-8542-f3e98c1384b9 on shelf hot with value 1.0
+2020-04-17 11:45:09,435 - kitchen - DEBUG - Order added 0522c2ec-0242-45e7-8542-f3e98c1384b9 to hot and has value 1.0
+2020-04-17 11:45:09,436 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:09,922 - kitchen - DEBUG - Picking up order e09f9282-8e05-48a7-8e6e-e23937383735 from OrderState.HOT
+2020-04-17 11:45:09,940 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:09,940 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:09,941 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:09,941 - kitchen - DEBUG - putting order aba0fc48-ec05-422f-aad4-8b8ec4de636d on shelf frozen with value 1.0
+2020-04-17 11:45:09,941 - kitchen - DEBUG - Order added aba0fc48-ec05-422f-aad4-8b8ec4de636d to frozen and has value 1.0
+2020-04-17 11:45:09,942 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:10,395 - kitchen - DEBUG - Picking up order 87441694-ff97-4d1b-89e3-c4b0b1fd041e from OrderState.FROZEN
+2020-04-17 11:45:10,409 - kitchen - DEBUG - Picking up order 20343dea-8856-4717-9be9-be1b37d4791f from OrderState.HOT
+2020-04-17 11:45:10,447 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:10,447 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:10,447 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:10,448 - kitchen - DEBUG - putting order 68515b89-96bf-48b6-a07c-68cf17ca3c25 on shelf frozen with value 1.0
+2020-04-17 11:45:10,448 - kitchen - DEBUG - Order added 68515b89-96bf-48b6-a07c-68cf17ca3c25 to frozen and has value 1.0
+2020-04-17 11:45:10,448 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:10,952 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:10,952 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:10,952 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:10,953 - kitchen - DEBUG - putting order caf107cc-e6d6-421c-9991-8bcfcc15d5c5 on shelf hot with value 1.0
+2020-04-17 11:45:10,953 - kitchen - DEBUG - Order added caf107cc-e6d6-421c-9991-8bcfcc15d5c5 to hot and has value 1.0
+2020-04-17 11:45:10,953 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:11,457 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:11,457 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:11,457 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:11,458 - kitchen - DEBUG - putting order 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4 on shelf hot with value 1.0
+2020-04-17 11:45:11,458 - kitchen - DEBUG - Order added 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4 to hot and has value 1.0
+2020-04-17 11:45:11,458 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:11,933 - kitchen - DEBUG - Picking up order a2b13869-6b7e-4e35-8e11-fa9889d24073 from OrderState.FROZEN
+2020-04-17 11:45:11,962 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:11,962 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:11,963 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:11,963 - kitchen - DEBUG - putting order 78b92574-49cd-4995-b5d0-635b3ced5a18 on shelf cold with value 1.0
+2020-04-17 11:45:11,963 - kitchen - DEBUG - Order added 78b92574-49cd-4995-b5d0-635b3ced5a18 to cold and has value 1.0
+2020-04-17 11:45:11,964 - kitchen - DEBUG - Current status of shelves: hot::4, cold::1, frozen::2, overflow::0
+2020-04-17 11:45:12,467 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:12,467 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:12,468 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:12,468 - kitchen - DEBUG - putting order 1fab9088-d99d-47ee-acf5-d0f0851738e4 on shelf cold with value 1.0
+2020-04-17 11:45:12,468 - kitchen - DEBUG - Order added 1fab9088-d99d-47ee-acf5-d0f0851738e4 to cold and has value 1.0
+2020-04-17 11:45:12,468 - kitchen - DEBUG - Current status of shelves: hot::4, cold::2, frozen::2, overflow::0
+2020-04-17 11:45:12,946 - kitchen - DEBUG - Picking up order aba0fc48-ec05-422f-aad4-8b8ec4de636d from OrderState.FROZEN
+2020-04-17 11:45:12,974 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:12,974 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:12,974 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:12,975 - kitchen - DEBUG - putting order d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b on shelf hot with value 1.0
+2020-04-17 11:45:12,975 - kitchen - DEBUG - Order added d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b to hot and has value 1.0
+2020-04-17 11:45:12,975 - kitchen - DEBUG - Current status of shelves: hot::5, cold::2, frozen::1, overflow::0
+2020-04-17 11:45:13,429 - kitchen - DEBUG - Picking up order 9df6bbc7-55ee-4f67-8dd1-a9f5ccc56355 from OrderState.HOT
+2020-04-17 11:45:13,441 - kitchen - DEBUG - Picking up order 0522c2ec-0242-45e7-8542-f3e98c1384b9 from OrderState.HOT
+2020-04-17 11:45:13,450 - kitchen - DEBUG - Picking up order 68515b89-96bf-48b6-a07c-68cf17ca3c25 from OrderState.FROZEN
+2020-04-17 11:45:13,478 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:13,479 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:13,479 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:13,479 - kitchen - DEBUG - putting order 5f06be90-beac-4a51-a871-f8e324d38c3c on shelf hot with value 1.0
+2020-04-17 11:45:13,479 - kitchen - DEBUG - Order added 5f06be90-beac-4a51-a871-f8e324d38c3c to hot and has value 1.0
+2020-04-17 11:45:13,479 - kitchen - DEBUG - Current status of shelves: hot::4, cold::2, frozen::0, overflow::0
+2020-04-17 11:45:13,959 - kitchen - DEBUG - Picking up order caf107cc-e6d6-421c-9991-8bcfcc15d5c5 from OrderState.HOT
+2020-04-17 11:45:13,982 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:13,982 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:13,983 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:13,983 - kitchen - DEBUG - putting order 90367105-ec26-41d8-a4a2-6c474d3f703b on shelf hot with value 1.0
+2020-04-17 11:45:13,983 - kitchen - DEBUG - Order added 90367105-ec26-41d8-a4a2-6c474d3f703b to hot and has value 1.0
+2020-04-17 11:45:13,983 - kitchen - DEBUG - Current status of shelves: hot::4, cold::2, frozen::0, overflow::0
+2020-04-17 11:45:14,488 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:14,488 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:14,488 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:14,489 - kitchen - DEBUG - putting order 05ef2197-5e9a-446b-825e-4d169bdf5670 on shelf cold with value 1.0
+2020-04-17 11:45:14,489 - kitchen - DEBUG - Order added 05ef2197-5e9a-446b-825e-4d169bdf5670 to cold and has value 1.0
+2020-04-17 11:45:14,489 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::0, overflow::0
+2020-04-17 11:45:14,992 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:14,992 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:14,992 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:14,993 - kitchen - DEBUG - putting order 41330835-9221-483a-924f-08c7f664d656 on shelf cold with value 1.0
+2020-04-17 11:45:14,993 - kitchen - DEBUG - Order added 41330835-9221-483a-924f-08c7f664d656 to cold and has value 1.0
+2020-04-17 11:45:14,993 - kitchen - DEBUG - Current status of shelves: hot::4, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:15,485 - kitchen - DEBUG - Picking up order 5f06be90-beac-4a51-a871-f8e324d38c3c from OrderState.HOT
+2020-04-17 11:45:15,497 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:15,498 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:15,498 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:15,499 - kitchen - DEBUG - putting order 51754609-3f89-487b-9888-bac0a65f86e2 on shelf cold with value 1.0
+2020-04-17 11:45:15,499 - kitchen - DEBUG - Order added 51754609-3f89-487b-9888-bac0a65f86e2 to cold and has value 1.0
+2020-04-17 11:45:15,499 - kitchen - DEBUG - Current status of shelves: hot::3, cold::5, frozen::0, overflow::0
+2020-04-17 11:45:15,967 - kitchen - DEBUG - Picking up order 78b92574-49cd-4995-b5d0-635b3ced5a18 from OrderState.COLD
+2020-04-17 11:45:15,980 - kitchen - DEBUG - Picking up order d7864cd5-f557-4c3e-93d9-b3fb6bb4a37b from OrderState.HOT
+2020-04-17 11:45:16,001 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:16,002 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:16,002 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:16,003 - kitchen - DEBUG - putting order 3f0008f5-9429-4a16-ae44-f8f4256797ca on shelf cold with value 1.0
+2020-04-17 11:45:16,003 - kitchen - DEBUG - Order added 3f0008f5-9429-4a16-ae44-f8f4256797ca to cold and has value 1.0
+2020-04-17 11:45:16,003 - kitchen - DEBUG - Current status of shelves: hot::2, cold::5, frozen::0, overflow::0
+2020-04-17 11:45:16,461 - kitchen - DEBUG - Picking up order 4d308771-a0d6-46e7-8ff1-679ddc1d1aa4 from OrderState.HOT
+2020-04-17 11:45:16,474 - kitchen - DEBUG - Picking up order 1fab9088-d99d-47ee-acf5-d0f0851738e4 from OrderState.COLD
+2020-04-17 11:45:16,507 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:16,507 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:16,507 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:16,507 - kitchen - DEBUG - putting order c052077c-687d-4f24-b2e1-75edeee1186a on shelf hot with value 1.0
+2020-04-17 11:45:16,508 - kitchen - DEBUG - Order added c052077c-687d-4f24-b2e1-75edeee1186a to hot and has value 1.0
+2020-04-17 11:45:16,508 - kitchen - DEBUG - Current status of shelves: hot::2, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:16,987 - kitchen - DEBUG - Picking up order 90367105-ec26-41d8-a4a2-6c474d3f703b from OrderState.HOT
+2020-04-17 11:45:17,009 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:17,009 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:17,009 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:17,010 - kitchen - DEBUG - putting order 1b481a3e-84eb-4532-bd29-47f04e3e7adc on shelf hot with value 1.0
+2020-04-17 11:45:17,010 - kitchen - DEBUG - Order added 1b481a3e-84eb-4532-bd29-47f04e3e7adc to hot and has value 1.0
+2020-04-17 11:45:17,010 - kitchen - DEBUG - Current status of shelves: hot::2, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:17,514 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:17,514 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:17,515 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:17,515 - kitchen - DEBUG - putting order b5d9491a-54b7-4916-a379-fed69d5d180d on shelf hot with value 1.0
+2020-04-17 11:45:17,515 - kitchen - DEBUG - Order added b5d9491a-54b7-4916-a379-fed69d5d180d to hot and has value 1.0
+2020-04-17 11:45:17,516 - kitchen - DEBUG - Current status of shelves: hot::3, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:18,020 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:18,021 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:18,021 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:18,022 - kitchen - DEBUG - putting order 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133 on shelf cold with value 1.0
+2020-04-17 11:45:18,022 - kitchen - DEBUG - Order added 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133 to cold and has value 1.0
+2020-04-17 11:45:18,022 - kitchen - DEBUG - Current status of shelves: hot::3, cold::5, frozen::0, overflow::0
+2020-04-17 11:45:18,493 - kitchen - DEBUG - Picking up order 05ef2197-5e9a-446b-825e-4d169bdf5670 from OrderState.COLD
+2020-04-17 11:45:18,528 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:18,528 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:18,529 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:18,529 - kitchen - DEBUG - putting order 4b5793f3-2af5-4ac3-816a-7f9c6f91483c on shelf frozen with value 1.0
+2020-04-17 11:45:18,529 - kitchen - DEBUG - Order added 4b5793f3-2af5-4ac3-816a-7f9c6f91483c to frozen and has value 1.0
+2020-04-17 11:45:18,529 - kitchen - DEBUG - Current status of shelves: hot::3, cold::4, frozen::1, overflow::0
+2020-04-17 11:45:18,999 - kitchen - DEBUG - Picking up order 41330835-9221-483a-924f-08c7f664d656 from OrderState.COLD
+2020-04-17 11:45:19,036 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:19,036 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:19,036 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:19,037 - kitchen - DEBUG - putting order 160ccc3a-af83-43e0-af0b-6a889aea7339 on shelf frozen with value 1.0
+2020-04-17 11:45:19,037 - kitchen - DEBUG - Order added 160ccc3a-af83-43e0-af0b-6a889aea7339 to frozen and has value 1.0
+2020-04-17 11:45:19,037 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:19,503 - kitchen - DEBUG - Picking up order 51754609-3f89-487b-9888-bac0a65f86e2 from OrderState.COLD
+2020-04-17 11:45:19,515 - kitchen - DEBUG - Picking up order c052077c-687d-4f24-b2e1-75edeee1186a from OrderState.HOT
+2020-04-17 11:45:19,539 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:19,540 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:19,540 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:19,541 - kitchen - DEBUG - putting order 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1 on shelf frozen with value 1.0
+2020-04-17 11:45:19,541 - kitchen - DEBUG - Order added 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1 to frozen and has value 1.0
+2020-04-17 11:45:19,541 - kitchen - DEBUG - Current status of shelves: hot::2, cold::2, frozen::3, overflow::0
+2020-04-17 11:45:20,008 - kitchen - DEBUG - Picking up order 3f0008f5-9429-4a16-ae44-f8f4256797ca from OrderState.COLD
+2020-04-17 11:45:20,013 - kitchen - DEBUG - Picking up order 1b481a3e-84eb-4532-bd29-47f04e3e7adc from OrderState.HOT
+2020-04-17 11:45:20,042 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:20,043 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:20,043 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:20,043 - kitchen - DEBUG - putting order e6b72c73-fa53-4f2c-a004-0b60ba7b3be9 on shelf cold with value 1.0
+2020-04-17 11:45:20,044 - kitchen - DEBUG - Order added e6b72c73-fa53-4f2c-a004-0b60ba7b3be9 to cold and has value 1.0
+2020-04-17 11:45:20,044 - kitchen - DEBUG - Current status of shelves: hot::1, cold::2, frozen::3, overflow::0
+2020-04-17 11:45:20,548 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:20,548 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:20,549 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:20,549 - kitchen - DEBUG - putting order 4546646c-3ca5-4da6-9c60-312a897a6907 on shelf cold with value 1.0
+2020-04-17 11:45:20,549 - kitchen - DEBUG - Order added 4546646c-3ca5-4da6-9c60-312a897a6907 to cold and has value 1.0
+2020-04-17 11:45:20,549 - kitchen - DEBUG - Current status of shelves: hot::1, cold::3, frozen::3, overflow::0
+2020-04-17 11:45:21,053 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:21,054 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:21,054 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:21,054 - kitchen - DEBUG - putting order 8ea031b3-6545-4140-9dee-745268d7b877 on shelf frozen with value 1.0
+2020-04-17 11:45:21,055 - kitchen - DEBUG - Order added 8ea031b3-6545-4140-9dee-745268d7b877 to frozen and has value 1.0
+2020-04-17 11:45:21,055 - kitchen - DEBUG - Current status of shelves: hot::1, cold::3, frozen::4, overflow::0
+2020-04-17 11:45:21,517 - kitchen - DEBUG - Picking up order b5d9491a-54b7-4916-a379-fed69d5d180d from OrderState.HOT
+2020-04-17 11:45:21,547 - kitchen - DEBUG - Picking up order 3b9da9f3-2465-4fbc-84c5-5ecb9bd132b1 from OrderState.FROZEN
+2020-04-17 11:45:21,557 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:21,558 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:21,558 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:21,558 - kitchen - DEBUG - putting order 24f3e17b-eba0-409a-8630-463cb05d89c3 on shelf cold with value 1.0
+2020-04-17 11:45:21,558 - kitchen - DEBUG - Order added 24f3e17b-eba0-409a-8630-463cb05d89c3 to cold and has value 1.0
+2020-04-17 11:45:21,558 - kitchen - DEBUG - Current status of shelves: hot::0, cold::4, frozen::3, overflow::0
+2020-04-17 11:45:22,025 - kitchen - DEBUG - Picking up order 7bdf9af2-d90e-44e2-9c6c-1ff7b5121133 from OrderState.COLD
+2020-04-17 11:45:22,063 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:22,064 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:22,064 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:22,064 - kitchen - DEBUG - putting order def3f65e-6ffb-4715-8561-ace9d312ddc5 on shelf cold with value 1.0
+2020-04-17 11:45:22,064 - kitchen - DEBUG - Order added def3f65e-6ffb-4715-8561-ace9d312ddc5 to cold and has value 1.0
+2020-04-17 11:45:22,065 - kitchen - DEBUG - Current status of shelves: hot::0, cold::4, frozen::3, overflow::0
+2020-04-17 11:45:22,534 - kitchen - DEBUG - Picking up order 4b5793f3-2af5-4ac3-816a-7f9c6f91483c from OrderState.FROZEN
+2020-04-17 11:45:22,568 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:22,569 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:22,569 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:22,569 - kitchen - DEBUG - putting order 2c772706-189c-4ec4-80ad-06ea17f21f11 on shelf cold with value 1.0
+2020-04-17 11:45:22,570 - kitchen - DEBUG - Order added 2c772706-189c-4ec4-80ad-06ea17f21f11 to cold and has value 1.0
+2020-04-17 11:45:22,570 - kitchen - DEBUG - Current status of shelves: hot::0, cold::5, frozen::2, overflow::0
+2020-04-17 11:45:23,040 - kitchen - DEBUG - Picking up order 160ccc3a-af83-43e0-af0b-6a889aea7339 from OrderState.FROZEN
+2020-04-17 11:45:23,049 - kitchen - DEBUG - Picking up order e6b72c73-fa53-4f2c-a004-0b60ba7b3be9 from OrderState.COLD
+2020-04-17 11:45:23,075 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:23,076 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:23,076 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:23,077 - kitchen - DEBUG - putting order a0023411-c19d-4723-b6d1-6b8c8ff1b417 on shelf frozen with value 1.0
+2020-04-17 11:45:23,077 - kitchen - DEBUG - Order added a0023411-c19d-4723-b6d1-6b8c8ff1b417 to frozen and has value 1.0
+2020-04-17 11:45:23,077 - kitchen - DEBUG - Current status of shelves: hot::0, cold::4, frozen::2, overflow::0
+2020-04-17 11:45:23,578 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:23,579 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:23,579 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:23,579 - kitchen - DEBUG - putting order 46a4e47d-ccc1-4c88-a006-83930521899c on shelf hot with value 1.0
+2020-04-17 11:45:23,580 - kitchen - DEBUG - Order added 46a4e47d-ccc1-4c88-a006-83930521899c to hot and has value 1.0
+2020-04-17 11:45:23,580 - kitchen - DEBUG - Current status of shelves: hot::1, cold::4, frozen::2, overflow::0
+2020-04-17 11:45:24,071 - kitchen - DEBUG - Picking up order def3f65e-6ffb-4715-8561-ace9d312ddc5 from OrderState.COLD
+2020-04-17 11:45:24,083 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:24,083 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:24,083 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:24,084 - kitchen - DEBUG - putting order e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d on shelf frozen with value 1.0
+2020-04-17 11:45:24,084 - kitchen - DEBUG - Order added e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d to frozen and has value 1.0
+2020-04-17 11:45:24,084 - kitchen - DEBUG - Current status of shelves: hot::1, cold::3, frozen::3, overflow::0
+2020-04-17 11:45:24,554 - kitchen - DEBUG - Picking up order 4546646c-3ca5-4da6-9c60-312a897a6907 from OrderState.COLD
+2020-04-17 11:45:24,563 - kitchen - DEBUG - Picking up order 24f3e17b-eba0-409a-8630-463cb05d89c3 from OrderState.COLD
+2020-04-17 11:45:24,574 - kitchen - DEBUG - Picking up order 2c772706-189c-4ec4-80ad-06ea17f21f11 from OrderState.COLD
+2020-04-17 11:45:24,588 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:24,589 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:24,590 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:24,590 - kitchen - DEBUG - putting order 848dfc63-eab6-48b7-a2db-04d13190ce8c on shelf hot with value 1.0
+2020-04-17 11:45:24,591 - kitchen - DEBUG - Order added 848dfc63-eab6-48b7-a2db-04d13190ce8c to hot and has value 1.0
+2020-04-17 11:45:24,591 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:25,082 - kitchen - DEBUG - Picking up order a0023411-c19d-4723-b6d1-6b8c8ff1b417 from OrderState.FROZEN
+2020-04-17 11:45:25,093 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:25,093 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:25,094 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:25,094 - kitchen - DEBUG - putting order 42951124-c574-45a0-bddf-25e702c65914 on shelf cold with value 1.0
+2020-04-17 11:45:25,094 - kitchen - DEBUG - Order added 42951124-c574-45a0-bddf-25e702c65914 to cold and has value 1.0
+2020-04-17 11:45:25,094 - kitchen - DEBUG - Current status of shelves: hot::2, cold::1, frozen::2, overflow::0
+2020-04-17 11:45:25,598 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:25,599 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:25,599 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:25,599 - kitchen - DEBUG - putting order df726ab4-a999-46b5-8e31-4a1bd523fcb9 on shelf hot with value 1.0
+2020-04-17 11:45:25,600 - kitchen - DEBUG - Order added df726ab4-a999-46b5-8e31-4a1bd523fcb9 to hot and has value 1.0
+2020-04-17 11:45:25,600 - kitchen - DEBUG - Current status of shelves: hot::3, cold::1, frozen::2, overflow::0
+2020-04-17 11:45:26,057 - kitchen - DEBUG - Picking up order 8ea031b3-6545-4140-9dee-745268d7b877 from OrderState.FROZEN
+2020-04-17 11:45:26,091 - kitchen - DEBUG - Picking up order e65ef8c8-d9e2-47cf-a6e2-ac976bcfdb9d from OrderState.FROZEN
+2020-04-17 11:45:26,105 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:26,105 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:26,105 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:26,105 - kitchen - DEBUG - putting order 5bb755b9-e6a8-4932-9139-bc04fafbc240 on shelf hot with value 1.0
+2020-04-17 11:45:26,105 - kitchen - DEBUG - Order added 5bb755b9-e6a8-4932-9139-bc04fafbc240 to hot and has value 1.0
+2020-04-17 11:45:26,106 - kitchen - DEBUG - Current status of shelves: hot::4, cold::1, frozen::0, overflow::0
+2020-04-17 11:45:26,596 - kitchen - DEBUG - Picking up order 848dfc63-eab6-48b7-a2db-04d13190ce8c from OrderState.HOT
+2020-04-17 11:45:26,611 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:26,611 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:26,612 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:26,612 - kitchen - DEBUG - putting order 58dbdb26-670c-4dac-b72c-21152f5d62e7 on shelf hot with value 1.0
+2020-04-17 11:45:26,612 - kitchen - DEBUG - Order added 58dbdb26-670c-4dac-b72c-21152f5d62e7 to hot and has value 1.0
+2020-04-17 11:45:26,613 - kitchen - DEBUG - Current status of shelves: hot::4, cold::1, frozen::0, overflow::0
+2020-04-17 11:45:27,096 - kitchen - DEBUG - Picking up order 42951124-c574-45a0-bddf-25e702c65914 from OrderState.COLD
+2020-04-17 11:45:27,113 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:27,113 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:27,114 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:27,114 - kitchen - DEBUG - putting order 4ed428d6-f247-451a-aebf-c5157b2eb502 on shelf cold with value 1.0
+2020-04-17 11:45:27,114 - kitchen - DEBUG - Order added 4ed428d6-f247-451a-aebf-c5157b2eb502 to cold and has value 1.0
+2020-04-17 11:45:27,115 - kitchen - DEBUG - Current status of shelves: hot::4, cold::1, frozen::0, overflow::0
+2020-04-17 11:45:27,618 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:27,618 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:27,619 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:27,619 - kitchen - DEBUG - putting order 62e667ee-a86d-4be2-97f6-a6af60183e88 on shelf cold with value 1.0
+2020-04-17 11:45:27,619 - kitchen - DEBUG - Order added 62e667ee-a86d-4be2-97f6-a6af60183e88 to cold and has value 1.0
+2020-04-17 11:45:27,620 - kitchen - DEBUG - Current status of shelves: hot::4, cold::2, frozen::0, overflow::0
+2020-04-17 11:45:28,112 - kitchen - DEBUG - Picking up order 5bb755b9-e6a8-4932-9139-bc04fafbc240 from OrderState.HOT
+2020-04-17 11:45:28,121 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:28,121 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:28,121 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:28,121 - kitchen - DEBUG - putting order df4e3e19-55d2-4131-8ab0-3563b44f8291 on shelf cold with value 1.0
+2020-04-17 11:45:28,121 - kitchen - DEBUG - Order added df4e3e19-55d2-4131-8ab0-3563b44f8291 to cold and has value 1.0
+2020-04-17 11:45:28,122 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::0, overflow::0
+2020-04-17 11:45:28,586 - kitchen - DEBUG - Picking up order 46a4e47d-ccc1-4c88-a006-83930521899c from OrderState.HOT
+2020-04-17 11:45:28,623 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:28,623 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:28,623 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:28,624 - kitchen - DEBUG - putting order 44e6ea89-f11c-414d-aa72-7c10641eff8d on shelf frozen with value 1.0
+2020-04-17 11:45:28,624 - kitchen - DEBUG - Order added 44e6ea89-f11c-414d-aa72-7c10641eff8d to frozen and has value 1.0
+2020-04-17 11:45:28,624 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:29,129 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:29,130 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:29,130 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:29,130 - kitchen - DEBUG - putting order 48465fc7-d534-4b9b-b919-63e5beebd301 on shelf frozen with value 1.0
+2020-04-17 11:45:29,130 - kitchen - DEBUG - Order added 48465fc7-d534-4b9b-b919-63e5beebd301 to frozen and has value 1.0
+2020-04-17 11:45:29,131 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:29,604 - kitchen - DEBUG - Picking up order df726ab4-a999-46b5-8e31-4a1bd523fcb9 from OrderState.HOT
+2020-04-17 11:45:29,618 - kitchen - DEBUG - Picking up order 58dbdb26-670c-4dac-b72c-21152f5d62e7 from OrderState.HOT
+2020-04-17 11:45:29,633 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:29,633 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:29,634 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:29,634 - kitchen - DEBUG - putting order fb850bd3-728f-4118-a097-2bcf3a12c239 on shelf hot with value 1.0
+2020-04-17 11:45:29,634 - kitchen - DEBUG - Order added fb850bd3-728f-4118-a097-2bcf3a12c239 to hot and has value 1.0
+2020-04-17 11:45:29,635 - kitchen - DEBUG - Current status of shelves: hot::1, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:30,137 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:30,137 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:30,138 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:30,138 - kitchen - DEBUG - putting order 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017 on shelf hot with value 1.0
+2020-04-17 11:45:30,139 - kitchen - DEBUG - Order added 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017 to hot and has value 1.0
+2020-04-17 11:45:30,139 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:30,643 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:30,643 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:30,643 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:30,644 - kitchen - DEBUG - putting order 68e83bf6-bdee-4192-8905-40140b421bc6 on shelf hot with value 1.0
+2020-04-17 11:45:30,644 - kitchen - DEBUG - Order added 68e83bf6-bdee-4192-8905-40140b421bc6 to hot and has value 1.0
+2020-04-17 11:45:30,644 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:31,119 - kitchen - DEBUG - Picking up order 4ed428d6-f247-451a-aebf-c5157b2eb502 from OrderState.COLD
+2020-04-17 11:45:31,150 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:31,150 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:31,150 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:31,151 - kitchen - DEBUG - putting order 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6 on shelf cold with value 1.0
+2020-04-17 11:45:31,151 - kitchen - DEBUG - Order added 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6 to cold and has value 1.0
+2020-04-17 11:45:31,151 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:31,621 - kitchen - DEBUG - Picking up order 62e667ee-a86d-4be2-97f6-a6af60183e88 from OrderState.COLD
+2020-04-17 11:45:31,625 - kitchen - DEBUG - Picking up order 44e6ea89-f11c-414d-aa72-7c10641eff8d from OrderState.FROZEN
+2020-04-17 11:45:31,636 - kitchen - DEBUG - Picking up order fb850bd3-728f-4118-a097-2bcf3a12c239 from OrderState.HOT
+2020-04-17 11:45:31,652 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:31,652 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:31,652 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:31,653 - kitchen - DEBUG - putting order 1b9a920d-2880-44a3-abba-20903f2690d6 on shelf hot with value 1.0
+2020-04-17 11:45:31,653 - kitchen - DEBUG - Order added 1b9a920d-2880-44a3-abba-20903f2690d6 to hot and has value 1.0
+2020-04-17 11:45:31,653 - kitchen - DEBUG - Current status of shelves: hot::3, cold::2, frozen::1, overflow::0
+2020-04-17 11:45:32,124 - kitchen - DEBUG - Picking up order df4e3e19-55d2-4131-8ab0-3563b44f8291 from OrderState.COLD
+2020-04-17 11:45:32,158 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:32,159 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:32,159 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:32,159 - kitchen - DEBUG - putting order c5ec5a4b-818e-4478-8956-019259be4168 on shelf cold with value 1.0
+2020-04-17 11:45:32,159 - kitchen - DEBUG - Order added c5ec5a4b-818e-4478-8956-019259be4168 to cold and has value 1.0
+2020-04-17 11:45:32,159 - kitchen - DEBUG - Current status of shelves: hot::3, cold::2, frozen::1, overflow::0
+2020-04-17 11:45:32,650 - kitchen - DEBUG - Picking up order 68e83bf6-bdee-4192-8905-40140b421bc6 from OrderState.HOT
+2020-04-17 11:45:32,662 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:32,663 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:32,663 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:32,663 - kitchen - DEBUG - putting order 4c25f887-03cc-4dcd-9945-6a8102c5ef22 on shelf cold with value 1.0
+2020-04-17 11:45:32,663 - kitchen - DEBUG - Order added 4c25f887-03cc-4dcd-9945-6a8102c5ef22 to cold and has value 1.0
+2020-04-17 11:45:32,664 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:33,145 - kitchen - DEBUG - Picking up order 8d6a4d1a-ca56-4567-b3aa-a1e3d20f8017 from OrderState.HOT
+2020-04-17 11:45:33,168 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:33,168 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:33,169 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:33,169 - kitchen - DEBUG - putting order 7f2381be-5ab9-4385-a7a2-4a940a22e134 on shelf hot with value 1.0
+2020-04-17 11:45:33,169 - kitchen - DEBUG - Order added 7f2381be-5ab9-4385-a7a2-4a940a22e134 to hot and has value 1.0
+2020-04-17 11:45:33,169 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:33,673 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:33,674 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:33,674 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:33,675 - kitchen - DEBUG - putting order 75bef98f-89ba-4359-b738-b3184688ca7a on shelf frozen with value 1.0
+2020-04-17 11:45:33,675 - kitchen - DEBUG - Order added 75bef98f-89ba-4359-b738-b3184688ca7a to frozen and has value 1.0
+2020-04-17 11:45:33,675 - kitchen - DEBUG - Current status of shelves: hot::2, cold::3, frozen::2, overflow::0
+2020-04-17 11:45:34,133 - kitchen - DEBUG - Picking up order 48465fc7-d534-4b9b-b919-63e5beebd301 from OrderState.FROZEN
+2020-04-17 11:45:34,181 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:34,181 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:34,181 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:34,181 - kitchen - DEBUG - putting order 60db864b-8270-43ef-9d91-985707390765 on shelf hot with value 1.0
+2020-04-17 11:45:34,181 - kitchen - DEBUG - Order added 60db864b-8270-43ef-9d91-985707390765 to hot and has value 1.0
+2020-04-17 11:45:34,182 - kitchen - DEBUG - Current status of shelves: hot::3, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:34,669 - kitchen - DEBUG - Picking up order 4c25f887-03cc-4dcd-9945-6a8102c5ef22 from OrderState.COLD
+2020-04-17 11:45:34,686 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:34,686 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:34,687 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:34,687 - kitchen - DEBUG - putting order 22f532ca-dfc8-448a-9e04-7dcfa01a175e on shelf hot with value 1.0
+2020-04-17 11:45:34,687 - kitchen - DEBUG - Order added 22f532ca-dfc8-448a-9e04-7dcfa01a175e to hot and has value 1.0
+2020-04-17 11:45:34,687 - kitchen - DEBUG - Current status of shelves: hot::4, cold::2, frozen::1, overflow::0
+2020-04-17 11:45:35,153 - kitchen - DEBUG - Picking up order 0d74c9f0-4fd5-4606-a1dc-019d9ab52af6 from OrderState.COLD
+2020-04-17 11:45:35,165 - kitchen - DEBUG - Picking up order c5ec5a4b-818e-4478-8956-019259be4168 from OrderState.COLD
+2020-04-17 11:45:35,175 - kitchen - DEBUG - Picking up order 7f2381be-5ab9-4385-a7a2-4a940a22e134 from OrderState.HOT
+2020-04-17 11:45:35,190 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:35,191 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:35,191 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:35,191 - kitchen - DEBUG - putting order a0d76390-3e71-440e-a742-20c36a67fa9a on shelf frozen with value 1.0
+2020-04-17 11:45:35,192 - kitchen - DEBUG - Order added a0d76390-3e71-440e-a742-20c36a67fa9a to frozen and has value 1.0
+2020-04-17 11:45:35,192 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:35,682 - kitchen - DEBUG - Picking up order 75bef98f-89ba-4359-b738-b3184688ca7a from OrderState.FROZEN
+2020-04-17 11:45:35,697 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:35,697 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:35,698 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:35,698 - kitchen - DEBUG - putting order 020ad68f-da34-4eca-ae7e-3b67e80a299c on shelf hot with value 1.0
+2020-04-17 11:45:35,698 - kitchen - DEBUG - Order added 020ad68f-da34-4eca-ae7e-3b67e80a299c to hot and has value 1.0
+2020-04-17 11:45:35,698 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::1, overflow::0
+2020-04-17 11:45:36,199 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:36,200 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:36,200 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:36,200 - kitchen - DEBUG - putting order 2aab593e-1d1d-4a65-a582-2999f80c3dee on shelf frozen with value 1.0
+2020-04-17 11:45:36,200 - kitchen - DEBUG - Order added 2aab593e-1d1d-4a65-a582-2999f80c3dee to frozen and has value 1.0
+2020-04-17 11:45:36,201 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:36,658 - kitchen - DEBUG - Picking up order 1b9a920d-2880-44a3-abba-20903f2690d6 from OrderState.HOT
+2020-04-17 11:45:36,704 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:36,706 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:36,706 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:36,706 - kitchen - DEBUG - putting order 3447acdb-475a-400c-91e0-9724d2043e27 on shelf frozen with value 1.0
+2020-04-17 11:45:36,707 - kitchen - DEBUG - Order added 3447acdb-475a-400c-91e0-9724d2043e27 to frozen and has value 1.0
+2020-04-17 11:45:36,707 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:37,208 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:37,208 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:37,208 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:37,209 - kitchen - DEBUG - putting order f6e68da8-9909-431e-bf1b-88367677a03e on shelf frozen with value 1.0
+2020-04-17 11:45:37,209 - kitchen - DEBUG - Order added f6e68da8-9909-431e-bf1b-88367677a03e to frozen and has value 1.0
+2020-04-17 11:45:37,209 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:37,702 - kitchen - DEBUG - Picking up order 020ad68f-da34-4eca-ae7e-3b67e80a299c from OrderState.HOT
+2020-04-17 11:45:37,712 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:37,713 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:37,713 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:37,714 - kitchen - DEBUG - putting order bcd22756-b3ac-473b-93fa-a19cf941bc40 on shelf hot with value 1.0
+2020-04-17 11:45:37,714 - kitchen - DEBUG - Order added bcd22756-b3ac-473b-93fa-a19cf941bc40 to hot and has value 1.0
+2020-04-17 11:45:37,714 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:38,196 - kitchen - DEBUG - Picking up order a0d76390-3e71-440e-a742-20c36a67fa9a from OrderState.FROZEN
+2020-04-17 11:45:38,219 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:38,219 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:38,219 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:38,219 - kitchen - DEBUG - putting order 506a5c01-b06b-4af8-a1f2-913f9ae01078 on shelf hot with value 1.0
+2020-04-17 11:45:38,219 - kitchen - DEBUG - Order added 506a5c01-b06b-4af8-a1f2-913f9ae01078 to hot and has value 1.0
+2020-04-17 11:45:38,219 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:38,723 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:38,724 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:38,724 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:38,724 - kitchen - DEBUG - putting order 10ea72c1-b538-4eb8-b260-f58775481a0b on shelf frozen with value 1.0
+2020-04-17 11:45:38,725 - kitchen - DEBUG - Order added 10ea72c1-b538-4eb8-b260-f58775481a0b to frozen and has value 1.0
+2020-04-17 11:45:38,725 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:39,185 - kitchen - DEBUG - Picking up order 60db864b-8270-43ef-9d91-985707390765 from OrderState.HOT
+2020-04-17 11:45:39,230 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:39,230 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:39,230 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:39,230 - kitchen - DEBUG - putting order 5e9cb832-6a0a-49fa-8799-8d744b499fce on shelf frozen with value 1.0
+2020-04-17 11:45:39,231 - kitchen - DEBUG - Order added 5e9cb832-6a0a-49fa-8799-8d744b499fce to frozen and has value 1.0
+2020-04-17 11:45:39,231 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::5, overflow::0
+2020-04-17 11:45:39,691 - kitchen - DEBUG - Picking up order 22f532ca-dfc8-448a-9e04-7dcfa01a175e from OrderState.HOT
+2020-04-17 11:45:39,720 - kitchen - DEBUG - Picking up order bcd22756-b3ac-473b-93fa-a19cf941bc40 from OrderState.HOT
+2020-04-17 11:45:39,734 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:39,734 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:39,734 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:39,735 - kitchen - DEBUG - putting order a7d778ff-9711-4d3c-b370-6052965f64c0 on shelf hot with value 1.0
+2020-04-17 11:45:39,735 - kitchen - DEBUG - Order added a7d778ff-9711-4d3c-b370-6052965f64c0 to hot and has value 1.0
+2020-04-17 11:45:39,735 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::5, overflow::0
+2020-04-17 11:45:40,205 - kitchen - DEBUG - Picking up order 2aab593e-1d1d-4a65-a582-2999f80c3dee from OrderState.FROZEN
+2020-04-17 11:45:40,215 - kitchen - DEBUG - Picking up order f6e68da8-9909-431e-bf1b-88367677a03e from OrderState.FROZEN
+2020-04-17 11:45:40,240 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:40,240 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:40,241 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:40,241 - kitchen - DEBUG - putting order 40990373-5eac-4e15-9634-450886fe3374 on shelf hot with value 1.0
+2020-04-17 11:45:40,241 - kitchen - DEBUG - Order added 40990373-5eac-4e15-9634-450886fe3374 to hot and has value 1.0
+2020-04-17 11:45:40,242 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:40,710 - kitchen - DEBUG - Picking up order 3447acdb-475a-400c-91e0-9724d2043e27 from OrderState.FROZEN
+2020-04-17 11:45:40,744 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:40,744 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:40,745 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:40,745 - kitchen - DEBUG - putting order 3ea0971e-2478-4545-b814-a857fb294a9d on shelf frozen with value 1.0
+2020-04-17 11:45:40,745 - kitchen - DEBUG - Order added 3ea0971e-2478-4545-b814-a857fb294a9d to frozen and has value 1.0
+2020-04-17 11:45:40,746 - kitchen - DEBUG - Current status of shelves: hot::3, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:41,248 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:41,248 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:41,249 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:41,249 - kitchen - DEBUG - putting order 33bcf189-ba71-48ab-a2d5-75c18d180269 on shelf hot with value 1.0
+2020-04-17 11:45:41,249 - kitchen - DEBUG - Order added 33bcf189-ba71-48ab-a2d5-75c18d180269 to hot and has value 1.0
+2020-04-17 11:45:41,249 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:41,731 - kitchen - DEBUG - Picking up order 10ea72c1-b538-4eb8-b260-f58775481a0b from OrderState.FROZEN
+2020-04-17 11:45:41,754 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:41,755 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:41,755 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:41,755 - kitchen - DEBUG - putting order 22fc8ae6-74f7-467f-8735-774d579a2ae0 on shelf hot with value 1.0
+2020-04-17 11:45:41,756 - kitchen - DEBUG - Order added 22fc8ae6-74f7-467f-8735-774d579a2ae0 to hot and has value 1.0
+2020-04-17 11:45:41,756 - kitchen - DEBUG - Current status of shelves: hot::5, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:42,224 - kitchen - DEBUG - Picking up order 506a5c01-b06b-4af8-a1f2-913f9ae01078 from OrderState.HOT
+2020-04-17 11:45:42,236 - kitchen - DEBUG - Picking up order 5e9cb832-6a0a-49fa-8799-8d744b499fce from OrderState.FROZEN
+2020-04-17 11:45:42,260 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:42,261 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:42,261 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:42,261 - kitchen - DEBUG - putting order 19de820c-4691-420c-ad67-95ec7f5abc2d on shelf frozen with value 1.0
+2020-04-17 11:45:42,262 - kitchen - DEBUG - Order added 19de820c-4691-420c-ad67-95ec7f5abc2d to frozen and has value 1.0
+2020-04-17 11:45:42,262 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:42,765 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:42,765 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:42,766 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:42,766 - kitchen - DEBUG - putting order 3b62609c-38f2-499e-a9b1-c3604dad425d on shelf hot with value 1.0
+2020-04-17 11:45:42,766 - kitchen - DEBUG - Order added 3b62609c-38f2-499e-a9b1-c3604dad425d to hot and has value 1.0
+2020-04-17 11:45:42,767 - kitchen - DEBUG - Current status of shelves: hot::5, cold::0, frozen::2, overflow::0
+2020-04-17 11:45:43,270 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:43,270 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:43,270 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:43,270 - kitchen - DEBUG - putting order df79a7e4-d3f9-450c-b2e3-316fb462db29 on shelf frozen with value 1.0
+2020-04-17 11:45:43,271 - kitchen - DEBUG - Order added df79a7e4-d3f9-450c-b2e3-316fb462db29 to frozen and has value 1.0
+2020-04-17 11:45:43,271 - kitchen - DEBUG - Current status of shelves: hot::5, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:43,740 - kitchen - DEBUG - Picking up order a7d778ff-9711-4d3c-b370-6052965f64c0 from OrderState.HOT
+2020-04-17 11:45:43,774 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:43,775 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:43,775 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:43,776 - kitchen - DEBUG - putting order d5fbbee2-09a7-459e-9621-33a66cdbf3ab on shelf frozen with value 1.0
+2020-04-17 11:45:43,776 - kitchen - DEBUG - Order added d5fbbee2-09a7-459e-9621-33a66cdbf3ab to frozen and has value 1.0
+2020-04-17 11:45:43,776 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:44,244 - kitchen - DEBUG - Picking up order 40990373-5eac-4e15-9634-450886fe3374 from OrderState.HOT
+2020-04-17 11:45:44,279 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:44,279 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:44,280 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:44,280 - kitchen - DEBUG - putting order 69ad8b1c-3218-4c41-aa42-5aca43ca4173 on shelf hot with value 1.0
+2020-04-17 11:45:44,280 - kitchen - DEBUG - Order added 69ad8b1c-3218-4c41-aa42-5aca43ca4173 to hot and has value 1.0
+2020-04-17 11:45:44,281 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::4, overflow::0
+2020-04-17 11:45:44,750 - kitchen - DEBUG - Picking up order 3ea0971e-2478-4545-b814-a857fb294a9d from OrderState.FROZEN
+2020-04-17 11:45:44,772 - kitchen - DEBUG - Picking up order 3b62609c-38f2-499e-a9b1-c3604dad425d from OrderState.HOT
+2020-04-17 11:45:44,785 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:44,786 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:44,786 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:44,787 - kitchen - DEBUG - putting order 68037649-56cd-4f0f-90fd-6e6ccbf61b37 on shelf hot with value 1.0
+2020-04-17 11:45:44,787 - kitchen - DEBUG - Order added 68037649-56cd-4f0f-90fd-6e6ccbf61b37 to hot and has value 1.0
+2020-04-17 11:45:44,787 - kitchen - DEBUG - Current status of shelves: hot::4, cold::0, frozen::3, overflow::0
+2020-04-17 11:45:45,254 - kitchen - DEBUG - Picking up order 33bcf189-ba71-48ab-a2d5-75c18d180269 from OrderState.HOT
+2020-04-17 11:45:45,291 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:45,291 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:45,291 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:45,292 - kitchen - DEBUG - putting order 5bd1e697-10b2-48cf-83c4-033eea97bfb2 on shelf cold with value 1.0
+2020-04-17 11:45:45,292 - kitchen - DEBUG - Order added 5bd1e697-10b2-48cf-83c4-033eea97bfb2 to cold and has value 1.0
+2020-04-17 11:45:45,292 - kitchen - DEBUG - Current status of shelves: hot::3, cold::1, frozen::3, overflow::0
+2020-04-17 11:45:45,759 - kitchen - DEBUG - Picking up order 22fc8ae6-74f7-467f-8735-774d579a2ae0 from OrderState.HOT
+2020-04-17 11:45:45,794 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:45,795 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:45,795 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:45,795 - kitchen - DEBUG - putting order 228ec414-19ca-41e4-8d6c-bd2b0662bfa3 on shelf cold with value 1.0
+2020-04-17 11:45:45,796 - kitchen - DEBUG - Order added 228ec414-19ca-41e4-8d6c-bd2b0662bfa3 to cold and has value 1.0
+2020-04-17 11:45:45,796 - kitchen - DEBUG - Current status of shelves: hot::2, cold::2, frozen::3, overflow::0
+2020-04-17 11:45:46,298 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:46,299 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:46,299 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:46,299 - kitchen - DEBUG - putting order b1315bfb-4528-4ae2-b6ed-adb03a25b94a on shelf hot with value 1.0
+2020-04-17 11:45:46,300 - kitchen - DEBUG - Order added b1315bfb-4528-4ae2-b6ed-adb03a25b94a to hot and has value 1.0
+2020-04-17 11:45:46,300 - kitchen - DEBUG - Current status of shelves: hot::3, cold::2, frozen::3, overflow::0
+2020-04-17 11:45:46,804 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:46,805 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:46,805 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:46,805 - kitchen - DEBUG - putting order eafcb22b-0f68-4773-80ba-f163b191578f on shelf hot with value 1.0
+2020-04-17 11:45:46,805 - kitchen - DEBUG - Order added eafcb22b-0f68-4773-80ba-f163b191578f to hot and has value 1.0
+2020-04-17 11:45:46,806 - kitchen - DEBUG - Current status of shelves: hot::4, cold::2, frozen::3, overflow::0
+2020-04-17 11:45:47,264 - kitchen - DEBUG - Picking up order 19de820c-4691-420c-ad67-95ec7f5abc2d from OrderState.FROZEN
+2020-04-17 11:45:47,309 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:47,309 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:47,309 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:47,309 - kitchen - DEBUG - putting order b25914fa-c5b0-4aa6-a0f5-fcc76203bba5 on shelf hot with value 1.0
+2020-04-17 11:45:47,309 - kitchen - DEBUG - Order added b25914fa-c5b0-4aa6-a0f5-fcc76203bba5 to hot and has value 1.0
+2020-04-17 11:45:47,309 - kitchen - DEBUG - Current status of shelves: hot::5, cold::2, frozen::2, overflow::0
+2020-04-17 11:45:47,782 - kitchen - DEBUG - Picking up order d5fbbee2-09a7-459e-9621-33a66cdbf3ab from OrderState.FROZEN
+2020-04-17 11:45:47,814 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:47,815 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:47,815 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:47,815 - kitchen - DEBUG - putting order 03267ca9-47fd-4d16-bba7-a650cc7660b6 on shelf cold with value 1.0
+2020-04-17 11:45:47,816 - kitchen - DEBUG - Order added 03267ca9-47fd-4d16-bba7-a650cc7660b6 to cold and has value 1.0
+2020-04-17 11:45:47,816 - kitchen - DEBUG - Current status of shelves: hot::5, cold::3, frozen::1, overflow::0
+2020-04-17 11:45:48,277 - kitchen - DEBUG - Picking up order df79a7e4-d3f9-450c-b2e3-316fb462db29 from OrderState.FROZEN
+2020-04-17 11:45:48,320 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:48,320 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:48,320 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:48,320 - kitchen - DEBUG - putting order 9012736d-777b-4f5b-a12d-982e302fefa1 on shelf cold with value 1.0
+2020-04-17 11:45:48,320 - kitchen - DEBUG - Order added 9012736d-777b-4f5b-a12d-982e302fefa1 to cold and has value 1.0
+2020-04-17 11:45:48,321 - kitchen - DEBUG - Current status of shelves: hot::5, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:48,791 - kitchen - DEBUG - Picking up order 68037649-56cd-4f0f-90fd-6e6ccbf61b37 from OrderState.HOT
+2020-04-17 11:45:48,807 - kitchen - DEBUG - Picking up order eafcb22b-0f68-4773-80ba-f163b191578f from OrderState.HOT
+2020-04-17 11:45:48,823 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:48,823 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:48,824 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:48,824 - kitchen - DEBUG - putting order f21bf58b-e23b-491f-a285-d70cb21cc36f on shelf cold with value 1.0
+2020-04-17 11:45:48,824 - kitchen - DEBUG - Order added f21bf58b-e23b-491f-a285-d70cb21cc36f to cold and has value 1.0
+2020-04-17 11:45:48,825 - kitchen - DEBUG - Current status of shelves: hot::3, cold::5, frozen::0, overflow::0
+2020-04-17 11:45:49,283 - kitchen - DEBUG - Picking up order 69ad8b1c-3218-4c41-aa42-5aca43ca4173 from OrderState.HOT
+2020-04-17 11:45:49,297 - kitchen - DEBUG - Picking up order 5bd1e697-10b2-48cf-83c4-033eea97bfb2 from OrderState.COLD
+2020-04-17 11:45:49,301 - kitchen - DEBUG - Picking up order b1315bfb-4528-4ae2-b6ed-adb03a25b94a from OrderState.HOT
+2020-04-17 11:45:49,329 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:49,329 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:49,329 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:49,329 - kitchen - DEBUG - putting order 057bc043-5f22-4169-9711-c6e2488b35f7 on shelf cold with value 1.0
+2020-04-17 11:45:49,329 - kitchen - DEBUG - Order added 057bc043-5f22-4169-9711-c6e2488b35f7 to cold and has value 1.0
+2020-04-17 11:45:49,329 - kitchen - DEBUG - Current status of shelves: hot::1, cold::5, frozen::0, overflow::0
+2020-04-17 11:45:49,801 - kitchen - DEBUG - Picking up order 228ec414-19ca-41e4-8d6c-bd2b0662bfa3 from OrderState.COLD
+2020-04-17 11:45:49,835 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:49,835 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:49,836 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:49,836 - kitchen - DEBUG - putting order 7f682ade-8375-4ef4-aa9b-45440f361268 on shelf hot with value 1.0
+2020-04-17 11:45:49,836 - kitchen - DEBUG - Order added 7f682ade-8375-4ef4-aa9b-45440f361268 to hot and has value 1.0
+2020-04-17 11:45:49,837 - kitchen - DEBUG - Current status of shelves: hot::2, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:50,341 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:50,341 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:50,342 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:50,342 - kitchen - DEBUG - putting order 0d841704-92a0-44e1-aaf8-02a8ee920775 on shelf hot with value 1.0
+2020-04-17 11:45:50,342 - kitchen - DEBUG - Order added 0d841704-92a0-44e1-aaf8-02a8ee920775 to hot and has value 1.0
+2020-04-17 11:45:50,343 - kitchen - DEBUG - Current status of shelves: hot::3, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:50,828 - kitchen - DEBUG - Picking up order f21bf58b-e23b-491f-a285-d70cb21cc36f from OrderState.COLD
+2020-04-17 11:45:50,844 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:50,844 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:50,845 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:50,845 - kitchen - DEBUG - putting order 7f89b973-d4fd-4d6e-a279-afc2db6b3304 on shelf hot with value 1.0
+2020-04-17 11:45:50,845 - kitchen - DEBUG - Order added 7f89b973-d4fd-4d6e-a279-afc2db6b3304 to hot and has value 1.0
+2020-04-17 11:45:50,845 - kitchen - DEBUG - Current status of shelves: hot::4, cold::3, frozen::0, overflow::0
+2020-04-17 11:45:51,315 - kitchen - DEBUG - Picking up order b25914fa-c5b0-4aa6-a0f5-fcc76203bba5 from OrderState.HOT
+2020-04-17 11:45:51,349 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:51,350 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:51,350 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:51,350 - kitchen - DEBUG - putting order 2a23c77f-3ee3-4a52-8810-93e73df4e887 on shelf cold with value 1.0
+2020-04-17 11:45:51,350 - kitchen - DEBUG - Order added 2a23c77f-3ee3-4a52-8810-93e73df4e887 to cold and has value 1.0
+2020-04-17 11:45:51,351 - kitchen - DEBUG - Current status of shelves: hot::3, cold::4, frozen::0, overflow::0
+2020-04-17 11:45:51,843 - kitchen - DEBUG - Picking up order 7f682ade-8375-4ef4-aa9b-45440f361268 from OrderState.HOT
+2020-04-17 11:45:51,856 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:45:51,857 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:45:51,857 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:45:51,857 - kitchen - DEBUG - putting order 4f304b59-6634-4558-a128-a8ce12b1f818 on shelf frozen with value 1.0
+2020-04-17 11:45:51,858 - kitchen - DEBUG - Order added 4f304b59-6634-4558-a128-a8ce12b1f818 to frozen and has value 1.0
+2020-04-17 11:45:51,858 - kitchen - DEBUG - Current status of shelves: hot::2, cold::4, frozen::1, overflow::0
+2020-04-17 11:45:52,821 - kitchen - DEBUG - Picking up order 03267ca9-47fd-4d16-bba7-a650cc7660b6 from OrderState.COLD
+2020-04-17 11:45:53,323 - kitchen - DEBUG - Picking up order 9012736d-777b-4f5b-a12d-982e302fefa1 from OrderState.COLD
+2020-04-17 11:45:53,349 - kitchen - DEBUG - Picking up order 0d841704-92a0-44e1-aaf8-02a8ee920775 from OrderState.HOT
+2020-04-17 11:45:53,864 - kitchen - DEBUG - Picking up order 4f304b59-6634-4558-a128-a8ce12b1f818 from OrderState.FROZEN
+2020-04-17 11:45:54,333 - kitchen - DEBUG - Picking up order 057bc043-5f22-4169-9711-c6e2488b35f7 from OrderState.COLD
+2020-04-17 11:45:54,357 - kitchen - DEBUG - Picking up order 2a23c77f-3ee3-4a52-8810-93e73df4e887 from OrderState.COLD
+2020-04-17 11:45:54,850 - kitchen - DEBUG - Picking up order 7f89b973-d4fd-4d6e-a279-afc2db6b3304 from OrderState.HOT
+2020-04-17 11:48:58,127 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:48:58,128 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:48:58,128 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:48:58,128 - kitchen - DEBUG - putting order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd on shelf frozen with value 1.0
+2020-04-17 11:48:58,128 - kitchen - DEBUG - Order added a8cfcb76-7f24-4420-a5ba-d46dd77bdffd to frozen and has value 1.0
+2020-04-17 11:48:58,128 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::1, overflow::0
+2020-04-17 11:49:00,133 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:00,134 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:00,134 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:00,134 - kitchen - DEBUG - putting order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d on shelf frozen with value 1.0
+2020-04-17 11:49:00,135 - kitchen - DEBUG - Order added 58e9b5fe-3fde-4a27-8e98-682e58a4a65d to frozen and has value 1.0
+2020-04-17 11:49:00,135 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::2, overflow::0
+2020-04-17 11:49:02,141 - kitchen - DEBUG - Picking up order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d from OrderState.FROZEN
+2020-04-17 11:49:02,145 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:02,145 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:02,145 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:02,145 - kitchen - DEBUG - putting order 2ec069e3-576f-48eb-869f-74a540ef840c on shelf cold with value 1.0
+2020-04-17 11:49:02,146 - kitchen - DEBUG - Order added 2ec069e3-576f-48eb-869f-74a540ef840c to cold and has value 1.0
+2020-04-17 11:49:02,146 - kitchen - DEBUG - Current status of shelves: hot::0, cold::1, frozen::1, overflow::0
+2020-04-17 11:49:03,134 - kitchen - DEBUG - Picking up order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd from OrderState.FROZEN
+2020-04-17 11:49:04,150 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:04,151 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:04,151 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:04,152 - kitchen - DEBUG - putting order 690b85f7-8c7d-4337-bd02-04e04454c826 on shelf cold with value 1.0
+2020-04-17 11:49:04,152 - kitchen - DEBUG - Order added 690b85f7-8c7d-4337-bd02-04e04454c826 to cold and has value 1.0
+2020-04-17 11:49:04,152 - kitchen - DEBUG - Current status of shelves: hot::0, cold::2, frozen::0, overflow::0
+2020-04-17 11:49:04,153 - kitchen - DEBUG - Picking up order 2ec069e3-576f-48eb-869f-74a540ef840c from OrderState.COLD
+2020-04-17 11:49:06,155 - kitchen - DEBUG - Picking up order 690b85f7-8c7d-4337-bd02-04e04454c826 from OrderState.COLD
+2020-04-17 11:49:06,159 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:06,159 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:06,159 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:06,159 - kitchen - DEBUG - putting order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a on shelf frozen with value 1.0
+2020-04-17 11:49:06,160 - kitchen - DEBUG - Order added 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a to frozen and has value 1.0
+2020-04-17 11:49:06,160 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::1, overflow::0
+2020-04-17 11:49:08,164 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:08,165 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:08,165 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:08,165 - kitchen - DEBUG - putting order c18e1242-0856-4203-a98c-7066ead3bd6b on shelf cold with value 1.0
+2020-04-17 11:49:08,166 - kitchen - DEBUG - Order added c18e1242-0856-4203-a98c-7066ead3bd6b to cold and has value 1.0
+2020-04-17 11:49:08,166 - kitchen - DEBUG - Current status of shelves: hot::0, cold::1, frozen::1, overflow::0
+2020-04-17 11:49:10,164 - kitchen - DEBUG - Picking up order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a from OrderState.FROZEN
+2020-04-17 11:49:10,170 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:10,171 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:10,171 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:10,171 - kitchen - DEBUG - putting order 66a2611c-9a93-4ccd-bb85-98f423247bf9 on shelf cold with value 1.0
+2020-04-17 11:49:10,172 - kitchen - DEBUG - Order added 66a2611c-9a93-4ccd-bb85-98f423247bf9 to cold and has value 1.0
+2020-04-17 11:49:10,172 - kitchen - DEBUG - Current status of shelves: hot::0, cold::2, frozen::0, overflow::0
+2020-04-17 11:49:10,172 - kitchen - DEBUG - Picking up order c18e1242-0856-4203-a98c-7066ead3bd6b from OrderState.COLD
+2020-04-17 11:49:12,175 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:12,175 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:12,175 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:12,176 - kitchen - DEBUG - putting order 4cc9d503-4e0e-42a3-b200-87c785468df9 on shelf cold with value 1.0
+2020-04-17 11:49:12,176 - kitchen - DEBUG - Order added 4cc9d503-4e0e-42a3-b200-87c785468df9 to cold and has value 1.0
+2020-04-17 11:49:12,176 - kitchen - DEBUG - Current status of shelves: hot::0, cold::2, frozen::0, overflow::0
+2020-04-17 11:49:13,177 - kitchen - DEBUG - Picking up order 66a2611c-9a93-4ccd-bb85-98f423247bf9 from OrderState.COLD
+2020-04-17 11:49:14,182 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:14,182 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:14,183 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:14,183 - kitchen - DEBUG - putting order 0a6537d7-9568-400e-9857-7aceb4e7347c on shelf frozen with value 1.0
+2020-04-17 11:49:14,183 - kitchen - DEBUG - Order added 0a6537d7-9568-400e-9857-7aceb4e7347c to frozen and has value 1.0
+2020-04-17 11:49:14,183 - kitchen - DEBUG - Current status of shelves: hot::0, cold::1, frozen::1, overflow::0
+2020-04-17 11:49:14,184 - kitchen - DEBUG - Picking up order 4cc9d503-4e0e-42a3-b200-87c785468df9 from OrderState.COLD
+2020-04-17 11:49:16,188 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:16,188 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:16,189 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:16,189 - kitchen - DEBUG - putting order 74e0893f-8544-4298-b507-9cf5ab847d83 on shelf hot with value 1.0
+2020-04-17 11:49:16,189 - kitchen - DEBUG - Order added 74e0893f-8544-4298-b507-9cf5ab847d83 to hot and has value 1.0
+2020-04-17 11:49:16,189 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::1, overflow::0
+2020-04-17 11:49:18,195 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:18,195 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:18,196 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:18,196 - kitchen - DEBUG - putting order 7a5ea4ed-e378-4354-8ab3-a09cf563f621 on shelf frozen with value 1.0
+2020-04-17 11:49:18,197 - kitchen - DEBUG - Order added 7a5ea4ed-e378-4354-8ab3-a09cf563f621 to frozen and has value 1.0
+2020-04-17 11:49:18,197 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::2, overflow::0
+2020-04-17 11:49:19,189 - kitchen - DEBUG - Picking up order 0a6537d7-9568-400e-9857-7aceb4e7347c from OrderState.FROZEN
+2020-04-17 11:49:19,195 - kitchen - DEBUG - Picking up order 74e0893f-8544-4298-b507-9cf5ab847d83 from OrderState.HOT
+2020-04-17 11:49:20,197 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:20,198 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:20,198 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:20,199 - kitchen - DEBUG - putting order 60fbe431-7f7f-46c5-8ecf-6a26ae898685 on shelf hot with value 1.0
+2020-04-17 11:49:20,199 - kitchen - DEBUG - Order added 60fbe431-7f7f-46c5-8ecf-6a26ae898685 to hot and has value 1.0
+2020-04-17 11:49:20,199 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::1, overflow::0
+2020-04-17 11:49:20,202 - kitchen - DEBUG - Picking up order 7a5ea4ed-e378-4354-8ab3-a09cf563f621 from OrderState.FROZEN
+2020-04-17 11:49:22,204 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:22,204 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:22,205 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:22,205 - kitchen - DEBUG - putting order 2e7f4153-92cb-43e2-96f4-d77e2f25422b on shelf cold with value 1.0
+2020-04-17 11:49:22,205 - kitchen - DEBUG - Order added 2e7f4153-92cb-43e2-96f4-d77e2f25422b to cold and has value 1.0
+2020-04-17 11:49:22,205 - kitchen - DEBUG - Current status of shelves: hot::1, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:24,204 - kitchen - DEBUG - Picking up order 60fbe431-7f7f-46c5-8ecf-6a26ae898685 from OrderState.HOT
+2020-04-17 11:49:24,211 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:24,211 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:24,212 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:24,212 - kitchen - DEBUG - putting order d4ead98f-a158-429c-9c0d-28ab0fa830a6 on shelf hot with value 1.0
+2020-04-17 11:49:24,212 - kitchen - DEBUG - Order added d4ead98f-a158-429c-9c0d-28ab0fa830a6 to hot and has value 1.0
+2020-04-17 11:49:24,213 - kitchen - DEBUG - Current status of shelves: hot::1, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:26,210 - kitchen - DEBUG - Picking up order 2e7f4153-92cb-43e2-96f4-d77e2f25422b from OrderState.COLD
+2020-04-17 11:49:26,214 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:26,215 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:26,215 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:26,215 - kitchen - DEBUG - putting order e868e485-c759-411b-b439-ca7086326bf6 on shelf hot with value 1.0
+2020-04-17 11:49:26,215 - kitchen - DEBUG - Order added e868e485-c759-411b-b439-ca7086326bf6 to hot and has value 1.0
+2020-04-17 11:49:26,216 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::0, overflow::0
+2020-04-17 11:49:27,214 - kitchen - DEBUG - Picking up order d4ead98f-a158-429c-9c0d-28ab0fa830a6 from OrderState.HOT
+2020-04-17 11:49:28,218 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:28,219 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:28,219 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:28,220 - kitchen - DEBUG - putting order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e on shelf hot with value 1.0
+2020-04-17 11:49:28,220 - kitchen - DEBUG - Order added 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e to hot and has value 1.0
+2020-04-17 11:49:28,220 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::0, overflow::0
+2020-04-17 11:49:30,222 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:30,222 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:30,223 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:30,223 - kitchen - DEBUG - putting order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 on shelf cold with value 1.0
+2020-04-17 11:49:30,223 - kitchen - DEBUG - Order added 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 to cold and has value 1.0
+2020-04-17 11:49:30,223 - kitchen - DEBUG - Current status of shelves: hot::2, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:31,222 - kitchen - DEBUG - Picking up order e868e485-c759-411b-b439-ca7086326bf6 from OrderState.HOT
+2020-04-17 11:49:32,226 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:32,226 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:32,227 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:32,227 - kitchen - DEBUG - putting order a9f8f42f-7a58-4629-8b66-1acbf362f3b8 on shelf cold with value 1.0
+2020-04-17 11:49:32,227 - kitchen - DEBUG - Order added a9f8f42f-7a58-4629-8b66-1acbf362f3b8 to cold and has value 1.0
+2020-04-17 11:49:32,228 - kitchen - DEBUG - Current status of shelves: hot::1, cold::2, frozen::0, overflow::0
+2020-04-17 11:49:32,228 - kitchen - DEBUG - Picking up order 2bfc7ca9-d8ea-4625-9a03-6aa4b5fb635e from OrderState.HOT
+2020-04-17 11:49:34,229 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:34,230 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:34,230 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:34,231 - kitchen - DEBUG - putting order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae on shelf cold with value 1.0
+2020-04-17 11:49:34,231 - kitchen - DEBUG - Order added 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae to cold and has value 1.0
+2020-04-17 11:49:34,231 - kitchen - DEBUG - Current status of shelves: hot::0, cold::3, frozen::0, overflow::0
+2020-04-17 11:49:34,232 - kitchen - DEBUG - Picking up order 1a4d0e6d-e50e-4ec0-ad5d-0f33e6a724e6 from OrderState.COLD
+2020-04-17 11:49:35,232 - kitchen - DEBUG - Picking up order a9f8f42f-7a58-4629-8b66-1acbf362f3b8 from OrderState.COLD
+2020-04-17 11:49:36,235 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:36,236 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:36,236 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:36,236 - kitchen - DEBUG - putting order 916ddba3-9c25-4065-8a90-ecf5c40c8394 on shelf frozen with value 1.0
+2020-04-17 11:49:36,236 - kitchen - DEBUG - Order added 916ddba3-9c25-4065-8a90-ecf5c40c8394 to frozen and has value 1.0
+2020-04-17 11:49:36,237 - kitchen - DEBUG - Current status of shelves: hot::0, cold::1, frozen::1, overflow::0
+2020-04-17 11:49:36,237 - kitchen - DEBUG - Picking up order 6d2c9eb3-6ff8-408a-a60d-e60eaa467dae from OrderState.COLD
+2020-04-17 11:49:38,238 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:38,238 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:38,238 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:38,238 - kitchen - DEBUG - putting order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f on shelf frozen with value 1.0
+2020-04-17 11:49:38,238 - kitchen - DEBUG - Order added 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f to frozen and has value 1.0
+2020-04-17 11:49:38,238 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::2, overflow::0
+2020-04-17 11:49:40,241 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:40,241 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:40,241 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:40,242 - kitchen - DEBUG - putting order c700ab30-d7bd-4e45-aafb-4329876c716c on shelf hot with value 1.0
+2020-04-17 11:49:40,242 - kitchen - DEBUG - Order added c700ab30-d7bd-4e45-aafb-4329876c716c to hot and has value 1.0
+2020-04-17 11:49:40,242 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::2, overflow::0
+2020-04-17 11:49:40,243 - kitchen - DEBUG - Picking up order 23f5cb3a-fa51-49ad-9e29-83e98d6e7d6f from OrderState.FROZEN
+2020-04-17 11:49:41,239 - kitchen - DEBUG - Picking up order 916ddba3-9c25-4065-8a90-ecf5c40c8394 from OrderState.FROZEN
+2020-04-17 11:49:42,247 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:42,248 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:42,248 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:42,248 - kitchen - DEBUG - putting order cf0932a9-533c-4603-bb1e-512c6e697b92 on shelf hot with value 1.0
+2020-04-17 11:49:42,249 - kitchen - DEBUG - Order added cf0932a9-533c-4603-bb1e-512c6e697b92 to hot and has value 1.0
+2020-04-17 11:49:42,249 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::0, overflow::0
+2020-04-17 11:49:44,248 - kitchen - DEBUG - Picking up order c700ab30-d7bd-4e45-aafb-4329876c716c from OrderState.HOT
+2020-04-17 11:49:44,253 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:44,253 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:44,253 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:44,254 - kitchen - DEBUG - putting order ed05dafe-d928-4f1a-856d-1dab3868acbd on shelf hot with value 1.0
+2020-04-17 11:49:44,254 - kitchen - DEBUG - Order added ed05dafe-d928-4f1a-856d-1dab3868acbd to hot and has value 1.0
+2020-04-17 11:49:44,254 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::0, overflow::0
+2020-04-17 11:49:46,255 - kitchen - DEBUG - Picking up order cf0932a9-533c-4603-bb1e-512c6e697b92 from OrderState.HOT
+2020-04-17 11:49:46,259 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:46,260 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:46,260 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:46,260 - kitchen - DEBUG - putting order 53f012e3-da55-4314-b2e6-28e63f0418ad on shelf cold with value 1.0
+2020-04-17 11:49:46,261 - kitchen - DEBUG - Order added 53f012e3-da55-4314-b2e6-28e63f0418ad to cold and has value 1.0
+2020-04-17 11:49:46,261 - kitchen - DEBUG - Current status of shelves: hot::1, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:47,260 - kitchen - DEBUG - Picking up order ed05dafe-d928-4f1a-856d-1dab3868acbd from OrderState.HOT
+2020-04-17 11:49:48,267 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:48,267 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:48,267 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:48,268 - kitchen - DEBUG - putting order 5dd79771-4536-4eaa-b64c-63ac606f1357 on shelf hot with value 1.0
+2020-04-17 11:49:48,268 - kitchen - DEBUG - Order added 5dd79771-4536-4eaa-b64c-63ac606f1357 to hot and has value 1.0
+2020-04-17 11:49:48,268 - kitchen - DEBUG - Current status of shelves: hot::1, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:50,267 - kitchen - DEBUG - Picking up order 53f012e3-da55-4314-b2e6-28e63f0418ad from OrderState.COLD
+2020-04-17 11:49:50,272 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:50,272 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:50,272 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:50,272 - kitchen - DEBUG - putting order f84d8263-7aae-4254-85b7-27865ffd76b7 on shelf cold with value 1.0
+2020-04-17 11:49:50,273 - kitchen - DEBUG - Order added f84d8263-7aae-4254-85b7-27865ffd76b7 to cold and has value 1.0
+2020-04-17 11:49:50,273 - kitchen - DEBUG - Current status of shelves: hot::1, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:51,271 - kitchen - DEBUG - Picking up order 5dd79771-4536-4eaa-b64c-63ac606f1357 from OrderState.HOT
+2020-04-17 11:49:52,278 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:52,278 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:52,279 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:52,279 - kitchen - DEBUG - putting order f7074980-3424-43d4-9166-f495077a273e on shelf cold with value 1.0
+2020-04-17 11:49:52,279 - kitchen - DEBUG - Order added f7074980-3424-43d4-9166-f495077a273e to cold and has value 1.0
+2020-04-17 11:49:52,280 - kitchen - DEBUG - Current status of shelves: hot::0, cold::2, frozen::0, overflow::0
+2020-04-17 11:49:54,277 - kitchen - DEBUG - Picking up order f84d8263-7aae-4254-85b7-27865ffd76b7 from OrderState.COLD
+2020-04-17 11:49:54,284 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:54,284 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:54,284 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:54,285 - kitchen - DEBUG - putting order dcafe7ca-f7a7-4262-9b14-ab19729b2055 on shelf hot with value 1.0
+2020-04-17 11:49:54,285 - kitchen - DEBUG - Order added dcafe7ca-f7a7-4262-9b14-ab19729b2055 to hot and has value 1.0
+2020-04-17 11:49:54,285 - kitchen - DEBUG - Current status of shelves: hot::1, cold::1, frozen::0, overflow::0
+2020-04-17 11:49:55,284 - kitchen - DEBUG - Picking up order f7074980-3424-43d4-9166-f495077a273e from OrderState.COLD
+2020-04-17 11:49:56,287 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:56,287 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:56,288 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:56,288 - kitchen - DEBUG - putting order 614e4f4d-b2f4-4b60-9421-238f61affe20 on shelf frozen with value 1.0
+2020-04-17 11:49:56,288 - kitchen - DEBUG - Order added 614e4f4d-b2f4-4b60-9421-238f61affe20 to frozen and has value 1.0
+2020-04-17 11:49:56,289 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::1, overflow::0
+2020-04-17 11:49:58,288 - kitchen - DEBUG - Picking up order dcafe7ca-f7a7-4262-9b14-ab19729b2055 from OrderState.HOT
+2020-04-17 11:49:58,289 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:49:58,290 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:49:58,290 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:49:58,290 - kitchen - DEBUG - putting order d2d2d948-f019-4806-bb7e-bb2172bd75d9 on shelf hot with value 1.0
+2020-04-17 11:49:58,290 - kitchen - DEBUG - Order added d2d2d948-f019-4806-bb7e-bb2172bd75d9 to hot and has value 1.0
+2020-04-17 11:49:58,290 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::1, overflow::0
+2020-04-17 11:49:58,291 - kitchen - DEBUG - Picking up order 614e4f4d-b2f4-4b60-9421-238f61affe20 from OrderState.FROZEN
+2020-04-17 11:50:00,292 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:50:00,293 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:50:00,293 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:50:00,293 - kitchen - DEBUG - putting order 8275f014-ed83-4554-b0ff-0dbdc24e57ad on shelf hot with value 1.0
+2020-04-17 11:50:00,294 - kitchen - DEBUG - Order added 8275f014-ed83-4554-b0ff-0dbdc24e57ad to hot and has value 1.0
+2020-04-17 11:50:00,294 - kitchen - DEBUG - Current status of shelves: hot::2, cold::0, frozen::0, overflow::0
+2020-04-17 11:50:01,292 - kitchen - DEBUG - Picking up order d2d2d948-f019-4806-bb7e-bb2172bd75d9 from OrderState.HOT
+2020-04-17 11:50:02,299 - kitchen - DEBUG - Starting cleanup
+2020-04-17 11:50:02,300 - kitchen - DEBUG - Items to be deleted []
+2020-04-17 11:50:02,300 - kitchen - DEBUG - Finishing cleanup
+2020-04-17 11:50:02,301 - kitchen - DEBUG - putting order 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed on shelf frozen with value 1.0
+2020-04-17 11:50:02,301 - kitchen - DEBUG - Order added 9687809b-8f4b-4a6f-be3f-6e41e4ced3ed to frozen and has value 1.0
+2020-04-17 11:50:02,301 - kitchen - DEBUG - Current status of shelves: hot::1, cold::0, frozen::1, overflow::0
+2020-04-17 11:50:02,301 - kitchen - DEBUG - Picking up order 8275f014-ed83-4554-b0ff-0dbdc24e57ad from OrderState.HOT

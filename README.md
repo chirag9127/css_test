@@ -31,7 +31,8 @@ We are going to be implementing option 1 since that will minimize wastage. We al
 
 ## Logs
 We create two log files here: kitchen.log and dispatch.log.
-"""
+### Kitchen logs
+```
 2020-04-17 08:30:47,212 - kitchen - DEBUG - Starting cleanup
 2020-04-17 08:30:47,212 - kitchen - DEBUG - Items to be deleted []
 2020-04-17 08:30:47,212 - kitchen - DEBUG - Finishing cleanup
@@ -44,4 +45,13 @@ We create two log files here: kitchen.log and dispatch.log.
 2020-04-17 08:30:47,718 - kitchen - DEBUG - putting order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d on shelf frozen with value 1.0
 2020-04-17 08:30:47,718 - kitchen - DEBUG - Order added 58e9b5fe-3fde-4a27-8e98-682e58a4a65d to frozen and has value 1.0
 2020-04-17 08:30:47,719 - kitchen - DEBUG - Current status of shelves: hot::0, cold::0, frozen::2, overflow::0
-"""
+```
+### Dispatch logs
+```
+2020-04-17 08:30:47,213 - dispatch - DEBUG - Dispatch time for order a8cfcb76-7f24-4420-a5ba-d46dd77bdffd is 5
+2020-04-17 08:30:47,719 - dispatch - DEBUG - Dispatch time for order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d is 2
+2020-04-17 08:30:48,223 - dispatch - DEBUG - Dispatch time for order 2ec069e3-576f-48eb-869f-74a540ef840c is 5
+2020-04-17 08:30:48,730 - dispatch - DEBUG - Dispatch time for order 690b85f7-8c7d-4337-bd02-04e04454c826 is 3
+2020-04-17 08:30:49,233 - dispatch - DEBUG - Dispatch time for order 972aa5b8-5d83-4d5e-8cf3-8a1a1437b18a is 5
+2020-04-17 08:30:49,720 - dispatch - DEBUG - Picking order 58e9b5fe-3fde-4a27-8e98-682e58a4a65d
+```

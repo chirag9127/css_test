@@ -14,3 +14,10 @@
 5. Added argparser so that the client can tune configs (more details below)
 6. Added logic to create a results folder (more details below)
 7. Created thread pool for dispatchers instead of instantiating new threads for every order
+
+## Conventions followed
+
+1. Class structure: constructor followed by public methods followed by private methods
+2. Import order: First import external modules and then import application modules (in alphabetical order by first non python word. i.e. not from, import)
+
+## 
